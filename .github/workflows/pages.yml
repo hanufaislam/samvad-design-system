@@ -1,0 +1,56 @@
+name: Deploy Samvad documentation to Pages
+on:
+  workflow_dispatch:
+    inputs:
+      release_confirmation:
+        description: 'Type publish only after explicit deployment approval'
+        required: true
+        type: string
+permissions: {}
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: ${{ github.repository == 'hanufaislam/samvad-design-system' && github.ref == 'refs/heads/main' && inputs.release_confirmation == 'publish' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    env:
+      SAMVAD_SITE_URL: https://hanufaislam.github.io
+      SAMVAD_BASE_PATH: /samvad-design-system/
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.22.1'
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - uses: actions/configure-pages@v5
+      - name: Install locked dependencies
+        run: npm --prefix website ci
+      - name: Type check and build Astro with Pagefind
+        run: |
+          npm --prefix website run check
+          npm --prefix website run build
+      - name: Verify all generated routes and asset paths
+        run: node publishing/scripts/audit-output.mjs
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: website/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy reviewed artifact
+        id: deployment
+        uses: actions/deploy-pages@v5
