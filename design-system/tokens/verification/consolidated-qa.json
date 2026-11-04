@@ -1,0 +1,788 @@
+{
+  "date": "2026-11-04",
+  "tokens": 629,
+  "families": 49,
+  "actualCssReferences": 435,
+  "checkedBindingRecords": 435,
+  "retainedDeclarations": 39,
+  "retainedCategories": {
+    "shadow-decision": 2,
+    "decoration-decision": 3,
+    "functional-geometry": 19,
+    "approved-functional-exception": 1,
+    "typography-decision": 12,
+    "border-decision": 2
+  },
+  "allRetainedDeclarationsExist": true,
+  "allBindingsExist": true,
+  "lightDarkExportParity": true,
+  "unknownCssReferences": 0,
+  "duplicateResolvedValueGroups": [
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/0",
+        "Primitives/radius/none",
+        "Primitives/border/width/0",
+        "Primitives/layout/breakpoint/compact"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/2",
+        "Primitives/radius/xs",
+        "Primitives/border/width/2"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/4",
+        "Primitives/radius/sm"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/8",
+        "Primitives/radius/md"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/12",
+        "Primitives/radius/lg"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/16",
+        "Primitives/layout/gutter/compact",
+        "Primitives/layout/margin/compact"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/20",
+        "Primitives/radius/xl"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/24",
+        "Primitives/layout/gutter/medium",
+        "Primitives/layout/margin/medium",
+        "Primitives/layout/gutter/wide"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/space/32",
+        "Primitives/layout/margin/wide"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/display/weight",
+        "Primitives/type/heading/1/weight",
+        "Primitives/type/heading/2/weight",
+        "Primitives/type/heading/3/weight",
+        "Primitives/type/heading/4/weight",
+        "Primitives/type/label/weight",
+        "Primitives/font/weight/strong"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/heading/1/size",
+        "Primitives/type/heading/2/line-height"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/heading/2/size",
+        "Primitives/type/heading/4/line-height",
+        "Primitives/type/body/l/line-height"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/heading/3/size",
+        "Primitives/type/body/m/line-height"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/heading/4/size",
+        "Primitives/type/label/line-height"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/body/l/size",
+        "Primitives/type/caption/line-height"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/body/l/weight",
+        "Primitives/type/body/m/weight",
+        "Primitives/type/body/s/weight",
+        "Primitives/type/caption/weight",
+        "Primitives/font/weight/regular"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/body/l/tracking",
+        "Primitives/type/body/m/tracking",
+        "Primitives/type/body/s/tracking",
+        "Primitives/type/label/tracking",
+        "Primitives/type/caption/tracking"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/type/body/s/size",
+        "Primitives/type/label/size"
+      ]
+    },
+    {
+      "tier": "Primitives",
+      "ids": [
+        "Primitives/elevation/0/light",
+        "Primitives/elevation/0/dark"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/color/bg/default",
+        "Semantic/color/action/on-solid"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/color/bg/subtle",
+        "Semantic/color/feedback/neutral/bg"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/color/action/primary/default",
+        "Semantic/color/focus/default"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/color/action/destructive/default",
+        "Semantic/color/feedback/error/field-text"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/0",
+        "Semantic/radius/none",
+        "Semantic/border/width/0"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/2",
+        "Semantic/radius/xs",
+        "Semantic/border/width/2",
+        "Semantic/focus/offset"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/4",
+        "Semantic/radius/sm"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/8",
+        "Semantic/radius/md"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/12",
+        "Semantic/radius/lg"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/16",
+        "Semantic/layout/gutter/compact",
+        "Semantic/layout/margin/compact",
+        "Semantic/layout/margin/responsive",
+        "Semantic/layout/gutter/responsive"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/20",
+        "Semantic/radius/xl"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/24",
+        "Semantic/layout/gutter/medium",
+        "Semantic/layout/gutter/wide",
+        "Semantic/layout/margin/medium"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/space/scale/32",
+        "Semantic/layout/margin/wide"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/display/weight",
+        "Semantic/type/heading/1/weight",
+        "Semantic/type/heading/2/weight",
+        "Semantic/type/heading/3/weight",
+        "Semantic/type/heading/4/weight",
+        "Semantic/type/label/weight",
+        "Semantic/font/weight/strong"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/heading/1/size",
+        "Semantic/type/heading/2/line-height"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/heading/2/size",
+        "Semantic/type/heading/4/line-height",
+        "Semantic/type/body/l/line-height"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/heading/3/size",
+        "Semantic/type/body/m/line-height"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/heading/4/size",
+        "Semantic/type/label/line-height"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/body/l/size",
+        "Semantic/type/caption/line-height"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/body/l/weight",
+        "Semantic/type/body/m/weight",
+        "Semantic/type/body/s/weight",
+        "Semantic/type/caption/weight",
+        "Semantic/font/weight/regular"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/body/l/tracking",
+        "Semantic/type/body/m/tracking",
+        "Semantic/type/body/s/tracking",
+        "Semantic/type/label/tracking",
+        "Semantic/type/caption/tracking"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/type/body/s/size",
+        "Semantic/type/label/size"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/layout/columns/compact",
+        "Semantic/layout/columns/responsive"
+      ]
+    },
+    {
+      "tier": "Semantic",
+      "ids": [
+        "Semantic/motion/duration/spinner",
+        "Semantic/motion/duration/loading"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/space/scale/48",
+        "Component/icon-button/space/scale/48",
+        "Component/field/space/scale/48"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/space/scale/12",
+        "Component/field/space/scale/12",
+        "Component/list/space/scale/12",
+        "Component/table/space/scale/12",
+        "Component/tooltip/space/scale/12",
+        "Component/progress-indicator/space/scale/12",
+        "Component/skeleton-loader/space/scale/12",
+        "Component/notice/space/scale/12",
+        "Component/loading-state/space/scale/12",
+        "Component/breadcrumbs/space/scale/12",
+        "Component/modal-panel/space/scale/12",
+        "Component/dropdown-menu/space/scale/12",
+        "Component/shared/space/scale/12"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/space/scale/20",
+        "Component/field/space/scale/20",
+        "Component/choice-group/space/scale/20",
+        "Component/notice/space/scale/20",
+        "Component/loading-state/space/scale/20",
+        "Component/tabs/space/scale/20",
+        "Component/popup/space/scale/20"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/border/width/1",
+        "Component/text-link/border/width/1",
+        "Component/field/border/width/1",
+        "Component/switch/border/width/1",
+        "Component/chips/border/width/1",
+        "Component/badge/border/width/1",
+        "Component/avatar/border/width/1",
+        "Component/card/border/width/1",
+        "Component/table-scroll/border/width/1",
+        "Component/table/border/width/1",
+        "Component/shared/border/width/1",
+        "Component/tooltip/border/width/1",
+        "Component/notice/border/width/1",
+        "Component/toast-notification/border/width/1",
+        "Component/stepper/border/width/1",
+        "Component/modal-panel/border/width/1",
+        "Component/popup/border/width/1",
+        "Component/divider/border/width/1"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/radius/md",
+        "Component/button/space/scale/8",
+        "Component/button-group/space/scale/8",
+        "Component/field/space/scale/8",
+        "Component/field/radius/md",
+        "Component/choice-group/space/scale/8",
+        "Component/badge/space/scale/8",
+        "Component/status-indicator/space/scale/8",
+        "Component/card/radius/md",
+        "Component/table-scroll/radius/md",
+        "Component/table/space/scale/8",
+        "Component/shared/radius/md",
+        "Component/shared/space/scale/8",
+        "Component/tooltip/space/scale/8",
+        "Component/tooltip/radius/md",
+        "Component/progress-indicator/space/scale/8",
+        "Component/notice/radius/md",
+        "Component/toast-notification/radius/md",
+        "Component/tabs/space/scale/8",
+        "Component/stepper/space/scale/8",
+        "Component/nav-links/space/scale/8",
+        "Component/nav-links/radius/md",
+        "Component/modal-panel/radius/md",
+        "Component/modal-panel/space/scale/8",
+        "Component/popup/radius/md",
+        "Component/dropdown-menu/space/scale/8"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/action/primary/default",
+        "Component/icon-button/color/action/primary/default",
+        "Component/text-link/color/action/primary/default",
+        "Component/field/color/action/primary/default",
+        "Component/choice-group/color/action/primary/default",
+        "Component/switch/color/action/primary/default",
+        "Component/switch/color/focus/default",
+        "Component/choice-group/color/focus/default",
+        "Component/list/color/action/primary/default",
+        "Component/shared/color/action/primary/default",
+        "Component/shared/color/focus/default",
+        "Component/progress-indicator/color/action/primary/default",
+        "Component/loading-state/color/action/primary/default",
+        "Component/tabs/color/action/primary/default",
+        "Component/breadcrumbs/color/action/primary/default",
+        "Component/stepper/color/action/primary/default",
+        "Component/nav-links/color/action/primary/default"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/action/on-solid",
+        "Component/button/color/bg/default",
+        "Component/field/color/bg/default",
+        "Component/switch/color/bg/default",
+        "Component/choice-group/color/bg/default",
+        "Component/card/color/bg/default",
+        "Component/shared/color/bg/default",
+        "Component/stepper/color/bg/default",
+        "Component/modal-panel/color/bg/default",
+        "Component/popup/color/bg/default"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/type/body/s/size",
+        "Component/text-link/type/body/s/size",
+        "Component/shared/type/body/s/size",
+        "Component/shared/type/label/size",
+        "Component/field/type/helper/size"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/font/weight/strong",
+        "Component/avatar/font/weight/strong",
+        "Component/notice/font/weight/strong",
+        "Component/stepper/font/weight/strong",
+        "Component/nav-links/font/weight/strong",
+        "Component/shared/type/label/weight"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/motion/duration/fast",
+        "Component/switch/motion/duration/fast"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/size/touch/minimum",
+        "Component/icon-button/size/touch/minimum",
+        "Component/field/size/touch/minimum",
+        "Component/choice-group/size/touch/minimum",
+        "Component/switch/size/touch/minimum",
+        "Component/chips/size/touch/minimum",
+        "Component/table/size/touch/minimum",
+        "Component/shared/size/touch/minimum",
+        "Component/tabs/size/touch/minimum",
+        "Component/breadcrumbs/size/touch/minimum",
+        "Component/nav-links/size/touch/minimum",
+        "Component/dropdown-menu/size/touch/minimum"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/space/scale/16",
+        "Component/field/space/scale/16",
+        "Component/choice-group/space/scale/16",
+        "Component/switch/space/scale/16",
+        "Component/chips/space/scale/16",
+        "Component/table/space/scale/16",
+        "Component/shared/space/scale/16",
+        "Component/skeleton-loader/space/scale/16",
+        "Component/toast-notification/space/scale/16",
+        "Component/tabs/space/scale/16",
+        "Component/pagination/space/scale/16",
+        "Component/stepper/space/scale/16",
+        "Component/nav-links/space/scale/16",
+        "Component/modal-panel/space/scale/16",
+        "Component/popup/space/scale/16",
+        "Component/container/space/scale/16",
+        "Component/stack/space/scale/16",
+        "Component/grid/space/scale/16"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/space/scale/24",
+        "Component/switch/space/scale/24",
+        "Component/card/space/scale/24",
+        "Component/list/space/scale/24",
+        "Component/notice/space/scale/24",
+        "Component/toast-notification/space/scale/24",
+        "Component/empty-state/space/scale/24",
+        "Component/stepper/space/scale/24",
+        "Component/modal-panel/space/scale/24",
+        "Component/divider/space/scale/24",
+        "Component/container/space/scale/24"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/action/primary/hover",
+        "Component/text-link/color/action/primary/hover"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/action/primary/pressed",
+        "Component/text-link/color/action/primary/pressed"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/border/control",
+        "Component/field/color/border/control",
+        "Component/switch/color/border/control",
+        "Component/chips/color/border/control",
+        "Component/shared/color/border/control",
+        "Component/tooltip/color/border/control",
+        "Component/toast-notification/color/border/control",
+        "Component/stepper/color/border/control",
+        "Component/modal-panel/color/border/control",
+        "Component/popup/color/border/control",
+        "Component/divider/color/border/control"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/text/primary",
+        "Component/text-link/color/text/primary",
+        "Component/field/color/text/primary",
+        "Component/tooltip/color/text/primary",
+        "Component/toast-notification/color/text/primary",
+        "Component/modal-panel/color/text/primary",
+        "Component/popup/color/text/primary",
+        "Component/dropdown-menu/color/text/primary",
+        "Component/shared/color/text/primary"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/bg/subtle",
+        "Component/icon-button/color/bg/subtle",
+        "Component/field/color/bg/subtle",
+        "Component/switch/color/bg/subtle",
+        "Component/chips/color/bg/subtle",
+        "Component/choice-group/color/bg/subtle",
+        "Component/notice/color/feedback/neutral/bg",
+        "Component/avatar/color/bg/subtle",
+        "Component/card/color/bg/subtle",
+        "Component/table/color/bg/subtle",
+        "Component/shared/color/bg/subtle",
+        "Component/tooltip/color/bg/subtle",
+        "Component/progress-indicator/color/bg/subtle",
+        "Component/toast-notification/color/bg/subtle",
+        "Component/tabs/color/bg/subtle",
+        "Component/nav-links/color/bg/subtle",
+        "Component/dropdown-menu/color/bg/subtle"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/action/destructive/default",
+        "Component/shared/color/feedback/error/field-text"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/border/width/2",
+        "Component/text-link/radius/xs",
+        "Component/text-link/border/width/2",
+        "Component/switch/border/width/2",
+        "Component/choice-group/border/width/2",
+        "Component/badge/space/scale/2",
+        "Component/shared/border/width/2",
+        "Component/loading-state/border/width/2",
+        "Component/stepper/border/width/2",
+        "Component/tabs/border/width/2",
+        "Component/shared/focus/offset"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/color/text/muted",
+        "Component/text-link/color/text/muted",
+        "Component/field/color/text/muted",
+        "Component/choice-group/color/text/muted",
+        "Component/switch/color/text/muted",
+        "Component/list/color/text/muted",
+        "Component/shared/color/text/muted",
+        "Component/tabs/color/text/muted",
+        "Component/breadcrumbs/color/text/muted",
+        "Component/stepper/color/text/muted",
+        "Component/nav-links/color/text/muted",
+        "Component/modal-panel/color/text/muted",
+        "Component/popup/color/text/muted",
+        "Component/dropdown-menu/color/text/muted"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/motion/duration/spinner",
+        "Component/skeleton-loader/motion/duration/loading",
+        "Component/loading-state/motion/duration/loading"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button-group/space/scale/4",
+        "Component/text-link/space/scale/4",
+        "Component/field/space/scale/4",
+        "Component/field/radius/sm",
+        "Component/choice-group/space/scale/4",
+        "Component/badge/space/scale/4",
+        "Component/badge/radius/sm",
+        "Component/list/space/scale/4",
+        "Component/skeleton-loader/radius/sm",
+        "Component/notice/space/scale/4",
+        "Component/tabs/space/scale/4",
+        "Component/tabs/radius/sm",
+        "Component/nav-links/space/scale/4",
+        "Component/dropdown-menu/radius/sm"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/text-link/type/body/m/size",
+        "Component/shared/type/body/m/size"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/switch/space/scale/40",
+        "Component/avatar/space/scale/40"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/chips/type/heading/4/size",
+        "Component/avatar/type/heading/4/size",
+        "Component/shared/type/heading/4/size",
+        "Component/modal-panel/type/heading/4/size",
+        "Component/shared/type/label/line-height"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/choice-group/color/border/default",
+        "Component/avatar/color/border/default",
+        "Component/card/color/border/default",
+        "Component/list/color/border/default",
+        "Component/table-scroll/color/border/default",
+        "Component/table/color/border/default",
+        "Component/skeleton-loader/color/border/default",
+        "Component/loading-state/color/border/default",
+        "Component/tabs/color/border/default"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/badge/type/caption/size",
+        "Component/avatar/type/caption/size"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/avatar/space/scale/32",
+        "Component/stepper/space/scale/32",
+        "Component/modal-panel/space/scale/32",
+        "Component/dropdown-menu/space/scale/32",
+        "Component/container/space/scale/32"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/avatar/space/scale/64",
+        "Component/skeleton-loader/space/scale/64"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/shared/font/weight/regular",
+        "Component/field/type/helper/weight"
+      ]
+    },
+    {
+      "tier": "Component",
+      "ids": [
+        "Component/button/size/large",
+        "Component/icon-button/size/large",
+        "Component/field/size/large"
+      ]
+    }
+  ],
+  "duplicatePolicy": "Equal resolved values across named roles are reported, not merged or treated as approval. CSS-name collisions are separately rejected by the generator.",
+  "limits": "Static source/export audit; existing live propagation evidence is retained separately. This run does not claim a new full browser accessibility audit."
+}

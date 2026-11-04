@@ -1,0 +1,5 @@
+---
+import ModalPanel from './ModalPanel.astro';
+type Props=Parameters<typeof ModalPanel>[0];
+---
+<ModalPanel {...Astro.props} kind="drawer"/>

@@ -1,0 +1,8 @@
+---
+import { actionFoundationStyle } from './foundations';
+import './actions.css';
+interface Props { label: string; layout?: 'horizontal'|'vertical'; variant?: 'separated'|'joined'; class?: string; }
+const {label,layout='horizontal',variant='separated',class:className=''}=Astro.props;
+if(!label?.trim()) throw new Error('ButtonGroup requires a non-empty group label.');
+---
+<div role="group" aria-label={label} class:list={['sv-button-group',className]} data-layout={layout} data-group-variant={variant} style={actionFoundationStyle}><slot/></div>

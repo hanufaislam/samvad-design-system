@@ -1,0 +1,24 @@
+# Dependencies and generated website builds
+**/node_modules/
+website/dist/
+website/.astro/
+.release-check/
+# Local previews, screenshots, operational evidence and secrets
+website/review/
+publishing/local-audit/
+design-system/foundations/verification/figma-state.json
+.env
+.env.*
+!.env.example
+**/.DS_Store
+**/__pycache__/
+*.pyc
+*.log
+# Editor-local state
+.idea/
+.vscode/
+# Token dist/ and public/tokens/ are intentional deterministic source exports.
+design-system/foundations/verification/local-qa.json
+# Raw final-audit captures remain local; only the repair ledger supports CI.
+publishing/audit/*
+!publishing/audit/fixes.json

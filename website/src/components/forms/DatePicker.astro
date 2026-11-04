@@ -1,0 +1,5 @@
+---
+import Field from './Field.astro';
+type Props = Parameters<typeof Field>[0];
+---
+<Field {...Astro.props} kind="input" type="date"/>

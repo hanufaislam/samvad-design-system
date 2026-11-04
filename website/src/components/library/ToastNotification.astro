@@ -1,0 +1,8 @@
+---
+import Button from '../actions/Button.astro';
+import './library.css';
+interface Props {id:string;message:string;triggerLabel?:string;}
+const {id,message,triggerLabel='Show notification'}=Astro.props;
+---
+<div class="sv-toast-host" data-toast-host><Button variant="secondary" data-toast-open={id}>{triggerLabel}</Button><div id={id} class="sv-toast" hidden data-toast data-message={message}><p role="status" aria-live="polite" aria-atomic="true" data-toast-message></p><button type="button" class="sv-lib-icon-button" aria-label="Dismiss notification" data-toast-close>×</button></div></div>
+<script>import './runtime';</script>

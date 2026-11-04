@@ -1,0 +1,2743 @@
+{
+  "color/neutral/50": {
+    "$type": "color",
+    "$value": "#FCF9F6",
+    "$description": "foundation-spec.json#/colors/neutral/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/100": {
+    "$type": "color",
+    "$value": "#F5EEEA",
+    "$description": "foundation-spec.json#/colors/neutral/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/200": {
+    "$type": "color",
+    "$value": "#E9DDD8",
+    "$description": "foundation-spec.json#/colors/neutral/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/300": {
+    "$type": "color",
+    "$value": "#D7C6C1",
+    "$description": "foundation-spec.json#/colors/neutral/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/400": {
+    "$type": "color",
+    "$value": "#BAA4A1",
+    "$description": "foundation-spec.json#/colors/neutral/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/500": {
+    "$type": "color",
+    "$value": "#997F80",
+    "$description": "foundation-spec.json#/colors/neutral/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/600": {
+    "$type": "color",
+    "$value": "#776368",
+    "$description": "foundation-spec.json#/colors/neutral/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/700": {
+    "$type": "color",
+    "$value": "#635058",
+    "$description": "foundation-spec.json#/colors/neutral/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/800": {
+    "$type": "color",
+    "$value": "#4D3B46",
+    "$description": "foundation-spec.json#/colors/neutral/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/900": {
+    "$type": "color",
+    "$value": "#3B2935",
+    "$description": "foundation-spec.json#/colors/neutral/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/neutral/950": {
+    "$type": "color",
+    "$value": "#291B25",
+    "$description": "foundation-spec.json#/colors/neutral/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/neutral/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/50": {
+    "$type": "color",
+    "$value": "#FCF3F8",
+    "$description": "foundation-spec.json#/colors/mulberry/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/100": {
+    "$type": "color",
+    "$value": "#F8E4EF",
+    "$description": "foundation-spec.json#/colors/mulberry/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/200": {
+    "$type": "color",
+    "$value": "#EFBFD9",
+    "$description": "foundation-spec.json#/colors/mulberry/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/300": {
+    "$type": "color",
+    "$value": "#E8A0C6",
+    "$description": "foundation-spec.json#/colors/mulberry/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/400": {
+    "$type": "color",
+    "$value": "#D271A9",
+    "$description": "foundation-spec.json#/colors/mulberry/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/500": {
+    "$type": "color",
+    "$value": "#AB477F",
+    "$description": "foundation-spec.json#/colors/mulberry/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/600": {
+    "$type": "color",
+    "$value": "#742653",
+    "$description": "foundation-spec.json#/colors/mulberry/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/700": {
+    "$type": "color",
+    "$value": "#601E45",
+    "$description": "foundation-spec.json#/colors/mulberry/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/800": {
+    "$type": "color",
+    "$value": "#4C1939",
+    "$description": "foundation-spec.json#/colors/mulberry/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/900": {
+    "$type": "color",
+    "$value": "#3D162F",
+    "$description": "foundation-spec.json#/colors/mulberry/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/mulberry/950": {
+    "$type": "color",
+    "$value": "#290D20",
+    "$description": "foundation-spec.json#/colors/mulberry/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/mulberry/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/50": {
+    "$type": "color",
+    "$value": "#F0FAF4",
+    "$description": "foundation-spec.json#/colors/success/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/100": {
+    "$type": "color",
+    "$value": "#DDF3E5",
+    "$description": "foundation-spec.json#/colors/success/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/200": {
+    "$type": "color",
+    "$value": "#BCE5CC",
+    "$description": "foundation-spec.json#/colors/success/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/300": {
+    "$type": "color",
+    "$value": "#8ACFA7",
+    "$description": "foundation-spec.json#/colors/success/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/400": {
+    "$type": "color",
+    "$value": "#54AF7D",
+    "$description": "foundation-spec.json#/colors/success/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/500": {
+    "$type": "color",
+    "$value": "#328E5D",
+    "$description": "foundation-spec.json#/colors/success/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/600": {
+    "$type": "color",
+    "$value": "#24734B",
+    "$description": "foundation-spec.json#/colors/success/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/700": {
+    "$type": "color",
+    "$value": "#205C3E",
+    "$description": "foundation-spec.json#/colors/success/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/800": {
+    "$type": "color",
+    "$value": "#1C4934",
+    "$description": "foundation-spec.json#/colors/success/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/900": {
+    "$type": "color",
+    "$value": "#183C2C",
+    "$description": "foundation-spec.json#/colors/success/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/success/950": {
+    "$type": "color",
+    "$value": "#0C241A",
+    "$description": "foundation-spec.json#/colors/success/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/success/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/50": {
+    "$type": "color",
+    "$value": "#FFF9E8",
+    "$description": "foundation-spec.json#/colors/warning/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/100": {
+    "$type": "color",
+    "$value": "#FFF0C2",
+    "$description": "foundation-spec.json#/colors/warning/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/200": {
+    "$type": "color",
+    "$value": "#FFE08A",
+    "$description": "foundation-spec.json#/colors/warning/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/300": {
+    "$type": "color",
+    "$value": "#FFCA52",
+    "$description": "foundation-spec.json#/colors/warning/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/400": {
+    "$type": "color",
+    "$value": "#EDAC20",
+    "$description": "foundation-spec.json#/colors/warning/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/500": {
+    "$type": "color",
+    "$value": "#BB810D",
+    "$description": "foundation-spec.json#/colors/warning/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/600": {
+    "$type": "color",
+    "$value": "#946000",
+    "$description": "foundation-spec.json#/colors/warning/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/700": {
+    "$type": "color",
+    "$value": "#784B08",
+    "$description": "foundation-spec.json#/colors/warning/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/800": {
+    "$type": "color",
+    "$value": "#623D0D",
+    "$description": "foundation-spec.json#/colors/warning/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/900": {
+    "$type": "color",
+    "$value": "#513210",
+    "$description": "foundation-spec.json#/colors/warning/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/warning/950": {
+    "$type": "color",
+    "$value": "#301C06",
+    "$description": "foundation-spec.json#/colors/warning/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/warning/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/50": {
+    "$type": "color",
+    "$value": "#FFF2F3",
+    "$description": "foundation-spec.json#/colors/error/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/100": {
+    "$type": "color",
+    "$value": "#FFE2E6",
+    "$description": "foundation-spec.json#/colors/error/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/200": {
+    "$type": "color",
+    "$value": "#FFC5CE",
+    "$description": "foundation-spec.json#/colors/error/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/300": {
+    "$type": "color",
+    "$value": "#F89CAA",
+    "$description": "foundation-spec.json#/colors/error/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/400": {
+    "$type": "color",
+    "$value": "#EC6C81",
+    "$description": "foundation-spec.json#/colors/error/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/500": {
+    "$type": "color",
+    "$value": "#D64C64",
+    "$description": "foundation-spec.json#/colors/error/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/600": {
+    "$type": "color",
+    "$value": "#B83446",
+    "$description": "foundation-spec.json#/colors/error/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/700": {
+    "$type": "color",
+    "$value": "#96293B",
+    "$description": "foundation-spec.json#/colors/error/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/800": {
+    "$type": "color",
+    "$value": "#7B2636",
+    "$description": "foundation-spec.json#/colors/error/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/900": {
+    "$type": "color",
+    "$value": "#662431",
+    "$description": "foundation-spec.json#/colors/error/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/error/950": {
+    "$type": "color",
+    "$value": "#3C101C",
+    "$description": "foundation-spec.json#/colors/error/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/error/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/50": {
+    "$type": "color",
+    "$value": "#F0F7FF",
+    "$description": "foundation-spec.json#/colors/info/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/100": {
+    "$type": "color",
+    "$value": "#E0EDFC",
+    "$description": "foundation-spec.json#/colors/info/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/200": {
+    "$type": "color",
+    "$value": "#BED9F5",
+    "$description": "foundation-spec.json#/colors/info/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/300": {
+    "$type": "color",
+    "$value": "#91BEEB",
+    "$description": "foundation-spec.json#/colors/info/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/400": {
+    "$type": "color",
+    "$value": "#609AD8",
+    "$description": "foundation-spec.json#/colors/info/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/500": {
+    "$type": "color",
+    "$value": "#3E7DBD",
+    "$description": "foundation-spec.json#/colors/info/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/600": {
+    "$type": "color",
+    "$value": "#2D659E",
+    "$description": "foundation-spec.json#/colors/info/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/700": {
+    "$type": "color",
+    "$value": "#27517F",
+    "$description": "foundation-spec.json#/colors/info/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/800": {
+    "$type": "color",
+    "$value": "#244369",
+    "$description": "foundation-spec.json#/colors/info/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/900": {
+    "$type": "color",
+    "$value": "#223957",
+    "$description": "foundation-spec.json#/colors/info/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/info/950": {
+    "$type": "color",
+    "$value": "#132239",
+    "$description": "foundation-spec.json#/colors/info/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/info/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/50": {
+    "$type": "color",
+    "$value": "#FFF7EF",
+    "$description": "foundation-spec.json#/colors/apricot/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/100": {
+    "$type": "color",
+    "$value": "#FFEADB",
+    "$description": "foundation-spec.json#/colors/apricot/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/200": {
+    "$type": "color",
+    "$value": "#FFD8BC",
+    "$description": "foundation-spec.json#/colors/apricot/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/300": {
+    "$type": "color",
+    "$value": "#FFC59E",
+    "$description": "foundation-spec.json#/colors/apricot/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/400": {
+    "$type": "color",
+    "$value": "#F4A475",
+    "$description": "foundation-spec.json#/colors/apricot/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/500": {
+    "$type": "color",
+    "$value": "#DF8050",
+    "$description": "foundation-spec.json#/colors/apricot/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/600": {
+    "$type": "color",
+    "$value": "#B75D32",
+    "$description": "foundation-spec.json#/colors/apricot/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/700": {
+    "$type": "color",
+    "$value": "#934728",
+    "$description": "foundation-spec.json#/colors/apricot/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/800": {
+    "$type": "color",
+    "$value": "#763B25",
+    "$description": "foundation-spec.json#/colors/apricot/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/900": {
+    "$type": "color",
+    "$value": "#603222",
+    "$description": "foundation-spec.json#/colors/apricot/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/apricot/950": {
+    "$type": "color",
+    "$value": "#381B10",
+    "$description": "foundation-spec.json#/colors/apricot/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/apricot/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/50": {
+    "$type": "color",
+    "$value": "#FAFCEB",
+    "$description": "foundation-spec.json#/colors/lime/50",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/50",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/100": {
+    "$type": "color",
+    "$value": "#F1F7CB",
+    "$description": "foundation-spec.json#/colors/lime/100",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/100",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/200": {
+    "$type": "color",
+    "$value": "#DEEC86",
+    "$description": "foundation-spec.json#/colors/lime/200",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/200",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/300": {
+    "$type": "color",
+    "$value": "#C9DC61",
+    "$description": "foundation-spec.json#/colors/lime/300",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/300",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/400": {
+    "$type": "color",
+    "$value": "#ABC33F",
+    "$description": "foundation-spec.json#/colors/lime/400",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/400",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/500": {
+    "$type": "color",
+    "$value": "#8AA128",
+    "$description": "foundation-spec.json#/colors/lime/500",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/500",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/600": {
+    "$type": "color",
+    "$value": "#697D1C",
+    "$description": "foundation-spec.json#/colors/lime/600",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/600",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/700": {
+    "$type": "color",
+    "$value": "#52621B",
+    "$description": "foundation-spec.json#/colors/lime/700",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/700",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/800": {
+    "$type": "color",
+    "$value": "#424F1B",
+    "$description": "foundation-spec.json#/colors/lime/800",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/800",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/900": {
+    "$type": "color",
+    "$value": "#38421B",
+    "$description": "foundation-spec.json#/colors/lime/900",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/900",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "color/lime/950": {
+    "$type": "color",
+    "$value": "#1D250B",
+    "$description": "foundation-spec.json#/colors/lime/950",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/colors/lime/950",
+        "scope": [
+          "fill",
+          "stroke"
+        ]
+      }
+    }
+  },
+  "space/0": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/2": {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/4": {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/8": {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/12": {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/16": {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/20": {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/24": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/32": {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/40": {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/48": {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/64": {
+    "$type": "dimension",
+    "$value": "64px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/80": {
+    "$type": "dimension",
+    "$value": "80px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "space/96": {
+    "$type": "dimension",
+    "$value": "96px",
+    "$description": "foundation-spec.json#/spacing",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/spacing",
+        "scope": [
+          "gap",
+          "padding"
+        ]
+      }
+    }
+  },
+  "radius/none": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "foundation-spec.json#/radius/none",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/none",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "radius/xs": {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "foundation-spec.json#/radius/xs",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/xs",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "radius/sm": {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "foundation-spec.json#/radius/sm",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/sm",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "radius/md": {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "foundation-spec.json#/radius/md",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/md",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "radius/lg": {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "foundation-spec.json#/radius/lg",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/lg",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "radius/xl": {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "foundation-spec.json#/radius/xl",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/xl",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "radius/full": {
+    "$type": "dimension",
+    "$value": "9999px",
+    "$description": "foundation-spec.json#/radius/full",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/radius/full",
+        "scope": [
+          "corner-radius"
+        ]
+      }
+    }
+  },
+  "type/display/size": {
+    "$type": "dimension",
+    "$value": "3rem",
+    "$description": "foundation-spec.json#/typography/display",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/display",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/display/line-height": {
+    "$type": "dimension",
+    "$value": "3.5rem",
+    "$description": "foundation-spec.json#/typography/display",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/display",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/display/weight": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography/display",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/display",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/display/tracking": {
+    "$type": "dimension",
+    "$value": "-0.03em",
+    "$description": "foundation-spec.json#/typography/display",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/display",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/1/size": {
+    "$type": "dimension",
+    "$value": "2.25rem",
+    "$description": "foundation-spec.json#/typography/heading/1",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/1",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/1/line-height": {
+    "$type": "dimension",
+    "$value": "2.75rem",
+    "$description": "foundation-spec.json#/typography/heading/1",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/1",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/1/weight": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography/heading/1",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/1",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/1/tracking": {
+    "$type": "dimension",
+    "$value": "-0.025em",
+    "$description": "foundation-spec.json#/typography/heading/1",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/1",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/2/size": {
+    "$type": "dimension",
+    "$value": "1.75rem",
+    "$description": "foundation-spec.json#/typography/heading/2",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/2",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/2/line-height": {
+    "$type": "dimension",
+    "$value": "2.25rem",
+    "$description": "foundation-spec.json#/typography/heading/2",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/2",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/2/weight": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography/heading/2",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/2",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/2/tracking": {
+    "$type": "dimension",
+    "$value": "-0.02em",
+    "$description": "foundation-spec.json#/typography/heading/2",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/2",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/3/size": {
+    "$type": "dimension",
+    "$value": "1.5rem",
+    "$description": "foundation-spec.json#/typography/heading/3",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/3",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/3/line-height": {
+    "$type": "dimension",
+    "$value": "2rem",
+    "$description": "foundation-spec.json#/typography/heading/3",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/3",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/3/weight": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography/heading/3",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/3",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/3/tracking": {
+    "$type": "dimension",
+    "$value": "-0.015em",
+    "$description": "foundation-spec.json#/typography/heading/3",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/3",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/4/size": {
+    "$type": "dimension",
+    "$value": "1.25rem",
+    "$description": "foundation-spec.json#/typography/heading/4",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/4",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/4/line-height": {
+    "$type": "dimension",
+    "$value": "1.75rem",
+    "$description": "foundation-spec.json#/typography/heading/4",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/4",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/4/weight": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography/heading/4",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/4",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/heading/4/tracking": {
+    "$type": "dimension",
+    "$value": "-0.01em",
+    "$description": "foundation-spec.json#/typography/heading/4",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/heading/4",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/l/size": {
+    "$type": "dimension",
+    "$value": "1.125rem",
+    "$description": "foundation-spec.json#/typography/body/l",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/l",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/l/line-height": {
+    "$type": "dimension",
+    "$value": "1.75rem",
+    "$description": "foundation-spec.json#/typography/body/l",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/l",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/l/weight": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "foundation-spec.json#/typography/body/l",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/l",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/l/tracking": {
+    "$type": "dimension",
+    "$value": "0em",
+    "$description": "foundation-spec.json#/typography/body/l",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/l",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/m/size": {
+    "$type": "dimension",
+    "$value": "1rem",
+    "$description": "foundation-spec.json#/typography/body/m",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/m",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/m/line-height": {
+    "$type": "dimension",
+    "$value": "1.5rem",
+    "$description": "foundation-spec.json#/typography/body/m",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/m",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/m/weight": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "foundation-spec.json#/typography/body/m",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/m",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/m/tracking": {
+    "$type": "dimension",
+    "$value": "0em",
+    "$description": "foundation-spec.json#/typography/body/m",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/m",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/s/size": {
+    "$type": "dimension",
+    "$value": "0.875rem",
+    "$description": "foundation-spec.json#/typography/body/s",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/s",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/s/line-height": {
+    "$type": "dimension",
+    "$value": "1.375rem",
+    "$description": "foundation-spec.json#/typography/body/s",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/s",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/s/weight": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "foundation-spec.json#/typography/body/s",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/s",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/body/s/tracking": {
+    "$type": "dimension",
+    "$value": "0em",
+    "$description": "foundation-spec.json#/typography/body/s",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/body/s",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/label/size": {
+    "$type": "dimension",
+    "$value": "0.875rem",
+    "$description": "foundation-spec.json#/typography/label",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/label",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/label/line-height": {
+    "$type": "dimension",
+    "$value": "1.25rem",
+    "$description": "foundation-spec.json#/typography/label",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/label",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/label/weight": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography/label",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/label",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/label/tracking": {
+    "$type": "dimension",
+    "$value": "0em",
+    "$description": "foundation-spec.json#/typography/label",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/label",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/caption/size": {
+    "$type": "dimension",
+    "$value": "0.75rem",
+    "$description": "foundation-spec.json#/typography/caption",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/caption",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/caption/line-height": {
+    "$type": "dimension",
+    "$value": "1.125rem",
+    "$description": "foundation-spec.json#/typography/caption",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/caption",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/caption/weight": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "foundation-spec.json#/typography/caption",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/caption",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "type/caption/tracking": {
+    "$type": "dimension",
+    "$value": "0em",
+    "$description": "foundation-spec.json#/typography/caption",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography/caption",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "font/family/primary": {
+    "$type": "fontFamily",
+    "$value": "\"Geist Variable\",sans-serif",
+    "$description": "foundation-spec.json#/fonts/primary; existing @fontsource CSS family-name adapter",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/fonts/primary; existing @fontsource CSS family-name adapter",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "font/family/mono": {
+    "$type": "fontFamily",
+    "$value": "\"Geist Mono Variable\",monospace",
+    "$description": "foundation-spec.json#/fonts/mono; existing @fontsource CSS family-name adapter",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/fonts/mono; existing @fontsource CSS family-name adapter",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "font/weight/regular": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "foundation-spec.json#/typography",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "font/weight/strong": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "foundation-spec.json#/typography",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/typography",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "border/width/0": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "foundations/border.md",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundations/border.md",
+        "scope": [
+          "stroke"
+        ]
+      }
+    }
+  },
+  "border/width/1": {
+    "$type": "dimension",
+    "$value": "1px",
+    "$description": "foundations/border.md",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundations/border.md",
+        "scope": [
+          "stroke"
+        ]
+      }
+    }
+  },
+  "border/width/2": {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "foundations/border.md",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundations/border.md",
+        "scope": [
+          "stroke"
+        ]
+      }
+    }
+  },
+  "border/style/solid": {
+    "$type": "string",
+    "$value": "solid",
+    "$description": "foundations/border.md",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundations/border.md",
+        "scope": [
+          "stroke"
+        ]
+      }
+    }
+  },
+  "size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "44px",
+    "$description": "DESIGN_SYSTEM.md accessibility baseline",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "DESIGN_SYSTEM.md accessibility baseline",
+        "scope": [
+          "size"
+        ]
+      }
+    }
+  },
+  "motion/duration/fast": {
+    "$type": "duration",
+    "$value": "120ms",
+    "$description": "foundation-spec.json#/motion/fast",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/motion/fast",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/base": {
+    "$type": "duration",
+    "$value": "200ms",
+    "$description": "foundation-spec.json#/motion/base",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/motion/base",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/slow": {
+    "$type": "duration",
+    "$value": "320ms",
+    "$description": "foundation-spec.json#/motion/slow",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/motion/slow",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/standard": {
+    "$type": "cubicBezier",
+    "$value": [
+      0.2,
+      0,
+      0,
+      1
+    ],
+    "$description": "foundation-spec.json#/motion/standard",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/motion/standard",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/enter": {
+    "$type": "cubicBezier",
+    "$value": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "$description": "foundation-spec.json#/motion/enter",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/motion/enter",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/exit": {
+    "$type": "cubicBezier",
+    "$value": [
+      0.3,
+      0,
+      1,
+      1
+    ],
+    "$description": "foundation-spec.json#/motion/exit",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/motion/exit",
+        "scope": []
+      }
+    }
+  },
+  "layout/breakpoint/compact": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "foundation-spec.json#/layout/compact",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/compact",
+        "scope": []
+      }
+    }
+  },
+  "layout/columns/compact": {
+    "$type": "number",
+    "$value": 4,
+    "$description": "foundation-spec.json#/layout/compact",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/compact",
+        "scope": []
+      }
+    }
+  },
+  "layout/gutter/compact": {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "foundation-spec.json#/layout/compact",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/compact",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/compact": {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "foundation-spec.json#/layout/compact",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/compact",
+        "scope": []
+      }
+    }
+  },
+  "layout/breakpoint/medium": {
+    "$type": "dimension",
+    "$value": "600px",
+    "$description": "foundation-spec.json#/layout/medium",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/medium",
+        "scope": []
+      }
+    }
+  },
+  "layout/columns/medium": {
+    "$type": "number",
+    "$value": 8,
+    "$description": "foundation-spec.json#/layout/medium",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/medium",
+        "scope": []
+      }
+    }
+  },
+  "layout/gutter/medium": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "foundation-spec.json#/layout/medium",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/medium",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/medium": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "foundation-spec.json#/layout/medium",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/medium",
+        "scope": []
+      }
+    }
+  },
+  "layout/breakpoint/wide": {
+    "$type": "dimension",
+    "$value": "1024px",
+    "$description": "foundation-spec.json#/layout/wide",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/wide",
+        "scope": []
+      }
+    }
+  },
+  "layout/columns/wide": {
+    "$type": "number",
+    "$value": 12,
+    "$description": "foundation-spec.json#/layout/wide",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/wide",
+        "scope": []
+      }
+    }
+  },
+  "layout/gutter/wide": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "foundation-spec.json#/layout/wide",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/wide",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/wide": {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "foundation-spec.json#/layout/wide",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/layout/wide",
+        "scope": []
+      }
+    }
+  },
+  "layout/container/640": {
+    "$type": "dimension",
+    "$value": "640px",
+    "$description": "foundation-spec.json#/containerMaxima",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/containerMaxima",
+        "scope": []
+      }
+    }
+  },
+  "layout/container/960": {
+    "$type": "dimension",
+    "$value": "960px",
+    "$description": "foundation-spec.json#/containerMaxima",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/containerMaxima",
+        "scope": []
+      }
+    }
+  },
+  "layout/container/1200": {
+    "$type": "dimension",
+    "$value": "1200px",
+    "$description": "foundation-spec.json#/containerMaxima",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/containerMaxima",
+        "scope": []
+      }
+    }
+  },
+  "layout/reading": {
+    "$type": "dimension",
+    "$value": "65ch",
+    "$description": "foundations/layout.md reading-width starting point",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundations/layout.md reading-width starting point",
+        "scope": []
+      }
+    }
+  },
+  "elevation/0/light": {
+    "$type": "shadow",
+    "$value": "none",
+    "$description": "foundation-spec.json#/shadows/0",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/0",
+        "scope": []
+      }
+    }
+  },
+  "elevation/0/dark": {
+    "$type": "shadow",
+    "$value": "none",
+    "$description": "foundation-spec.json#/shadows/0",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/0",
+        "scope": []
+      }
+    }
+  },
+  "elevation/1/light": {
+    "$type": "shadow",
+    "$value": "0px 1px 2px 0px rgb(41 27 37 / 0.06)",
+    "$description": "foundation-spec.json#/shadows/1",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/1",
+        "scope": []
+      }
+    }
+  },
+  "elevation/1/dark": {
+    "$type": "shadow",
+    "$value": "0px 1px 2px 0px rgb(41 27 37 / 0.16)",
+    "$description": "foundation-spec.json#/shadows/1",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/1",
+        "scope": []
+      }
+    }
+  },
+  "elevation/2/light": {
+    "$type": "shadow",
+    "$value": "0px 4px 12px -2px rgb(41 27 37 / 0.08)",
+    "$description": "foundation-spec.json#/shadows/2",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/2",
+        "scope": []
+      }
+    }
+  },
+  "elevation/2/dark": {
+    "$type": "shadow",
+    "$value": "0px 4px 12px -2px rgb(41 27 37 / 0.2)",
+    "$description": "foundation-spec.json#/shadows/2",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/2",
+        "scope": []
+      }
+    }
+  },
+  "elevation/3/light": {
+    "$type": "shadow",
+    "$value": "0px 8px 24px -4px rgb(41 27 37 / 0.1)",
+    "$description": "foundation-spec.json#/shadows/3",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/3",
+        "scope": []
+      }
+    }
+  },
+  "elevation/3/dark": {
+    "$type": "shadow",
+    "$value": "0px 8px 24px -4px rgb(41 27 37 / 0.24)",
+    "$description": "foundation-spec.json#/shadows/3",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/3",
+        "scope": []
+      }
+    }
+  },
+  "elevation/4/light": {
+    "$type": "shadow",
+    "$value": "0px 16px 40px -8px rgb(41 27 37 / 0.12)",
+    "$description": "foundation-spec.json#/shadows/4",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/4",
+        "scope": []
+      }
+    }
+  },
+  "elevation/4/dark": {
+    "$type": "shadow",
+    "$value": "0px 16px 40px -8px rgb(41 27 37 / 0.28)",
+    "$description": "foundation-spec.json#/shadows/4",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/shadows/4",
+        "scope": []
+      }
+    }
+  },
+  "font/family/devanagari": {
+    "$type": "fontFamily",
+    "$value": "\"Noto Sans Devanagari\",sans-serif",
+    "$description": "Approved script fallback; font delivery is not bundled.",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/fonts/devanagari",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "font/family/telugu": {
+    "$type": "fontFamily",
+    "$value": "\"Noto Sans Telugu\",sans-serif",
+    "$description": "Approved script fallback; font delivery is not bundled.",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-approved",
+        "source": "foundation-spec.json#/fonts/telugu",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  }
+}

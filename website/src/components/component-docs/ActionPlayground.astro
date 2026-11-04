@@ -1,0 +1,33 @@
+---
+import Button from '../actions/Button.astro';
+import IconButton from '../actions/IconButton.astro';
+import ButtonGroup from '../actions/ButtonGroup.astro';
+import TextLink from '../actions/TextLink.astro';
+import CodeBlock from './CodeBlock.astro';
+import { exampleFor, type ActionKind } from '../actions/examples';
+import { href, figma } from '../../data';
+const {kind}=Astro.props as {kind:ActionKind};
+const variant=kind==='button'?'primary':kind==='icon-button'?'secondary':kind==='button-group'?'separated':'default';
+const variants=kind==='button'||kind==='icon-button'?['primary','secondary','ghost','destructive']:kind==='button-group'?['separated','joined']:['default','subtle'];
+const states=kind==='button'||kind==='icon-button'?['default','disabled','loading']:['default','disabled'];
+---
+<div class="component-playground" data-action-playground={kind}>
+  <div class="component-controls" aria-label="Preview configuration">
+    <label>Variant<span class="component-select"><select data-preview-control="variant" aria-label="Preview variant">{variants.map(v=><option value={v} selected={v===variant}>{v}</option>)}</select></span></label>
+    <label>Size<span class="component-select"><select data-preview-control="size" aria-label="Preview size"><option value="small">small</option><option value="medium" selected>medium</option><option value="large">large</option></select></span></label>
+    <label>State<span class="component-select"><select data-preview-control="state" aria-label="Preview state">{states.map(v=><option value={v}>{v}</option>)}</select></span></label>
+    {kind==='button-group'&&<label>Layout<span class="component-select"><select data-preview-control="layout" aria-label="Preview layout"><option value="horizontal">horizontal</option><option value="vertical">vertical</option></select></span></label>}
+    {kind==='icon-button'&&<label>Behaviour<span class="component-select"><select data-preview-control="mode" aria-label="Preview behaviour"><option value="action">action</option><option value="toggle">toggle</option></select></span></label>}
+    {kind==='text-link'&&<label>Destination<span class="component-select"><select data-preview-control="mode" aria-label="Preview destination"><option value="internal">colour foundations</option><option value="external">Figma, new tab</option></select></span></label>}
+  </div>
+  <div class="component-stage" data-preview-stage>
+    {kind==='button'&&<Button data-preview-target data-demo-activate>Continue</Button>}
+    {kind==='icon-button'&&<IconButton icon="check-circle" label="Mark complete" data-preview-target data-demo-activate/>}
+    {kind==='button-group'&&<ButtonGroup label="Example actions"><Button data-preview-target data-demo-activate>Save</Button><Button variant="secondary" data-preview-target data-demo-activate>Cancel</Button></ButtonGroup>}
+    {kind==='text-link'&&<div class="link-preview-pair"><TextLink href={href('foundations/colour/')} data-preview-enabled-link>Explore colour</TextLink><TextLink href={figma} target="_blank" class="preview-hidden" data-preview-external-link>Figma workspace</TextLink><TextLink disabled class="preview-hidden">Explore colour</TextLink></div>}
+  </div>
+  <p class="component-preview-status" role="status" aria-live="polite" data-preview-status>{kind==='text-link'?'This is a real link to the colour foundations.':'Ready. Activate the component to try it.'}</p>
+  <p class="component-preview-help">Hover with a pointer, Tab for focus, and activate normally. Preview configuration controls are documentation tooling, not new form-library components.</p>
+  <CodeBlock code={exampleFor(kind)} live/>
+</div>
+<script>import '../../scripts/action-previews';</script>

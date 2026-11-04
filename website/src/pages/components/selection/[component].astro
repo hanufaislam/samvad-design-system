@@ -1,0 +1,7 @@
+---
+import {batchCatalog} from '../../../components/forms/catalog';
+import BatchPage from '../../../components/component-docs/BatchPage.astro';
+export function getStaticPaths(){return batchCatalog.filter(e=>e.group==='selection').map(entry=>({params:{component:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+---
+<BatchPage entry={entry}/>

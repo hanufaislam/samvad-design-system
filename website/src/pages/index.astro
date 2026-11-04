@@ -1,0 +1,31 @@
+---
+import ExistingPageExtras from '../components/foundation-docs/ExistingPageExtras.astro';
+import DocsLayout from '../layouts/DocsLayout.astro';
+import Icon from '../components/Icon.astro';
+import { foundation, href } from '../data';
+const c = foundation.colors;
+---
+<DocsLayout page="overview" toc={[{id:'the-language',label:'The visual language'},{id:'explore',label:'Start exploring'},{id:'this-preview',label:'Project status'},{id:'start-here',label:'Start here'},{id:'connections',label:'Related references'}]}>
+  <section id="the-language" class="doc-section">
+    <div class="identity-board" aria-label="Samvad visual language specimen">
+      <div class="identity-top"><div><p class="section-eyebrow">QUIET STRUCTURE. LIVELY DETAILS.</p><p class="specimen-title">Friendly<br/>by nature.</p><p class="identity-caption">Geist · Regular &amp; Semibold</p></div><span class="sample-alphabet" aria-hidden="true">Aa<span class="brand-dot">.</span></span></div>
+      <div class="identity-colours" aria-hidden="true">{[c.neutral['50'],c.neutral['950'],c.mulberry['600'],c.apricot['300'],c.lime['200']].map(colour=><span class="identity-colour" style={{background:colour}}/>)}</div>
+      <div class="identity-labels"><span>Canvas</span><span>Ink</span><span>Mulberry</span><span>Apricot</span><span>Lime</span></div>
+    </div>
+    <div class="foundation-meta"><span><b>Warm</b> by default</span><span><b>Expressive</b> in small doses</span><span><b>Clear</b> at every step</span></div>
+  </section>
+  <section class="doc-section" id="explore">
+    <h2>A shared language, thoughtfully built.</h2>
+    <p>The foundations behind Samvad’s friendly, focused experiences. Start with the thinking, then explore the visual details.</p>
+    <div class="link-list">
+      <a class="feature-link" href={href('get-started/principles/')}><span class="feature-symbol"><Icon name="book-open" size={24}/></span><div><strong>Start with the principles</strong><p>Six ideas that guide what we make, and how it feels.</p></div><Icon name="arrow-right"/></a>
+      <a class="feature-link" href={href('foundations/colour/')}><span class="feature-symbol"><Icon name="palette" size={24}/></span><div><strong>Explore the colour language</strong><p>Warm neutrals, purposeful mulberry and considered accents.</p></div><Icon name="arrow-right"/></a>
+      <a class="feature-link" href={href('foundations/typography/')}><span class="feature-symbol"><Icon name="text-aa" size={24}/></span><div><strong>Find the right words. And type.</strong><p>A readable scale with room for a little character.</p></div><Icon name="arrow-right"/></a>
+    </div>
+  </section>
+  <section class="doc-section" id="this-preview">
+    <div class="note"><Icon name="chat-circle"/><div><strong>The shared reference, ready to use</strong><p>Explore the foundation pages and 49 working component family previews across eight categories. The Components section is approved. Design Tokens is approved and closed. Patterns and Resources are approved. Get Started and Foundations are approved. The complete website is in final audit and publishing preparation. <a href={href('patterns/')}>Explore the patterns.</a></p></div></div>
+    <div class="phase-status"><span><span class="status-dot"/>Direction 01 approved</span><span>Components, Tokens, Patterns and Resources · Approved</span></div>
+  </section>
+  <ExistingPageExtras page="overview"/>
+</DocsLayout>

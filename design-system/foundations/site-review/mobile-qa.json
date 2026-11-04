@@ -1,0 +1,27 @@
+{
+  "checks": 5,
+  "failed": [],
+  "results": [
+    {
+      "name": "Mobile trigger visible",
+      "pass": true
+    },
+    {
+      "name": "Mobile drawer opens",
+      "pass": true
+    },
+    {
+      "name": "All84 routes available in mobile sidebar",
+      "pass": true,
+      "actual": 84
+    },
+    {
+      "name": "New designer route current in mobile drawer",
+      "pass": true
+    },
+    {
+      "name": "Mobile drawer closes",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,1011 @@
+{
+  "families": [
+    {
+      "slug": "button",
+      "group": "actions"
+    },
+    {
+      "slug": "icon-button",
+      "group": "actions"
+    },
+    {
+      "slug": "button-group",
+      "group": "actions"
+    },
+    {
+      "slug": "text-link",
+      "group": "actions"
+    },
+    {
+      "slug": "text-input",
+      "group": "inputs",
+      "component": "TextInput"
+    },
+    {
+      "slug": "textarea",
+      "group": "inputs",
+      "component": "Textarea"
+    },
+    {
+      "slug": "search-input",
+      "group": "inputs",
+      "component": "SearchInput"
+    },
+    {
+      "slug": "password-input",
+      "group": "inputs",
+      "component": "PasswordInput"
+    },
+    {
+      "slug": "number-input",
+      "group": "inputs",
+      "component": "NumberInput"
+    },
+    {
+      "slug": "otp-input",
+      "group": "inputs",
+      "component": "OTPInput"
+    },
+    {
+      "slug": "select",
+      "group": "inputs",
+      "component": "Select"
+    },
+    {
+      "slug": "multi-select",
+      "group": "inputs",
+      "component": "MultiSelect"
+    },
+    {
+      "slug": "date-picker",
+      "group": "inputs",
+      "component": "DatePicker"
+    },
+    {
+      "slug": "file-upload",
+      "group": "inputs",
+      "component": "FileUpload"
+    },
+    {
+      "slug": "form-field",
+      "group": "inputs",
+      "component": "FormField"
+    },
+    {
+      "slug": "checkbox",
+      "group": "selection",
+      "component": "Checkbox"
+    },
+    {
+      "slug": "radio-group",
+      "group": "selection",
+      "component": "RadioGroup"
+    },
+    {
+      "slug": "switch",
+      "group": "selection",
+      "component": "Switch"
+    },
+    {
+      "slug": "chips",
+      "group": "selection",
+      "component": "Chips"
+    },
+    {
+      "slug": "segmented-control",
+      "group": "selection",
+      "component": "SegmentedControl"
+    },
+    {
+      "slug": "badge",
+      "group": "data-display",
+      "component": "Badge"
+    },
+    {
+      "slug": "status-indicator",
+      "group": "data-display",
+      "component": "StatusIndicator"
+    },
+    {
+      "slug": "avatar",
+      "group": "data-display",
+      "component": "Avatar"
+    },
+    {
+      "slug": "card",
+      "group": "data-display",
+      "component": "Card"
+    },
+    {
+      "slug": "list",
+      "group": "data-display",
+      "component": "List"
+    },
+    {
+      "slug": "table",
+      "group": "data-display",
+      "component": "Table"
+    },
+    {
+      "slug": "tooltip",
+      "group": "data-display",
+      "component": "Tooltip"
+    },
+    {
+      "slug": "progress-indicator",
+      "group": "data-display",
+      "component": "ProgressIndicator"
+    },
+    {
+      "slug": "skeleton-loader",
+      "group": "data-display",
+      "component": "SkeletonLoader"
+    },
+    {
+      "slug": "alert",
+      "group": "feedback",
+      "component": "Alert"
+    },
+    {
+      "slug": "toast-notification",
+      "group": "feedback",
+      "component": "ToastNotification"
+    },
+    {
+      "slug": "feedback-states",
+      "group": "feedback",
+      "component": "FeedbackStates"
+    },
+    {
+      "slug": "empty-state",
+      "group": "feedback",
+      "component": "EmptyState"
+    },
+    {
+      "slug": "loading-state",
+      "group": "feedback",
+      "component": "LoadingState"
+    },
+    {
+      "slug": "tabs",
+      "group": "navigation",
+      "component": "Tabs"
+    },
+    {
+      "slug": "breadcrumbs",
+      "group": "navigation",
+      "component": "Breadcrumbs"
+    },
+    {
+      "slug": "pagination",
+      "group": "navigation",
+      "component": "Pagination"
+    },
+    {
+      "slug": "stepper",
+      "group": "navigation",
+      "component": "Stepper"
+    },
+    {
+      "slug": "sidebar-navigation",
+      "group": "navigation",
+      "component": "SidebarNavigation"
+    },
+    {
+      "slug": "top-navigation",
+      "group": "navigation",
+      "component": "TopNavigation"
+    },
+    {
+      "slug": "dialog",
+      "group": "overlays",
+      "component": "Dialog"
+    },
+    {
+      "slug": "drawer",
+      "group": "overlays",
+      "component": "Drawer"
+    },
+    {
+      "slug": "popover",
+      "group": "overlays",
+      "component": "Popover"
+    },
+    {
+      "slug": "dropdown-menu",
+      "group": "overlays",
+      "component": "DropdownMenu"
+    },
+    {
+      "slug": "confirmation-dialog",
+      "group": "overlays",
+      "component": "ConfirmationDialog"
+    },
+    {
+      "slug": "container",
+      "group": "layout",
+      "component": "Container"
+    },
+    {
+      "slug": "divider",
+      "group": "layout",
+      "component": "Divider"
+    },
+    {
+      "slug": "stack",
+      "group": "layout",
+      "component": "Stack"
+    },
+    {
+      "slug": "grid",
+      "group": "layout",
+      "component": "Grid"
+    }
+  ],
+  "files": [
+    {
+      "path": "website/src/components/actions/Button.astro",
+      "sha256": "3245c86d933ec9702d713ecb03522ecb274af612973282d0116794006fa9de06",
+      "imports": [
+        "astro/types",
+        "../Icon.astro",
+        "./foundations"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/actions/ButtonGroup.astro",
+      "sha256": "688ffe5f35a46455ccfed6d488cff73036aea0f532ed91d7c1a4c01a58ba14a1",
+      "imports": [
+        "./foundations"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/actions/IconButton.astro",
+      "sha256": "cbbcd1993f6de533e299ddca142c4713e17ad3851d329d9c69a801d7546834ad",
+      "imports": [
+        "astro/types",
+        "./Button.astro",
+        "./foundations"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/actions/TextLink.astro",
+      "sha256": "f120ec73b236a09887abb73f85d917300d56e1727722c499bb96e6ea3dddc5da",
+      "imports": [
+        "astro/types",
+        "../Icon.astro",
+        "./foundations"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/actions/actions.css",
+      "sha256": "2fe844522edd47f212eaf86051b72a723acec1887f82a6d386570eeb151f503f",
+      "imports": [],
+      "variables": [
+        "--_sa-ink",
+        "--_sa-paper",
+        "--_sa-muted-light",
+        "--_sa-surface-light",
+        "--_sa-primary-light",
+        "--_sa-primary-hover-light",
+        "--_sa-primary-pressed-light",
+        "--_sa-danger-light",
+        "--_sa-danger-hover-light",
+        "--_sa-danger-pressed-light",
+        "--_sa-muted-dark",
+        "--_sa-surface-dark",
+        "--_sa-primary-dark",
+        "--_sa-primary-hover-dark",
+        "--_sa-primary-pressed-dark",
+        "--_sa-danger-dark",
+        "--_sa-danger-hover-dark",
+        "--_sa-danger-pressed-dark",
+        "--_sa-radius",
+        "--_sa-primary",
+        "--_sa-on-solid",
+        "--_sa-duration",
+        "--_sa-gap",
+        "--_sa-hover",
+        "--_sa-pressed",
+        "--_sa-bg",
+        "--_sa-line",
+        "--_sa-text",
+        "--_sa-surface",
+        "--_sa-danger",
+        "--_sa-danger-hover",
+        "--_sa-danger-pressed",
+        "--_sa-muted",
+        "--_sa-spinner-duration"
+      ],
+      "px": [
+        "48px",
+        "12px",
+        "20px",
+        "1px",
+        "44px",
+        "8px",
+        "16px",
+        "56px",
+        "24px",
+        "2px",
+        "4px",
+        "3px"
+      ]
+    },
+    {
+      "path": "website/src/components/actions/catalog.ts",
+      "sha256": "00f369565b3fa26199a34ee1901552c540352480348e648c6774d441a421951a",
+      "imports": [
+        "./examples"
+      ],
+      "variables": [],
+      "px": [
+        "44px",
+        "8px",
+        "16px",
+        "48px",
+        "12px",
+        "20px",
+        "56px",
+        "24px",
+        "2px"
+      ]
+    },
+    {
+      "path": "website/src/components/actions/examples.ts",
+      "sha256": "89d9b691bd0eb0ba10feac4da7b417aef22c958700b6be2e0de121a1f0d25d35",
+      "imports": [
+        "../components/actions/Button.astro",
+        "../components/actions/IconButton.astro",
+        "../components/actions/Button.astro",
+        "../components/actions/ButtonGroup.astro",
+        "../components/actions/TextLink.astro",
+        "../data",
+        "../components/actions/Button.astro",
+        "../components/actions/runtime"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/actions/foundations.ts",
+      "sha256": "c3c4b2713104d89d7d27ce084111ac8e7781e15656fb7f7f7a07b53e4ee97df4",
+      "imports": [
+        "../../data"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/actions/runtime.ts",
+      "sha256": "7c58edc28651f303c09f1aef76c4f66bc3ecde3eaa40ea761d98370de774d70c",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/Checkbox.astro",
+      "sha256": "3bacd93e5a6bfa962a97bbda4fcf8f695771798198b10f9686c14ff765296c2d",
+      "imports": [
+        "./ChoiceGroup.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/Chips.astro",
+      "sha256": "f4f86133f89f4bb8b7c817bc8c1af8cc2c92828f108a07af26415aea946321dd",
+      "imports": [
+        "./ChoiceGroup.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/ChoiceGroup.astro",
+      "sha256": "dd68d0981d973d936a8069bb8803684733d3a3a0788b435f80b80b372ee530d7",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/DatePicker.astro",
+      "sha256": "9de6320354942687930650afedbdd986ca2432d9533869acad7835e9d96b27b6",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/Field.astro",
+      "sha256": "a0c862bd64bc3438d7618cfb167d2d0e65aa71883211e9e27fb626dbbe82bea6",
+      "imports": [
+        "astro/types"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/FileUpload.astro",
+      "sha256": "b57ecc74cff8c4e6e378417af6b1d7e2644f3132ebacf056f0d753b609353818",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/FormField.astro",
+      "sha256": "67ca06f858f4f89b755c1b84e39d2b424a8e1d3ce5d12bf351978ea478836733",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/MultiSelect.astro",
+      "sha256": "3bacd93e5a6bfa962a97bbda4fcf8f695771798198b10f9686c14ff765296c2d",
+      "imports": [
+        "./ChoiceGroup.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/NumberInput.astro",
+      "sha256": "933fa4dd1b197a8181d6bd0d90c16954a92d38e8c9b00cc6040adc2053ef7b35",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/OTPInput.astro",
+      "sha256": "b5bd9d51aede2acc22cad5ab591a550add681791107a1dc43233cc67dea41bd7",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/PasswordInput.astro",
+      "sha256": "5315f17e417e4217c52be5a2670a1283bccc6bb303df76295ff37e238e869623",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/RadioGroup.astro",
+      "sha256": "bae72e59e2bcd74c7ab9638b67572d8bccc1b47b36be739083c94b1e437c705e",
+      "imports": [
+        "./ChoiceGroup.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/SearchInput.astro",
+      "sha256": "011738411060655154f5517a47d0bed747780793662c3eb3fee2c4ae84cc92a6",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/SegmentedControl.astro",
+      "sha256": "4f86aa4ce5e23fc9a2fcc15d73d181fd0aa95b2e9563616d15235453c4695a21",
+      "imports": [
+        "./ChoiceGroup.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/Select.astro",
+      "sha256": "c3c0af49ecef93e166ecd48d789c42c3ab041f4a6a0a1da20058df77537b698c",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/Switch.astro",
+      "sha256": "400b2cba32218c0e76a45066101770aa1a1c523b7ac6f5dfd439c041bf036f42",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/TextInput.astro",
+      "sha256": "a774c172d69f49c1ea0761621f0bf2af1d6dc120bcde21b0af7cb110bbaac37d",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/Textarea.astro",
+      "sha256": "340bb38d19cc56c41da246ba5f44c3ff1084ebc41987aea56659de7b241e9895",
+      "imports": [
+        "./Field.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/forms/catalog.ts",
+      "sha256": "257f13247c1946f0061301cc7d0688e2af164237f4c5f79ace1d3d3023863de1",
+      "imports": [],
+      "variables": [],
+      "px": [
+        "44px"
+      ]
+    },
+    {
+      "path": "website/src/components/forms/forms.css",
+      "sha256": "c0f9009ea1148f927e0ecc36771a329e8010b18432069be8ba560e0006481e25",
+      "imports": [],
+      "variables": [
+        "--docs-error-600",
+        "--docs-text",
+        "--docs-error-200",
+        "--docs-muted",
+        "--_sf-error",
+        "--docs-strong-border",
+        "--docs-bg",
+        "--docs-accent",
+        "--docs-focus",
+        "--docs-surface",
+        "--docs-border"
+      ],
+      "px": [
+        "8px",
+        "48px",
+        "12px",
+        "16px",
+        "1px",
+        "24px",
+        "-8px",
+        "44px",
+        "56px",
+        "20px",
+        "2px",
+        "3px",
+        "80px",
+        "4px",
+        "40px",
+        "999px",
+        "480px"
+      ]
+    },
+    {
+      "path": "website/src/components/forms/runtime.ts",
+      "sha256": "b1c3147290bb34c1da3aa3574ef9a678417a0834309607b3af9ce6c4483b5a11",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Alert.astro",
+      "sha256": "6c727373f8f09ffa67f14da6a2a6fe504ef9aa57e043d0eacc7452b45b8ca00c",
+      "imports": [
+        "./Notice.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Avatar.astro",
+      "sha256": "85ea062408095effd0cea37b93df57cdc54bd15eb729f91717822f53c63a9f05",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Badge.astro",
+      "sha256": "3149de647bc76e898a17b1d5ce3fd1703a1b47848b0ff2a3bdcca594488793ba",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Breadcrumbs.astro",
+      "sha256": "e16f31163c603f268e61fc5dfca310a6e8af7266411c0a8f0be60db569e381e1",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Card.astro",
+      "sha256": "4b7ecf2f029931af6e583dae7e7dcf1483b3256b6815608f7fa6310f39bda565",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/ConfirmationDialog.astro",
+      "sha256": "a9240ddf57b2d18c43be3fc7910cc4c0caf4bc1e086c15b0e4a1ffa6bd8e2240",
+      "imports": [
+        "./ModalPanel.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Dialog.astro",
+      "sha256": "b87dd3e096c19c894ea8b80bf932e2df9cb54cba100f19abbb34955a8f0f525e",
+      "imports": [
+        "./ModalPanel.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Drawer.astro",
+      "sha256": "adb4eb0f46df4a2923bc5410ffb1a9e2352df8f18797a7f0e99b5ae0790c63d9",
+      "imports": [
+        "./ModalPanel.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/DropdownMenu.astro",
+      "sha256": "50feaa82a2e8e64101808c86df6323db2053b923874c0cc45f49bb808974d6c4",
+      "imports": [
+        "../actions/Button.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/EmptyState.astro",
+      "sha256": "7e2494d356852d729efa9e8d211eb9b7820f6f5a0c3fd691dbde2285c65ae869",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/FeedbackStates.astro",
+      "sha256": "6c727373f8f09ffa67f14da6a2a6fe504ef9aa57e043d0eacc7452b45b8ca00c",
+      "imports": [
+        "./Notice.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/List.astro",
+      "sha256": "4ab9fe8b4f0644e310def330c4fb1c860357ad5e95c4240f45f8e41092b7f555",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/LoadingState.astro",
+      "sha256": "2cd92f36c8fdacdb21ee381639c14ca81fa455c497a0727d7c769a376ef5e899",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/ModalPanel.astro",
+      "sha256": "d511823b720b3fc05b1792c670245d9b7cf9900d0e9981e48ff2295c688f1a9f",
+      "imports": [
+        "../actions/Button.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/NavLinks.astro",
+      "sha256": "71aeb690d8121f6f9c0cc3bd157e1de7c28a32095acf06028e74f086174537db",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Notice.astro",
+      "sha256": "d84236130167d8229ee8c2042bea9758c2dd2f166b6d929150ea6bc60261f492",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Pagination.astro",
+      "sha256": "5aa86acf0731ce51d5fb820fdaed20f0611d4e520d6ed6dd444536dc8c4f3914",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Popover.astro",
+      "sha256": "01305ad54ab6fb656fd47e6da3658561db06a83d263ce3bf3eb378c4e9fb3341",
+      "imports": [
+        "../actions/Button.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/ProgressIndicator.astro",
+      "sha256": "bc8930f4eb2fdd81c733fffc08741a083bdd0be2de32813f06099f7d498e1f85",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/SidebarNavigation.astro",
+      "sha256": "77022010629230345e27b6d1d4c82beec7a6b940fd96464e63125b7c030df266",
+      "imports": [
+        "./NavLinks.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/SkeletonLoader.astro",
+      "sha256": "9c3dfd5ea7a554c37e3bf76195d8e7d770fd0b9622650d56a2cfaed5a2bed29a",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/StatusIndicator.astro",
+      "sha256": "01576b403e38877d4d23dc2f2916da9004cf476e6d3d1e9fc58173fbafb1365b",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Stepper.astro",
+      "sha256": "a48b32c9848425cd748e2a1e11a2bffb1b1cafdebf92ba963864bcea4259a192",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Table.astro",
+      "sha256": "757990885de30220c503093540a1029305624962b06c51d20358f8e5df0eef0e",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Tabs.astro",
+      "sha256": "f48398b654ec1780abaca4e26fab549abc2c76d64f9a300161026d74358da71d",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/ToastNotification.astro",
+      "sha256": "4c0331abea2820fc245898e86e1825ecade2cce00ccc52bab01495b41bf14b00",
+      "imports": [
+        "../actions/Button.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/Tooltip.astro",
+      "sha256": "37d462218225016f3cc1f73725d936cf27753dda39768dbe13b2d91d925faa9f",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/TopNavigation.astro",
+      "sha256": "42ed2a6d58d6076911840ea343c281f7e8fec72ccfd62efca678db54c0e0f49d",
+      "imports": [
+        "./NavLinks.astro"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/library/catalog.ts",
+      "sha256": "7a53488fea6bc968d176200e49cc1c90f5addabf93ecef649df909807201f8ab",
+      "imports": [
+        "../layout/catalog.ts"
+      ],
+      "variables": [],
+      "px": [
+        "32px",
+        "40px",
+        "64px",
+        "44px",
+        "480px"
+      ]
+    },
+    {
+      "path": "website/src/components/library/library.css",
+      "sha256": "5138af8030248b3a3167c2edc8eb3f9d70208893cb0f5cb47f9efce0c1c9fa70",
+      "imports": [],
+      "variables": [
+        "--docs-neutral-100",
+        "--docs-neutral-700",
+        "--docs-neutral-300",
+        "--docs-info-50",
+        "--docs-info-700",
+        "--docs-info-300",
+        "--docs-success-50",
+        "--docs-success-700",
+        "--docs-success-300",
+        "--docs-warning-50",
+        "--docs-warning-800",
+        "--docs-warning-300",
+        "--docs-error-50",
+        "--docs-error-700",
+        "--docs-error-300",
+        "--docs-neutral-900",
+        "--docs-neutral-200",
+        "--docs-neutral-600",
+        "--docs-info-950",
+        "--docs-info-200",
+        "--docs-success-950",
+        "--docs-success-200",
+        "--docs-warning-950",
+        "--docs-warning-200",
+        "--docs-warning-700",
+        "--docs-error-950",
+        "--docs-error-200",
+        "--docs-text",
+        "--_sl-line",
+        "--_sl-bg",
+        "--_sl-fg",
+        "--docs-surface",
+        "--docs-border",
+        "--docs-bg",
+        "--docs-muted",
+        "--docs-accent",
+        "--docs-strong-border",
+        "--docs-focus"
+      ],
+      "px": [
+        "1px",
+        "-1px",
+        "4px",
+        "8px",
+        "2px",
+        "999px",
+        "40px",
+        "32px",
+        "64px",
+        "24px",
+        "16px",
+        "12px",
+        "44px",
+        "3px",
+        "240px",
+        "96px",
+        "20px",
+        "480px",
+        "48px",
+        "-8px",
+        "-2px",
+        "-4px",
+        "192px"
+      ]
+    },
+    {
+      "path": "website/src/components/library/runtime.ts",
+      "sha256": "334fe3ca171b3246b3c5354b7a3a028d974ca2e5897de4f828dcafdd00daba95",
+      "imports": [],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/layout/Container.astro",
+      "sha256": "7b88afbaffa97b78a7ddea319ec23469ce4d227b08106b053ccc70b9e304d624",
+      "imports": [
+        "astro/types",
+        "./values"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/layout/Divider.astro",
+      "sha256": "b0ac793575aa9ff7ec0e7431501d4565a8b74a3dc387ec011cffa31a3dc8cfdb",
+      "imports": [
+        "./values"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/layout/Grid.astro",
+      "sha256": "b1f3824cebbff9f7984776493cc3f1777f69ba07c102420396d1f3ee5986c500",
+      "imports": [
+        "astro/types",
+        "./values"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/layout/Stack.astro",
+      "sha256": "350ae1d533da4ee68fc5ffa092efaf44293b8a41ec1523de3295bd4477b0177c",
+      "imports": [
+        "astro/types",
+        "./values"
+      ],
+      "variables": [],
+      "px": []
+    },
+    {
+      "path": "website/src/components/layout/catalog.ts",
+      "sha256": "859c1269545c256656e105ebc791c4c578cff3382a33e9a73692f0b4bf3401c8",
+      "imports": [],
+      "variables": [],
+      "px": [
+        "16px",
+        "24px",
+        "32px",
+        "1px",
+        "600px"
+      ]
+    },
+    {
+      "path": "website/src/components/layout/layout.css",
+      "sha256": "2efbf13496fc5d207b3492c08f3042784784f685b06de5ea5ff63df908dc4939",
+      "imports": [],
+      "variables": [
+        "--_svl-max",
+        "--_svl-pad",
+        "--_svl-gap",
+        "--_svl-cols",
+        "--docs-strong-border",
+        "--_svl-inset",
+        "--_svl-medium",
+        "--_svl-wide",
+        "--docs-surface",
+        "--docs-accent",
+        "--docs-border",
+        "--docs-bg",
+        "--docs-text",
+        "--docs-focus"
+      ],
+      "px": [
+        "16px",
+        "1px",
+        "24px",
+        "600px",
+        "1024px",
+        "32px",
+        "599px",
+        "8px",
+        "4px",
+        "160px",
+        "240px",
+        "2px",
+        "3px"
+      ]
+    },
+    {
+      "path": "website/src/components/layout/values.ts",
+      "sha256": "c8e03a60b0984a3e6532d3652d1dcbc5e82a6983054c7cb462fd72a5ed749051",
+      "imports": [
+        "../../data"
+      ],
+      "variables": [],
+      "px": []
+    }
+  ]
+}

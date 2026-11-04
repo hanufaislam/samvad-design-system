@@ -1,0 +1,8 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+import {containerStyle,type ContainerWidth,type Space} from './values';
+import './layout.css';
+interface Props extends Omit<HTMLAttributes<'div'>,'style'> {max?:ContainerWidth;padding?:Space|'responsive';}
+const {max=960,padding='responsive',class:className,...attrs}=Astro.props;
+---
+<div {...attrs} class:list={['sv-container',className]} data-width={max} data-padding={padding} style={containerStyle(max,padding)}><slot/></div>

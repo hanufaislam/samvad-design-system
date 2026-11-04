@@ -1,0 +1,17 @@
+import {setStep} from '../components/library/runtime';
+for(const root of document.querySelectorAll<HTMLElement>('[data-library-playground]')){
+ const status=root.querySelector<HTMLElement>('[data-library-status]')!;
+ root.querySelector<HTMLSelectElement>('[data-library-tone]')?.addEventListener('change',event=>{const tone=(event.target as HTMLSelectElement).value;root.querySelectorAll<HTMLElement>('.sv-tone').forEach(e=>{e.dataset.tone=tone;if(e.matches('.sv-status')){const text=[...e.childNodes].find(n=>n.nodeType===Node.TEXT_NODE);if(text)text.textContent=({neutral:'Not started',info:'In progress',success:'Available',warning:'Needs attention',error:'Unavailable'} as Record<string,string>)[tone];}
+ const title=e.querySelector('strong'),message=e.querySelector('p');if(root.dataset.libraryPlayground==='feedback-states'&&title&&message){title.textContent=({success:'Check complete',warning:'Review recommended',error:'Check failed'} as Record<string,string>)[tone];message.textContent=({success:'This local example passed its checks.',warning:'Review the example before continuing.',error:'This example needs a correction before continuing.'} as Record<string,string>)[tone];}
+ const marker=e.querySelector('.sv-notice__marker');if(marker)marker.textContent=tone==='success'?'✓':tone==='info'?'i':'!';});status.textContent=`${tone} tone preview. Labels and copy should match the real status in production.`;});
+ root.querySelector<HTMLSelectElement>('[data-library-variant]')?.addEventListener('change',event=>{const value=(event.target as HTMLSelectElement).value;const element=root.querySelector<HTMLElement>('.sv-badge,.sv-avatar,.sv-card,.sv-table,.sv-skeleton')!;if(element.matches('.sv-avatar,.sv-badge'))element.dataset.size=value;else if(element.matches('.sv-table'))element.dataset.density=value;else element.dataset.variant=value;});
+ const slider=root.querySelector<HTMLInputElement>('[data-demo-progress]');const indeterminate=root.querySelector<HTMLInputElement>('[data-demo-indeterminate]');
+ const updateProgress=()=>{const progress=root.querySelector<HTMLProgressElement>('progress')!;const value=Number(slider!.value);if(indeterminate?.checked)progress.removeAttribute('value');else progress.value=value;root.querySelector('[data-progress-text]')!.textContent=indeterminate?.checked?'In progress':`${value}%`;};
+ slider?.addEventListener('input',updateProgress);indeterminate?.addEventListener('change',updateProgress);
+ root.querySelector<HTMLInputElement>('[data-demo-step]')?.addEventListener('input',event=>{setStep(root.querySelector<HTMLElement>('[data-stepper]')!,Number((event.target as HTMLInputElement).value));status.textContent=`Example step ${Number((event.target as HTMLInputElement).value)+1} of 3.`;});
+ root.querySelector('[data-restore-notice]')?.addEventListener('click',()=>{root.querySelector<HTMLElement>('[data-notice]')!.hidden=false;status.textContent='Alert restored.';});
+ root.addEventListener('samvad:dismiss',()=>{status.textContent='Alert dismissed.';root.querySelector<HTMLButtonElement>('[data-restore-notice]')?.focus();});
+ root.addEventListener('samvad:select',event=>{status.textContent=`Selected command: ${(event as CustomEvent).detail.label}. Demonstration only; no command side effect.`;});
+ root.addEventListener('samvad:confirm',()=>{status.textContent='Confirmation received. No data was removed.';});
+ root.querySelector('dialog')?.addEventListener('close',event=>{if((event.target as HTMLDialogElement).returnValue!=='confirm')status.textContent='Dialog closed without confirmation.';});
+}

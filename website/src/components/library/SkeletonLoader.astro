@@ -1,0 +1,6 @@
+---
+import './library.css';
+interface Props {label?:string;lines?:number;variant?:'text'|'avatar';}
+const {label='Loading content',lines=3,variant='text'}=Astro.props;
+---
+<div class="sv-skeleton" role="status" aria-label={label} data-variant={variant}><span class="sv-sr-only">{label}</span><div aria-hidden="true">{Array.from({length:Math.max(1,Math.min(lines,10))},()=> <span class="sv-skeleton__line"></span>)}</div></div>

@@ -1,0 +1,10 @@
+/* Documentation composition framing only; no component styles or tokens. */
+.reference-docs .pattern-example{padding:var(--samvad-semantic-space-scale-24);border:var(--samvad-semantic-border-width-1) solid var(--samvad-semantic-color-border-default);border-radius:var(--samvad-semantic-radius-md);margin-top:var(--samvad-semantic-space-scale-24);min-width:0;overflow-wrap:anywhere}
+.reference-docs .pattern-example [hidden]{display:none!important}
+.reference-docs .pattern-example form{width:100%;min-width:0}
+.reference-docs .pattern-example ul{padding-inline-start:var(--samvad-semantic-space-scale-24)}
+.reference-docs .pattern-example [data-error-summary]:focus{outline:var(--samvad-semantic-border-width-2) solid var(--samvad-semantic-color-focus-default);outline-offset:var(--samvad-semantic-focus-offset)}
+.reference-docs .doc-section>p+p{margin-top:var(--samvad-semantic-space-scale-16)}
+@media(max-width:599px){.reference-docs .pattern-example{padding:var(--samvad-semantic-space-scale-16)}}
+
+.reference-docs :not(pre)>code{overflow-wrap:anywhere;white-space:normal}

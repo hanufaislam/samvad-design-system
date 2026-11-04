@@ -1,0 +1,573 @@
+[
+  {
+    "slug": "for-designers",
+    "title": "For designers",
+    "group": "Get started",
+    "id": "guide-for-designers",
+    "path": "get-started/for-designers/",
+    "description": "Start with the interaction, then choose the approved parts.",
+    "why": "Start with the interaction, then choose the approved parts. Samvad pairs playful minimalism with a disciplined foundation: warm neutral structure, purposeful mulberry, readable Geist and character in small doses.",
+    "rules": [
+      "Read the principles and inspect the foundation specimens before composing a screen. Use the existing component inventory rather than drawing a new control because one example looks close.",
+      "Choose a pattern for the whole sequence, including error, correction, loading and completion. Name the primary action and preserve the person\u2019s work during recovery.",
+      "Hand off component names, variants, sizes, token roles, content constraints and behaviour. A screenshot alone does not describe focus order, validation timing or responsive wrapping.",
+      "Use Figma as the visual source of truth and this website as the implementation reference. Native variable parity is not certified; do not assume a live sync or a published Figma component library. This documentation batch makes no Figma changes."
+    ],
+    "access": [
+      "Review long labels, narrow layouts, 200% text enlargement and both themes. Let text grow instead of shrinking it into a fixed-height box.",
+      "Annotate labels, field descriptions, meaningful reading order, focus movement and announcements. State the expected reduced-motion experience."
+    ],
+    "implementation": [
+      "The specimen below uses actual Card, Grid and TextInput components to illustrate handoff questions, not a product screen.",
+      "Before proposing a new asset, search the 49 component families and 629-token registry. Record a missing value as pending with a use case, not as an inferred approval.",
+      "Share links to the component, pattern, foundation and exact token IDs. The developer handoff resource documents integration and validation responsibilities."
+    ],
+    "related": [
+      [
+        "Design principles",
+        "get-started/principles/"
+      ],
+      [
+        "Forms pattern",
+        "patterns/forms/"
+      ],
+      [
+        "Developer handoff",
+        "resources/developer-handoff/"
+      ],
+      [
+        "Usage guidelines",
+        "resources/usage-guidelines/"
+      ]
+    ],
+    "tokens": [
+      "Component/shared/type/label/weight",
+      "Component/field/type/helper/line-height"
+    ]
+  },
+  {
+    "slug": "for-developers",
+    "title": "For developers",
+    "group": "Get started",
+    "id": "guide-for-developers",
+    "path": "get-started/for-developers/",
+    "description": "Use the real local Astro implementations and generated token exports.",
+    "why": "Use the real local Astro implementations and generated token exports. This repository is a documentation and implementation reference, not an installable Samvad npm package.",
+    "rules": [
+      "Start in website/. Use its package.json and lockfile for the existing toolchain; run npm ci when installing dependencies, then npm run dev. Use npm run build and npm run preview to inspect generated full-text search.",
+      "Import local components from src/components/actions, forms, library or layout. Read their typed props and keep IDs unique when repeating examples. Preserve native controls and shared runtime helpers.",
+      "Compose with Semantic or Component aliases. Do not style application components with Primitive variables or website-only --docs-* adapters. Generated tokens.css and typed CSS names are available through the token export pages.",
+      "Wire request state, persistence, routing and server validation in the consuming application. Documentation examples intentionally do not implement those services."
+    ],
+    "access": [
+      "Keep visible labels and description/error relationships intact. Prefer native button/link semantics and preserve the existing keyboard behaviour.",
+      "Verify the composition in both themes, with reduced motion, at narrow widths and with enlarged text. Automated checks are a baseline, not a full accessibility certification."
+    ],
+    "implementation": [
+      "The code example below is suitable for a page under website/src/pages/. Existing components load their shared CSS/runtime. Custom composition styles may import design-system/tokens/dist/tokens.css using the path appropriate to the new source file.",
+      "From website/, run check, build, verify, verify:components, verify:references and verify:foundations. Token changes are outside this batch; use tokens:check and tokens:verify-approved to detect drift.",
+      "When reporting a defect, include the route, viewport, theme, keyboard sequence, expected state and minimal reproduction. Do not redesign an approved control while repairing an unrelated issue."
+    ],
+    "related": [
+      [
+        "Developer handoff",
+        "resources/developer-handoff/"
+      ],
+      [
+        "Button",
+        "components/actions/button/"
+      ],
+      [
+        "CSS variables",
+        "design-tokens/css-variables/"
+      ],
+      [
+        "Forms pattern",
+        "patterns/forms/"
+      ]
+    ],
+    "tokens": [
+      "Component/button/color/action/primary/default",
+      "Semantic/color/text/primary"
+    ]
+  },
+  {
+    "slug": "spacing-and-layout",
+    "title": "Spacing and layout",
+    "group": "Foundations",
+    "id": "foundation-spacing-and-layout",
+    "path": "foundations/spacing-and-layout/",
+    "description": "Space explains relationships before a border or colour is needed.",
+    "why": "Space explains relationships before a border or colour is needed. Use the approved 4-unit rhythm, with 2 units for optical adjustments, and let content determine height.",
+    "rules": [
+      "The full scale is 0, 2, 4, 8, 12, 16, 20, 24, 32, 40, 48, 64, 80 and 96. Zero means no space; do not draw it as a nonzero bar.",
+      "Use 2\u20138 for tight detail, 12\u201324 for related controls/content, 32\u201348 for sections and 64\u201396 for larger compositions. These are grouping guidelines, not automatic component-role assignments.",
+      "Use Stack for one-dimensional relationships, Grid for repeated columns and Container for width constraints. Prefer logical padding and gap over unrelated per-child margins.",
+      "Content maxima are 640, 960 and 1200. Reading width starts at 65ch, then needs inspection with the actual font and content. Compact layouts use the available width and intrinsic content height."
+    ],
+    "access": [
+      "Visible artwork size and hit target are independent. A 20px icon may live inside a control with a 44px or larger target.",
+      "Allow labels, errors and content to wrap. Do not use a spacer or fixed-height text box to force alignment at the cost of readable content."
+    ],
+    "implementation": [
+      "The scale below is generated from foundation-spec.json; the selectable Stack gap uses the existing approved component props.",
+      "Layout helpers already return Semantic spacing/container references. Reuse them rather than introducing a new spacing API.",
+      "The retained 56px large-control size is an approved component exception, not a new entry in the general spacing scale."
+    ],
+    "related": [
+      [
+        "Stack",
+        "components/layout/stack/"
+      ],
+      [
+        "Grid",
+        "foundations/grid/"
+      ],
+      [
+        "Container",
+        "components/layout/container/"
+      ],
+      [
+        "Spacing tokens",
+        "design-tokens/spacing/"
+      ],
+      [
+        "Forms",
+        "patterns/forms/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/space/scale/16",
+      "Semantic/space/scale/24",
+      "Semantic/layout/reading"
+    ]
+  },
+  {
+    "slug": "grid",
+    "title": "Grid",
+    "group": "Foundations",
+    "id": "foundation-grid",
+    "path": "foundations/grid/",
+    "description": "Use the foundation column grid to align page-level regions.",
+    "why": "Use the foundation column grid to align page-level regions. Do not confuse the 4/8/12 page grid with the Grid component\u2019s independent content-column defaults.",
+    "rules": [
+      "Compact is below 600px: 4 columns, 16px gutters and minimum 16px side margins. Medium is 600\u20131023px: 8 columns, 24px gutters and minimum 24px margins. Wide starts at 1024px: 12 columns, 24px gutters and minimum 32px margins.",
+      "Choose container maxima by the content task, not a device name. The 1200px specimen width and the 1200px content maximum are different concepts; margins are outside the content maximum.",
+      "Use the existing Grid component for actual content columns. Its 1/2/3 defaults are not a replacement for the foundation page grid.",
+      "At narrow widths, preserve reading order and stack regions logically. Do not scale a desktop composition until its text is unreadable."
+    ],
+    "access": [
+      "Keep visual order aligned with DOM order. Avoid CSS placement that makes keyboard or screen-reader navigation jump unpredictably.",
+      "Allow grid children to shrink and wrap; tables and code blocks may need their own labelled scroll regions."
+    ],
+    "implementation": [
+      "The live diagram below resolves layout/columns/responsive, gutter and margin through the current CSS viewport. It contains no product content.",
+      "CSS variables cannot drive native media-query conditions. Existing exported responsive values and approved 600/1024px conditions supply the mapping.",
+      "Use current container and Grid helpers; no breakpoint, gutter or margin value is introduced by this page."
+    ],
+    "related": [
+      [
+        "Grid component",
+        "components/layout/grid/"
+      ],
+      [
+        "Container",
+        "components/layout/container/"
+      ],
+      [
+        "Responsive tokens",
+        "design-tokens/responsive/"
+      ],
+      [
+        "Navigation pattern",
+        "patterns/navigation/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/layout/columns/responsive",
+      "Semantic/layout/gutter/responsive",
+      "Semantic/layout/margin/responsive"
+    ]
+  },
+  {
+    "slug": "shape-and-radius",
+    "title": "Shape and radius",
+    "group": "Foundations",
+    "id": "foundation-shape-and-radius",
+    "path": "foundations/shape-and-radius/",
+    "description": "Use a small, coherent radius scale to make related controls feel related.",
+    "why": "Use a small, coherent radius scale to make related controls feel related. Full rounding is a specific capsule/circle treatment, not the default shape for every surface.",
+    "rules": [
+      "Approved radii are none 0, xs 2, sm 4, md 8, lg 12, xl 20 and full 9999. The specimen table shows exact values from the foundation source.",
+      "Use md for routine controls and lg/xl for larger surfaces where the approved component specifies them. A foundation recommendation does not authorize changing an existing component\u2019s radius.",
+      "Equivalent 999px capsule/circle implementations now consume the approved full alias. Native platforms should use their capsule shape or equivalent clamping, not a physical 9999-unit radius.",
+      "Keep nested shapes coherent and avoid mixing arbitrary rounding values to make a single component look more friendly."
+    ],
+    "access": [
+      "Shape must not be the only cue for selection, error or interactivity. Preserve labels, borders, focus and state text.",
+      "A rounded visible shape does not define the hit target. Keep focus visible around both rectangular and capsule controls."
+    ],
+    "implementation": [
+      "Current reusable components consume Semantic/Component radius aliases. The full-radius specimen below uses the existing semantic token.",
+      "Functional geometry, viewport calculations and unrelated retained declarations remain explicit in the token register. This page does not infer new mappings."
+    ],
+    "related": [
+      [
+        "Radius tokens",
+        "design-tokens/radius/"
+      ],
+      [
+        "Switch",
+        "components/selection/switch/"
+      ],
+      [
+        "Avatar",
+        "components/data-display/avatar/"
+      ],
+      [
+        "Card",
+        "components/data-display/card/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/radius/md",
+      "Semantic/radius/full"
+    ]
+  },
+  {
+    "slug": "borders-and-focus",
+    "title": "Borders and focus",
+    "group": "Foundations",
+    "id": "foundation-borders-and-focus",
+    "path": "foundations/borders-and-focus/",
+    "description": "Separate quiet structure from required control boundaries and keyboard focus.",
+    "why": "Separate quiet structure from required control boundaries and keyboard focus. They have different jobs, so they must not share a colour merely because both are thin lines.",
+    "rules": [
+      "Quiet boundaries use neutral/200 in Light and neutral/800 in Dark. Required control boundaries retain neutral/500 against the tested base canvases.",
+      "Widths are 0, 1 and 2; solid is the default. A dashed 4/4 documentation pattern may denote a provisional region, not a universal interactive treatment.",
+      "Focus uses a 2px mulberry ring with a 2px contrasting offset. The approved component mapping now consistently uses that offset; it is not the old 3px prototype treatment.",
+      "Hover, selected, invalid and focus are distinct. Do not remove keyboard focus when a field is invalid or an action is selected."
+    ],
+    "access": [
+      "Tab through the actual field and button below. The ring is shown on keyboard focus, not painted permanently to imply an interaction state.",
+      "Required non-text boundaries and focus indicators need appropriate contrast in their real adjacent context. Never rely on pale lime against a light canvas.",
+      "Keep targets at least 44 logical units; Android guidance is 48dp. Keep focus unobscured by sticky or overlapping content."
+    ],
+    "implementation": [
+      "Use color/border/default for quiet structure and color/border/control for controls, then the documented component aliases where available.",
+      "The shared focus/offset semantic role aliases approved space/2. Ring width and colours remain their existing approved mappings.",
+      "Two retained composite border declarations and selection/inset indicators remain documented; the approval did not ratify every composite effect."
+    ],
+    "related": [
+      [
+        "Text input",
+        "components/inputs/text-input/"
+      ],
+      [
+        "Button",
+        "components/actions/button/"
+      ],
+      [
+        "Colour tokens",
+        "design-tokens/colour/"
+      ],
+      [
+        "Accessibility",
+        "foundations/accessibility/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/border/default",
+      "Semantic/color/border/control",
+      "Semantic/focus/offset"
+    ]
+  },
+  {
+    "slug": "elevation-and-shadows",
+    "title": "Elevation and shadows",
+    "group": "Foundations",
+    "id": "foundation-elevation-and-shadows",
+    "path": "foundations/elevation-and-shadows/",
+    "description": "Elevation explains surface relationships with restrained shadows, surfaces and borders.",
+    "why": "Elevation explains surface relationships with restrained shadows, surfaces and borders. The final system includes explicit field and toast exceptions rather than pretending every effect is a foundation level.",
+    "rules": [
+      "Foundation levels are 0 flat, 1 raised, 2 popover, 3 overlay and 4 dialog. Geometry and Light/Dark alpha are listed in the source-backed table below.",
+      "Popover/shared popup surfaces use elevation/2: 0/4/12/\u22122 with neutral/950 at 8% Light and 20% Dark.",
+      "Fields retain the reviewed soft exception: 0/8/24/\u22128, 12% neutral/950 in Light and 24% black in Dark. Do not normalize this exception to another elevation without approval.",
+      "Toast retains 0/16/40/\u22128 and its existing alpha: 12% Light, 24% Dark. Dark pigment is neutral/950; its 24% alpha remains an explicit exception to foundation level 4\u2019s 28%."
+    ],
+    "access": [
+      "On Dark surfaces, do not depend on a dark shadow alone to explain a boundary. Surface tone and border provide supporting separation.",
+      "A shadow does not communicate focus, error or clickability on its own. Keep the explicit state indicators."
+    ],
+    "implementation": [
+      "The specimens below use the current Semantic elevation aliases and actual TextInput, Popover and ToastNotification components. Opening an overlay demonstrates the final component mapping.",
+      "Native elevation is not a pixel-for-pixel translation of CSS blur/spread; platform adapters remain a separate validation task.",
+      "The remaining inset selection indicators are not silently relabelled as elevation levels."
+    ],
+    "related": [
+      [
+        "Elevation tokens",
+        "design-tokens/elevation/"
+      ],
+      [
+        "Popover",
+        "components/overlays/popover/"
+      ],
+      [
+        "Toast",
+        "components/feedback/toast-notification/"
+      ],
+      [
+        "Text input",
+        "components/inputs/text-input/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/elevation/2",
+      "Semantic/shadow/field",
+      "Semantic/shadow/toast"
+    ]
+  },
+  {
+    "slug": "iconography",
+    "title": "Iconography",
+    "group": "Foundations",
+    "id": "foundation-iconography",
+    "path": "foundations/iconography/",
+    "description": "Use the existing Phosphor assets as a consistent visual voice.",
+    "why": "Use the existing Phosphor assets as a consistent visual voice. Choose a clear symbol and a meaningful label before relying on a smaller or more expressive graphic.",
+    "rules": [
+      "Regular is the default. Fill is reserved for selected-state emphasis with a supporting text or state cue. Do not mix unrelated icon libraries.",
+      "Approved artwork boxes are 16, 20 and 24 logical units. Phosphor uses filled path geometry; do not impose an arbitrary 2px CSS stroke on those SVG paths.",
+      "Icons inherit semantic foreground. Keep action target size independent of artwork size and use a real IconButton for an icon-only action.",
+      "Evaluate directional icons for future RTL contexts; do not mirror non-directional symbols. Do not draw an approximate replacement when the approved SVG already exists."
+    ],
+    "access": [
+      "Decorative icons are hidden from assistive technology when the adjacent text already supplies the meaning. Icon-only buttons require an accessible name.",
+      "Colour, icon weight and symbol shape must not be the sole status cue. Use text and expose pressed/selected state where applicable."
+    ],
+    "implementation": [
+      "The existing Icon helper serves Regular SVGs from public/icons. The filled chat-circle sample below uses the existing fill asset; no new icon is generated.",
+      "Preserve upstream Phosphor MIT attribution in public/icons/LICENSE. Imported assets are local; icon-library search or a network dependency is not required.",
+      "Artwork size and inherited colour are implementation choices inside the existing component API; this page does not create new public icon tokens."
+    ],
+    "related": [
+      [
+        "Icon button",
+        "components/actions/icon-button/"
+      ],
+      [
+        "Button",
+        "components/actions/button/"
+      ],
+      [
+        "Status indicator",
+        "components/data-display/status-indicator/"
+      ],
+      [
+        "Usage guidelines",
+        "resources/usage-guidelines/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/text/primary",
+      "Semantic/color/action/primary/default"
+    ]
+  },
+  {
+    "slug": "illustration",
+    "title": "Illustration",
+    "group": "Foundations",
+    "id": "foundation-illustration",
+    "path": "foundations/illustration/",
+    "description": "Illustration supports the content; it must not be required to understand a state or complete an action.",
+    "why": "Illustration supports the content; it must not be required to understand a state or complete an action. The approved direction is mature geometric simplicity with controlled asymmetry and palette-only colour.",
+    "rules": [
+      "Prefer a few substantial shapes, whitespace and limited warm accents. Use mulberry, apricot and lime purposefully rather than decorating every surface.",
+      "Avoid neon gradients, arbitrary colours, emoji faces, excessive confetti or movement that competes with feedback or learning content. These are direction constraints, not newly generated assets.",
+      "A first-use empty state may work better with clear copy and one action than with illustration. Essential content remains useful without artwork.",
+      "No production web illustration asset or mascot is approved in this repository. The original abstract speech-shape direction is not a logo or character identity. Request and review an asset before treating it as reusable production artwork."
+    ],
+    "access": [
+      "Decorative artwork should have an empty text alternative or be hidden appropriately. Informative artwork needs an equivalent explanation in text.",
+      "Do not encode success, error or permission only through an illustration. Motion is optional and should be removed for reduced-motion preferences."
+    ],
+    "implementation": [
+      "The visual below uses only existing Phosphor assets and the approved palette as a direction reference, explicitly not a new illustration asset. The adjacent EmptyState shows the content-first alternative.",
+      "Future approved exports should document their asset name, provenance, palette/token mapping, accessible treatment and delivery format. No illustration token values are introduced here."
+    ],
+    "related": [
+      [
+        "Empty states pattern",
+        "patterns/empty-states/"
+      ],
+      [
+        "Empty state component",
+        "components/feedback/empty-state/"
+      ],
+      [
+        "Colour",
+        "foundations/colour/"
+      ],
+      [
+        "Iconography",
+        "foundations/iconography/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/bg/subtle",
+      "Semantic/color/text/primary"
+    ]
+  },
+  {
+    "slug": "accessibility",
+    "title": "Accessibility",
+    "group": "Foundations",
+    "id": "foundation-accessibility",
+    "path": "foundations/accessibility/",
+    "description": "Accessibility belongs to the complete interaction, from a visible label to the final recovery path.",
+    "why": "Accessibility belongs to the complete interaction, from a visible label to the final recovery path. Samvad targets WCAG 2.2 AA while keeping the project\u2019s stronger 44-unit target guidance.",
+    "rules": [
+      "Check actual foreground/background combinations: normal text at least 4.5:1, qualifying large text 3:1, and required non-text indicators/boundaries 3:1. Do not claim every palette pair is accessible.",
+      "Use visible labels, meaningful link text and semantic controls. Group related choices with their real fieldset/legend rather than a visual heading alone.",
+      "Keep keyboard focus visible with the approved 2px ring and 2px offset. Preserve logical DOM order and return focus after dialogs or transient controls close.",
+      "Support text enlargement, responsive reflow, reduced motion and multilingual shaping. Do not solve overflow by reducing body text or clipping an error message.",
+      "Use at least 44 logical units for interactive targets and 48dp on Android. This is Samvad\u2019s guidance, not a claim that WCAG 2.2 AA universally mandates 44px."
+    ],
+    "access": [
+      "Try the labelled field, help text and action below with Tab/Shift+Tab. The label and helper remain useful without an icon or colour.",
+      "The system\u2019s contrast, ARIA and keyboard checks are evidence, not a full accessibility certification. Test real content with assistive technology and target browsers/devices.",
+      "Use one announcement for each meaningful change. Avoid duplicate alerts/live regions and do not move focus for every input event."
+    ],
+    "implementation": [
+      "Reuse component label/error relationships and shared keyboard runtime. Repeated instances need unique IDs; a code example ID is not a global constant.",
+      "Use the Forms, Loading and Error/success patterns to review state transitions. Production integration must preserve drafts, server error associations and usable focus.",
+      "Document known platform limitations and verify the consuming context. Native date/file controls and legacy Popover API environments need target-platform testing."
+    ],
+    "related": [
+      [
+        "Forms pattern",
+        "patterns/forms/"
+      ],
+      [
+        "Borders and focus",
+        "foundations/borders-and-focus/"
+      ],
+      [
+        "Typography",
+        "foundations/typography/"
+      ],
+      [
+        "Developer handoff",
+        "resources/developer-handoff/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/focus/default",
+      "Semantic/focus/offset"
+    ]
+  },
+  {
+    "slug": "interaction-principles",
+    "title": "Interaction principles",
+    "group": "Foundations",
+    "id": "foundation-interaction-principles",
+    "path": "foundations/interaction-principles/",
+    "description": "Keep the response to an action clear, immediate and reversible where the real operation allows it.",
+    "why": "Keep the response to an action clear, immediate and reversible where the real operation allows it. Interaction quality comes from predictable behaviour more than animation.",
+    "rules": [
+      "Use a Button for an action and a Text link for a destination. Keep native activation and browser navigation behaviour; do not create a clickable div to look minimal.",
+      "Explain state through text and existing component states. Disabled, busy, invalid, selected and focus are not interchangeable visual treatments.",
+      "A busy action prevents duplicate activation while preserving its position. Completion or failure must explain the result and preserve useful input.",
+      "Give each operation a useful next step. Recoverable errors offer recovery; empty filters offer clearing; destructive actions require context and an appropriate confirmation.",
+      "Use the existing keyboard conventions. Tabs use Arrow keys for focus and Enter/Space to activate; dialogs dismiss and restore focus. Do not add custom shortcuts without a reviewed need."
+    ],
+    "access": [
+      "Keep independent navigation available during a wait unless the actual operation requires a modal task. Never trap keyboard users in a spinner.",
+      "Do not make hover the only way to reveal essential information. Tooltips support hover and keyboard focus; essential instructions belong in persistent text."
+    ],
+    "implementation": [
+      "The live example uses existing Button, TextInput and Switch behaviour; it is an isolated interaction specimen. It does not define a product workflow.",
+      "Reuse setButtonLoading, validateForm and existing component events when coordinating patterns. Do not duplicate these helpers in application code.",
+      "Request, validation and persistence rules remain the consuming integration\u2019s responsibility. Refer to the approved patterns for complete local examples."
+    ],
+    "related": [
+      [
+        "Forms",
+        "patterns/forms/"
+      ],
+      [
+        "Loading",
+        "patterns/loading/"
+      ],
+      [
+        "Navigation",
+        "patterns/navigation/"
+      ],
+      [
+        "Error and success",
+        "patterns/error-and-success-states/"
+      ],
+      [
+        "Motion",
+        "foundations/motion/"
+      ]
+    ],
+    "tokens": [
+      "Component/shared/focus/offset",
+      "Semantic/motion/duration/fast"
+    ]
+  },
+  {
+    "slug": "motion",
+    "title": "Motion",
+    "group": "Foundations",
+    "id": "foundation-motion",
+    "path": "foundations/motion/",
+    "description": "Use subtle motion to explain change after the interface has already acknowledged the action.",
+    "why": "Use subtle motion to explain change after the interface has already acknowledged the action. Timing tokens describe presentation, not network latency or a reason to delay input.",
+    "rules": [
+      "Approved state durations are fast 120ms, base 200ms and slow 320ms. Standard easing is cubic-bezier(0.2,0,0,1), enter is (0,0,0,1) and exit is (0.3,0,1,1).",
+      "Ordinary button colour/border transitions use fast duration and standard easing. The comparison below uses only the existing timing/easing values; it does not remap any component.",
+      "Loading retains the approved 960ms cadence with linear spinner and ease-in-out skeleton easing as explicit exceptions. It is not inferred from three slow state durations.",
+      "Avoid bounce, decorative loops or animation as the only explanation. A loading indicator must include status text and a real completion/error path."
+    ],
+    "access": [
+      "Reduced motion removes travel/scale and stops the existing spinner/skeleton animations. Status text and operation controls must still work.",
+      "The specimen below moves only when explicitly requested. Under prefers-reduced-motion it updates immediately; it never starts an automatic loop."
+    ],
+    "implementation": [
+      "The source-backed duration table and easing curves are visual explanations, not a new motion API. The local specimen uses CSS variables and an isolated toggle.",
+      "Use component runtime for busy state and the Loading pattern for coordinated content. Do not use animation duration as an API timeout.",
+      "Native motion/platform adapters and full assistive-technology validation remain separate integration work."
+    ],
+    "related": [
+      [
+        "Loading pattern",
+        "patterns/loading/"
+      ],
+      [
+        "Button",
+        "components/actions/button/"
+      ],
+      [
+        "Skeleton loader",
+        "components/data-display/skeleton-loader/"
+      ],
+      [
+        "Loading state",
+        "components/feedback/loading-state/"
+      ],
+      [
+        "CSS exports",
+        "design-tokens/css-variables/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/motion/duration/fast",
+      "Semantic/motion/easing/standard",
+      "Semantic/motion/duration/loading"
+    ]
+  }
+]

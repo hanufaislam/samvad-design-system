@@ -1,0 +1,777 @@
+{
+  "checks": 168,
+  "failed": [
+    {
+      "name": "/resources/developer-handoff/ 320 light layout",
+      "pass": false,
+      "detail": [
+        "CODE."
+      ]
+    },
+    {
+      "name": "/resources/developer-handoff/ 320 dark layout",
+      "pass": false,
+      "detail": [
+        "CODE."
+      ]
+    },
+    {
+      "name": "light loading resolves and restores focus",
+      "pass": false
+    },
+    {
+      "name": "dark loading resolves and restores focus",
+      "pass": false
+    }
+  ],
+  "results": [
+    {
+      "name": "/patterns/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/forms/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/forms/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/navigation/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/navigation/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/loading/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/loading/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/empty-states/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/empty-states/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/patterns/error-and-success-states/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/usage-guidelines/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 320 light layout",
+      "pass": false,
+      "detail": [
+        "CODE."
+      ]
+    },
+    {
+      "name": "/resources/developer-handoff/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 320 dark layout",
+      "pass": false,
+      "detail": [
+        "CODE."
+      ]
+    },
+    {
+      "name": "/resources/developer-handoff/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/developer-handoff/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/developer-handoff/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/developer-handoff/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/developer-handoff/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/developer-handoff/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/developer-handoff/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/developer-handoff/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 320 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 320 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 768 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 768 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 1024 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 1024 dark active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 1440 light active links",
+      "pass": true
+    },
+    {
+      "name": "/resources/changelog/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/resources/changelog/ 1440 dark active links",
+      "pass": true
+    },
+    {
+      "name": "light invalid form focuses summary",
+      "pass": true
+    },
+    {
+      "name": "light valid form confirms without saving",
+      "pass": true
+    },
+    {
+      "name": "light reset clears form",
+      "pass": true
+    },
+    {
+      "name": "light pagination updates content",
+      "pass": true
+    },
+    {
+      "name": "light loading coordinates busy region",
+      "pass": true
+    },
+    {
+      "name": "light loading resolves and restores focus",
+      "pass": false
+    },
+    {
+      "name": "light first item reveals filter and focuses it",
+      "pass": true
+    },
+    {
+      "name": "light unmatched filter preserves collection",
+      "pass": true
+    },
+    {
+      "name": "light clear filter restores item and focus",
+      "pass": true
+    },
+    {
+      "name": "light retry shows success",
+      "pass": true
+    },
+    {
+      "name": "light warning is distinct",
+      "pass": true
+    },
+    {
+      "name": "light reset restores recoverable error",
+      "pass": true
+    },
+    {
+      "name": "dark invalid form focuses summary",
+      "pass": true
+    },
+    {
+      "name": "dark valid form confirms without saving",
+      "pass": true
+    },
+    {
+      "name": "dark reset clears form",
+      "pass": true
+    },
+    {
+      "name": "dark pagination updates content",
+      "pass": true
+    },
+    {
+      "name": "dark loading coordinates busy region",
+      "pass": true
+    },
+    {
+      "name": "dark loading resolves and restores focus",
+      "pass": false
+    },
+    {
+      "name": "dark first item reveals filter and focuses it",
+      "pass": true
+    },
+    {
+      "name": "dark unmatched filter preserves collection",
+      "pass": true
+    },
+    {
+      "name": "dark clear filter restores item and focus",
+      "pass": true
+    },
+    {
+      "name": "dark retry shows success",
+      "pass": true
+    },
+    {
+      "name": "dark warning is distinct",
+      "pass": true
+    },
+    {
+      "name": "dark reset restores recoverable error",
+      "pass": true
+    }
+  ]
+}

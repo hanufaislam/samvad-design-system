@@ -1,0 +1,2073 @@
+{
+  "color/bg/default": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/50}",
+      "Dark": "{Primitives/color/neutral/950}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/bg/subtle": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/100}",
+      "Dark": "{Primitives/color/neutral/900}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/text/primary": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/950}",
+      "Dark": "{Primitives/color/neutral/50}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/text/muted": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/600}",
+      "Dark": "{Primitives/color/neutral/300}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/border/default": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/200}",
+      "Dark": "{Primitives/color/neutral/800}"
+    },
+    "$description": "Approved quiet boundary role; required control boundaries remain neutral/500.",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved quiet boundary role; required control boundaries remain neutral/500.",
+        "scope": []
+      }
+    }
+  },
+  "color/border/control": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/500}",
+      "Dark": "{Primitives/color/neutral/500}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/primary/default": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/mulberry/600}",
+      "Dark": "{Primitives/color/mulberry/200}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/primary/hover": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/mulberry/700}",
+      "Dark": "{Primitives/color/mulberry/100}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/primary/pressed": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/mulberry/800}",
+      "Dark": "{Primitives/color/mulberry/300}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/on-solid": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/50}",
+      "Dark": "{Primitives/color/neutral/950}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/focus/default": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/mulberry/600}",
+      "Dark": "{Primitives/color/mulberry/200}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/destructive/default": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/600}",
+      "Dark": "{Primitives/color/error/200}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/destructive/hover": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/700}",
+      "Dark": "{Primitives/color/error/100}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/action/destructive/pressed": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/800}",
+      "Dark": "{Primitives/color/error/300}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/error/field-text": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/600}",
+      "Dark": "{Primitives/color/error/200}"
+    },
+    "$description": "Existing approved component implementations / foundation contrast roles",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "Existing approved component implementations / foundation contrast roles",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/neutral/bg": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/100}",
+      "Dark": "{Primitives/color/neutral/900}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/neutral/text": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/700}",
+      "Dark": "{Primitives/color/neutral/200}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/neutral/border": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/neutral/300}",
+      "Dark": "{Primitives/color/neutral/600}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/info/bg": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/info/50}",
+      "Dark": "{Primitives/color/info/950}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/info/text": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/info/700}",
+      "Dark": "{Primitives/color/info/200}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/info/border": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/info/300}",
+      "Dark": "{Primitives/color/info/700}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/success/bg": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/success/50}",
+      "Dark": "{Primitives/color/success/950}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/success/text": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/success/700}",
+      "Dark": "{Primitives/color/success/200}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/success/border": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/success/300}",
+      "Dark": "{Primitives/color/success/700}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/warning/bg": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/warning/50}",
+      "Dark": "{Primitives/color/warning/950}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/warning/text": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/warning/800}",
+      "Dark": "{Primitives/color/warning/200}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/warning/border": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/warning/300}",
+      "Dark": "{Primitives/color/warning/700}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/error/bg": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/50}",
+      "Dark": "{Primitives/color/error/950}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/error/text": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/700}",
+      "Dark": "{Primitives/color/error/200}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "color/feedback/error/border": {
+    "$type": "color",
+    "$value": {
+      "Light": "{Primitives/color/error/300}",
+      "Dark": "{Primitives/color/error/700}"
+    },
+    "$description": "library/library.css .sv-tone existing paired values",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "library/library.css .sv-tone existing paired values",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/0": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/0}",
+      "Dark": "{Primitives/space/0}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/2": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/2}",
+      "Dark": "{Primitives/space/2}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/4": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/4}",
+      "Dark": "{Primitives/space/4}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/8": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/8}",
+      "Dark": "{Primitives/space/8}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/12": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/12}",
+      "Dark": "{Primitives/space/12}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/16": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/16}",
+      "Dark": "{Primitives/space/16}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/20": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/20}",
+      "Dark": "{Primitives/space/20}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/24": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/24}",
+      "Dark": "{Primitives/space/24}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/32": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/32}",
+      "Dark": "{Primitives/space/32}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/40": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/40}",
+      "Dark": "{Primitives/space/40}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/48": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/48}",
+      "Dark": "{Primitives/space/48}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/64": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/64}",
+      "Dark": "{Primitives/space/64}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/80": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/80}",
+      "Dark": "{Primitives/space/80}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "space/scale/96": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/96}",
+      "Dark": "{Primitives/space/96}"
+    },
+    "$description": "Approved spacing scale; role placement remains component-specific",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Approved spacing scale; role placement remains component-specific",
+        "scope": []
+      }
+    }
+  },
+  "radius/none": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/none}",
+      "Dark": "{Primitives/radius/none}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "radius/xs": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/xs}",
+      "Dark": "{Primitives/radius/xs}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "radius/sm": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/sm}",
+      "Dark": "{Primitives/radius/sm}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "radius/md": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/md}",
+      "Dark": "{Primitives/radius/md}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "radius/lg": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/lg}",
+      "Dark": "{Primitives/radius/lg}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "radius/xl": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/xl}",
+      "Dark": "{Primitives/radius/xl}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "radius/full": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/radius/full}",
+      "Dark": "{Primitives/radius/full}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/display/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/display/size}",
+      "Dark": "{Primitives/type/display/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/display/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/display/line-height}",
+      "Dark": "{Primitives/type/display/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/display/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/display/weight}",
+      "Dark": "{Primitives/type/display/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/display/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/display/tracking}",
+      "Dark": "{Primitives/type/display/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/1/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/1/size}",
+      "Dark": "{Primitives/type/heading/1/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/1/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/1/line-height}",
+      "Dark": "{Primitives/type/heading/1/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/1/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/heading/1/weight}",
+      "Dark": "{Primitives/type/heading/1/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/1/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/1/tracking}",
+      "Dark": "{Primitives/type/heading/1/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/2/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/2/size}",
+      "Dark": "{Primitives/type/heading/2/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/2/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/2/line-height}",
+      "Dark": "{Primitives/type/heading/2/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/2/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/heading/2/weight}",
+      "Dark": "{Primitives/type/heading/2/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/2/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/2/tracking}",
+      "Dark": "{Primitives/type/heading/2/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/3/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/3/size}",
+      "Dark": "{Primitives/type/heading/3/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/3/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/3/line-height}",
+      "Dark": "{Primitives/type/heading/3/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/3/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/heading/3/weight}",
+      "Dark": "{Primitives/type/heading/3/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/3/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/3/tracking}",
+      "Dark": "{Primitives/type/heading/3/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/4/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/4/size}",
+      "Dark": "{Primitives/type/heading/4/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/4/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/4/line-height}",
+      "Dark": "{Primitives/type/heading/4/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/4/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/heading/4/weight}",
+      "Dark": "{Primitives/type/heading/4/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/heading/4/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/heading/4/tracking}",
+      "Dark": "{Primitives/type/heading/4/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/l/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/l/size}",
+      "Dark": "{Primitives/type/body/l/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/l/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/l/line-height}",
+      "Dark": "{Primitives/type/body/l/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/l/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/body/l/weight}",
+      "Dark": "{Primitives/type/body/l/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/l/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/l/tracking}",
+      "Dark": "{Primitives/type/body/l/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/m/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/m/size}",
+      "Dark": "{Primitives/type/body/m/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/m/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/m/line-height}",
+      "Dark": "{Primitives/type/body/m/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/m/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/body/m/weight}",
+      "Dark": "{Primitives/type/body/m/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/m/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/m/tracking}",
+      "Dark": "{Primitives/type/body/m/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/s/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/s/size}",
+      "Dark": "{Primitives/type/body/s/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/s/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/s/line-height}",
+      "Dark": "{Primitives/type/body/s/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/s/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/body/s/weight}",
+      "Dark": "{Primitives/type/body/s/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/body/s/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/body/s/tracking}",
+      "Dark": "{Primitives/type/body/s/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/label/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/label/size}",
+      "Dark": "{Primitives/type/label/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/label/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/label/line-height}",
+      "Dark": "{Primitives/type/label/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/label/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/label/weight}",
+      "Dark": "{Primitives/type/label/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/label/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/label/tracking}",
+      "Dark": "{Primitives/type/label/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/caption/size": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/caption/size}",
+      "Dark": "{Primitives/type/caption/size}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/caption/line-height": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/caption/line-height}",
+      "Dark": "{Primitives/type/caption/line-height}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/caption/weight": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/type/caption/weight}",
+      "Dark": "{Primitives/type/caption/weight}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "type/caption/tracking": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/type/caption/tracking}",
+      "Dark": "{Primitives/type/caption/tracking}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "font/family/primary": {
+    "$type": "fontFamily",
+    "$value": {
+      "Light": "{Primitives/font/family/primary}",
+      "Dark": "{Primitives/font/family/primary}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "font/family/mono": {
+    "$type": "fontFamily",
+    "$value": {
+      "Light": "{Primitives/font/family/mono}",
+      "Dark": "{Primitives/font/family/mono}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "font/weight/regular": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/font/weight/regular}",
+      "Dark": "{Primitives/font/weight/regular}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "font/weight/strong": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/font/weight/strong}",
+      "Dark": "{Primitives/font/weight/strong}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/fast": {
+    "$type": "duration",
+    "$value": {
+      "Light": "{Primitives/motion/duration/fast}",
+      "Dark": "{Primitives/motion/duration/fast}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/base": {
+    "$type": "duration",
+    "$value": {
+      "Light": "{Primitives/motion/duration/base}",
+      "Dark": "{Primitives/motion/duration/base}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/slow": {
+    "$type": "duration",
+    "$value": {
+      "Light": "{Primitives/motion/duration/slow}",
+      "Dark": "{Primitives/motion/duration/slow}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/standard": {
+    "$type": "cubicBezier",
+    "$value": {
+      "Light": "{Primitives/motion/easing/standard}",
+      "Dark": "{Primitives/motion/easing/standard}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/enter": {
+    "$type": "cubicBezier",
+    "$value": {
+      "Light": "{Primitives/motion/easing/enter}",
+      "Dark": "{Primitives/motion/easing/enter}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/exit": {
+    "$type": "cubicBezier",
+    "$value": {
+      "Light": "{Primitives/motion/easing/exit}",
+      "Dark": "{Primitives/motion/easing/exit}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "border/width/0": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/border/width/0}",
+      "Dark": "{Primitives/border/width/0}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "border/width/1": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/border/width/1}",
+      "Dark": "{Primitives/border/width/1}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "border/width/2": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/border/width/2}",
+      "Dark": "{Primitives/border/width/2}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "border/style/solid": {
+    "$type": "string",
+    "$value": {
+      "Light": "{Primitives/border/style/solid}",
+      "Dark": "{Primitives/border/style/solid}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "size/touch/minimum": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/size/touch/minimum}",
+      "Dark": "{Primitives/size/touch/minimum}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/container/640": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/container/640}",
+      "Dark": "{Primitives/layout/container/640}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/container/960": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/container/960}",
+      "Dark": "{Primitives/layout/container/960}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/container/1200": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/container/1200}",
+      "Dark": "{Primitives/layout/container/1200}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/reading": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/reading}",
+      "Dark": "{Primitives/layout/reading}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/columns/compact": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/layout/columns/compact}",
+      "Dark": "{Primitives/layout/columns/compact}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/columns/medium": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/layout/columns/medium}",
+      "Dark": "{Primitives/layout/columns/medium}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/columns/wide": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/layout/columns/wide}",
+      "Dark": "{Primitives/layout/columns/wide}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/gutter/compact": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/gutter/compact}",
+      "Dark": "{Primitives/layout/gutter/compact}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/gutter/medium": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/gutter/medium}",
+      "Dark": "{Primitives/layout/gutter/medium}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/gutter/wide": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/gutter/wide}",
+      "Dark": "{Primitives/layout/gutter/wide}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/compact": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/margin/compact}",
+      "Dark": "{Primitives/layout/margin/compact}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/medium": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/margin/medium}",
+      "Dark": "{Primitives/layout/margin/medium}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/wide": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/margin/wide}",
+      "Dark": "{Primitives/layout/margin/wide}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "layout/margin/responsive": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/margin/compact}",
+      "Dark": "{Primitives/layout/margin/compact}"
+    },
+    "$description": "foundation-spec.json#/layout",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "foundation-spec.json#/layout",
+        "scope": []
+      }
+    },
+    "$responsive": {
+      "medium": "{Primitives/layout/margin/medium}",
+      "wide": "{Primitives/layout/margin/wide}"
+    }
+  },
+  "layout/gutter/responsive": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/layout/gutter/compact}",
+      "Dark": "{Primitives/layout/gutter/compact}"
+    },
+    "$description": "foundation-spec.json#/layout",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "foundation-spec.json#/layout",
+        "scope": []
+      }
+    },
+    "$responsive": {
+      "medium": "{Primitives/layout/gutter/medium}",
+      "wide": "{Primitives/layout/gutter/wide}"
+    }
+  },
+  "layout/columns/responsive": {
+    "$type": "number",
+    "$value": {
+      "Light": "{Primitives/layout/columns/compact}",
+      "Dark": "{Primitives/layout/columns/compact}"
+    },
+    "$description": "foundation-spec.json#/layout",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "foundation-spec.json#/layout",
+        "scope": []
+      }
+    },
+    "$responsive": {
+      "medium": "{Primitives/layout/columns/medium}",
+      "wide": "{Primitives/layout/columns/wide}"
+    }
+  },
+  "elevation/0": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/elevation/0/light}",
+      "Dark": "{Primitives/elevation/0/dark}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "elevation/1": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/elevation/1/light}",
+      "Dark": "{Primitives/elevation/1/dark}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "elevation/2": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/elevation/2/light}",
+      "Dark": "{Primitives/elevation/2/dark}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "elevation/3": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/elevation/3/light}",
+      "Dark": "{Primitives/elevation/3/dark}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "elevation/4": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/elevation/4/light}",
+      "Dark": "{Primitives/elevation/4/dark}"
+    },
+    "$description": "Existing component CSS assignment",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "Existing component CSS assignment",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/spinner": {
+    "$type": "duration",
+    "$value": {
+      "Light": "{Primitives/motion/duration/loading}",
+      "Dark": "{Primitives/motion/duration/loading}"
+    },
+    "$description": "Approved retained 960ms loading cadence; compatibility spinner role.",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved retained 960ms loading cadence; compatibility spinner role.",
+        "scope": []
+      }
+    }
+  },
+  "font/family/devanagari": {
+    "$type": "fontFamily",
+    "$value": {
+      "Light": "{Primitives/font/family/devanagari}",
+      "Dark": "{Primitives/font/family/devanagari}"
+    },
+    "$description": "Approved optional script fallback; consumer must load the font.",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "foundation-spec.json#/fonts/devanagari",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "font/family/telugu": {
+    "$type": "fontFamily",
+    "$value": {
+      "Light": "{Primitives/font/family/telugu}",
+      "Dark": "{Primitives/font/family/telugu}"
+    },
+    "$description": "Approved optional script fallback; consumer must load the font.",
+    "$extensions": {
+      "samvad": {
+        "status": "foundation-value-alias",
+        "source": "foundation-spec.json#/fonts/telugu",
+        "scope": [
+          "text"
+        ]
+      }
+    }
+  },
+  "size/control/large": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/size/control/large}",
+      "Dark": "{Primitives/size/control/large}"
+    },
+    "$description": "Approved reviewed component role",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved reviewed component role",
+        "scope": []
+      }
+    }
+  },
+  "focus/offset": {
+    "$type": "dimension",
+    "$value": {
+      "Light": "{Primitives/space/2}",
+      "Dark": "{Primitives/space/2}"
+    },
+    "$description": "Approved 2px focus offset; ring width and colours unchanged.",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved 2px focus offset; ring width and colours unchanged.",
+        "scope": []
+      }
+    }
+  },
+  "shadow/field": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/shadow/field/light}",
+      "Dark": "{Primitives/shadow/field/dark}"
+    },
+    "$description": "Approved field shadow exception, not a generic foundation elevation.",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved field shadow exception, not a generic foundation elevation.",
+        "scope": []
+      }
+    }
+  },
+  "shadow/toast": {
+    "$type": "shadow",
+    "$value": {
+      "Light": "{Primitives/elevation/4/light}",
+      "Dark": "{Primitives/shadow/toast/dark}"
+    },
+    "$description": "Approved toast geometry/alpha exception; neutral/950 pigment in both modes.",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved toast geometry/alpha exception; neutral/950 pigment in both modes.",
+        "scope": []
+      }
+    }
+  },
+  "motion/duration/loading": {
+    "$type": "duration",
+    "$value": {
+      "Light": "{Primitives/motion/duration/loading}",
+      "Dark": "{Primitives/motion/duration/loading}"
+    },
+    "$description": "Approved reviewed component role",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved reviewed component role",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/spinner": {
+    "$type": "string",
+    "$value": {
+      "Light": "{Primitives/motion/easing/spinner}",
+      "Dark": "{Primitives/motion/easing/spinner}"
+    },
+    "$description": "Approved reviewed component role",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved reviewed component role",
+        "scope": []
+      }
+    }
+  },
+  "motion/easing/skeleton": {
+    "$type": "string",
+    "$value": {
+      "Light": "{Primitives/motion/easing/skeleton}",
+      "Dark": "{Primitives/motion/easing/skeleton}"
+    },
+    "$description": "Approved reviewed component role",
+    "$extensions": {
+      "samvad": {
+        "status": "decision-approved",
+        "source": "User-approved five-area visual decision review, 2026-11-04. Approved reviewed component role",
+        "scope": []
+      }
+    }
+  }
+}

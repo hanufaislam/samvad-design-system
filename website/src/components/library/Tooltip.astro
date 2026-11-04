@@ -1,0 +1,7 @@
+---
+import './library.css';
+interface Props {id:string;text:string;label:string;}
+const {id,text,label}=Astro.props;
+---
+<span class="sv-tooltip" data-tooltip><button type="button" class="sv-lib-button" aria-describedby={id}>{label}</button><span class="sv-tooltip__bubble" id={id} role="tooltip">{text}</span></span>
+<script>import './runtime';</script>

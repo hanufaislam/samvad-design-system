@@ -1,0 +1,6 @@
+import {createServer} from 'node:http';
+import {readFileSync,existsSync,statSync} from 'node:fs';
+import {resolve,extname,join} from 'node:path';
+const directory=resolve(process.argv[2]),base=(process.argv[3]||'/').replace(/\/?$/,'/'),port=Number(process.argv[4]||4325);
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.wasm':'application/wasm','.woff2':'font/woff2','.txt':'text/plain','.ts':'text/plain'};
+createServer((req,res)=>{const url=new URL(req.url,'http://127.0.0.1');if(!url.pathname.startsWith(base)){res.writeHead(404);res.end('Outside configured base');return;}const path=resolve(directory,decodeURIComponent(url.pathname.slice(base.length))||'.');if(path!==directory&&!path.startsWith(directory+'/')){res.writeHead(403);res.end();return;}let file=path;if(existsSync(file)&&statSync(file).isDirectory())file=join(file,'index.html');if(!existsSync(file)){res.writeHead(404);res.end('Missing asset or route');return;}res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream','Cache-Control':'no-store'});res.end(readFileSync(file));}).listen(port,'127.0.0.1',()=>console.log('Local audit server ready on port '+port+' with base '+base));

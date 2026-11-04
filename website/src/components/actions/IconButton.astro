@@ -1,0 +1,18 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import Button from './Button.astro';
+import type { ButtonVariant, ActionSize } from './foundations';
+interface Props extends Omit<HTMLAttributes<'button'>,'class'|'style'|'aria-label'|'aria-pressed'> {
+  label: string;
+  icon: string;
+  variant?: ButtonVariant;
+  size?: ActionSize;
+  loading?: boolean;
+  toggle?: boolean;
+  pressed?: boolean;
+  class?: string;
+}
+const { label, icon, variant='secondary', size='medium', loading=false, toggle=false, pressed=false, class:className='', ...attributes }=Astro.props;
+if(!label?.trim()) throw new Error('IconButton requires a non-empty accessible label.');
+---
+<Button {...attributes} variant={variant} size={size} loading={loading} icon={icon} class={['sv-icon-action',className].filter(Boolean).join(' ')} aria-label={label} aria-pressed={toggle ? String(pressed) as 'true'|'false' : undefined} data-action-toggle={toggle ? 'true' : undefined}/>

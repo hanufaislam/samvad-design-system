@@ -1,0 +1,16 @@
+---
+import EmptyState from '../library/EmptyState.astro';
+import SearchInput from '../forms/SearchInput.astro';
+import Button from '../actions/Button.astro';
+import Stack from '../layout/Stack.astro';
+---
+<Stack gap={24} data-pattern-empty>
+ <EmptyState title="No examples collected yet" description="Start with one useful reference. You can add more later."><Button data-empty-add>Add an example locally</Button></EmptyState>
+ <section hidden data-empty-collection aria-label="Local example collection"><Stack gap={16}>
+  <SearchInput id="pattern-filter" label="Filter example references" helper="Try “focus”, or a term with no matches."/>
+  <ul data-empty-results><li>Keyboard focus reference</li></ul>
+  <div hidden data-empty-filtered><EmptyState title="No matching references" description="Your example is still here. Clear the filter to see it again."><Button variant="secondary" data-empty-clear>Clear filter</Button></EmptyState></div>
+  <p role="status" aria-live="polite" data-empty-status>1 example available.</p>
+ </Stack></section>
+</Stack>
+<script>import './runtime';</script>

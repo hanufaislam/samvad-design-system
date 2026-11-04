@@ -1,0 +1,6 @@
+---
+import './library.css';
+interface Props {label?:string;}
+const {label='Loading'}=Astro.props;
+---
+<div class="sv-loading" role="status"><span class="sv-loading__spinner" aria-hidden="true"></span><span>{label}</span></div>

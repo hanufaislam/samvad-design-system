@@ -1,0 +1,21 @@
+---
+import ExistingPageExtras from '../../components/foundation-docs/ExistingPageExtras.astro';
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import Icon from '../../components/Icon.astro';
+import { foundation } from '../../data';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+const source = readFileSync(resolve('../design-system/foundations/color.md'),'utf8');
+const introduction = source.split('\n\n')[1];
+const selected = foundation.contrast;
+---
+<DocsLayout page="colour" toc={[{id:'palette',label:'The core palette'},{id:'accents',label:'Supporting accents'},{id:'contrast',label:'Contrast in context'},{id:'usage',label:'Using colour'},{id:'complete-palette',label:'All supporting ramps'},{id:'semantic-roles',label:'Semantic roles'},{id:'connections',label:'Related references'}]}>
+  <div class="note"><Icon name="palette"/><div><strong>Colour has a job.</strong><p>{introduction}</p></div></div>
+  <section class="doc-section" id="palette"><h2>The core palette</h2><p>Warm neutrals make room for content. Mulberry brings the identity into focus. Select any swatch to copy its exact foundation value.</p>
+    {['neutral','mulberry'].map(family=><div class="doc-section"><h3>{family==='neutral'?'Warm neutral':'Mulberry'}</h3><div class="palette-ramp">{Object.entries(foundation.colors[family as keyof typeof foundation.colors]).map(([step,hex])=><button class="swatch" data-copy={hex} aria-label={`Copy ${family}/${step}: ${hex}`}><span class="swatch-paint" style={{background:hex}}/><span class="swatch-name">{step}</span><span class="swatch-value">{hex}</span></button>)}</div></div>)}
+  </section>
+  <section class="doc-section" id="accents"><h2>A little unexpected warmth.</h2><p>Apricot and lime are supporting accents. Keep them occasional, and pair them with dark ink. They do not automatically mean warning or success.</p><div class="accent-palette">{[['Apricot','apricot','300'],['Lime','lime','200']].map(([name,family,step])=>{const hex=foundation.colors[family as keyof typeof foundation.colors][step as '300'];return <div class="accent-sample" style={{background:hex}}><strong>{name}</strong><p>{family}/{step}</p><button data-copy={hex} aria-label={`Copy ${name}: ${hex}`}>{hex} <span aria-hidden="true">↗</span></button></div>;})}</div></section>
+  <section class="doc-section" id="contrast"><h2>Contrast in context</h2><p>The existing 22 checked foundation pairs. Theme switching changes the documentation interface; these fixed source values remain the same.</p><div class="table-wrap"><table class="data-table"><caption class="sr-only">Approved foundation contrast pairs</caption><thead><tr><th scope="col">Theme / role</th><th scope="col">Foreground / background</th><th scope="col">Contrast</th></tr></thead><tbody>{selected.map(p=><tr><td>{p.theme}<br/>{p.role}</td><td><code>{p.foreground}</code><br/><code>{p.background}</code></td><td class="ratio">{p.ratio.toFixed(2)}:1<br/><span>Pass</span></td></tr>)}</tbody></table></div></section>
+  <section class="doc-section" id="usage"><h2>Use with intent.</h2><div class="guidance-pair"><div><h3>Do</h3><p>Use neutrals for most surfaces. Reserve mulberry for meaningful emphasis. Check each actual foreground and background pair.</p></div><div><h3>Don’t</h3><p>Use pale lime as the sole focus ring on a light canvas, or rely on colour alone to communicate status.</p></div></div><p class="source-note">Source: existing <code>color.md</code> and <code>foundation-spec.json</code>. All eight approved ramps are documented here. Palette specimens show raw source values; components consume the closed Semantic/Component token layers. A public package release is not implied.</p></section>
+  <ExistingPageExtras page="colour"/>
+</DocsLayout>

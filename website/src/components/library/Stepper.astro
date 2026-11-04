@@ -1,0 +1,7 @@
+---
+import './library.css';
+interface Props {label:string;steps:string[];current?:number;}
+const {label,steps,current=0}=Astro.props;
+---
+<nav aria-label={label} class="sv-stepper" data-stepper><ol>{steps.map((step,i)=><li aria-current={i===current?'step':undefined} data-step-state={i<current?'complete':i===current?'current':'upcoming'}><span class="sv-stepper__number" aria-hidden="true">{i<current?'✓':i+1}</span><span>{step}<span class="sv-sr-only"> — {i<current?'complete':i===current?'current':'upcoming'}</span></span></li>)}</ol></nav>
+<script>import './runtime';</script>

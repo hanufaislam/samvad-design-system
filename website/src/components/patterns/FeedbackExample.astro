@@ -1,0 +1,14 @@
+---
+import Alert from '../library/Alert.astro';
+import Button from '../actions/Button.astro';
+import Stack from '../layout/Stack.astro';
+---
+<Stack gap={24} data-pattern-feedback>
+ <p>This isolated example demonstrates recovery. It does not save data or call a service.</p>
+ <div data-feedback-error><Alert tone="error" title="The example could not be saved" message="Your draft is still available. Retry when you are ready."/></div>
+ <div data-feedback-success hidden><Alert tone="success" title="Example saved locally" message="The simulated operation completed. You can continue reviewing the reference."/></div>
+ <div data-feedback-warning hidden><Alert tone="warning" title="Review before continuing" message="This example still needs a descriptive title. Resolve the field before retrying."/></div>
+ <Stack direction="horizontal" gap={12}><Button data-feedback-retry>Retry example</Button><Button variant="secondary" data-feedback-warn>Show validation warning</Button><Button variant="ghost" data-feedback-reset>Reset scenario</Button></Stack>
+ <p role="status" aria-live="polite" data-feedback-status>Error example ready. Retry demonstrates recovery.</p>
+</Stack>
+<script>import './runtime';</script>

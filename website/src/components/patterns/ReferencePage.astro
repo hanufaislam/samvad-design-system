@@ -1,0 +1,36 @@
+---
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import CodeBlock from '../component-docs/CodeBlock.astro';
+import OverviewExample from './OverviewExample.astro';
+import FormsExample from './FormsExample.astro';
+import NavigationExample from './NavigationExample.astro';
+import LoadingExample from './LoadingExample.astro';
+import EmptyExample from './EmptyExample.astro';
+import FeedbackExample from './FeedbackExample.astro';
+import overviewCode from './OverviewExample.astro?raw';
+import formsCode from './FormsExample.astro?raw';
+import navigationCode from './NavigationExample.astro?raw';
+import loadingCode from './LoadingExample.astro?raw';
+import emptyCode from './EmptyExample.astro?raw';
+import feedbackCode from './FeedbackExample.astro?raw';
+import content from './content.json';
+import {href} from '../../data';
+import '../../styles/component-docs.css';
+import './reference.css';
+const {entry}=Astro.props as {entry:typeof content[number]};
+const examples={overview:OverviewExample,forms:FormsExample,navigation:NavigationExample,loading:LoadingExample,empty:EmptyExample,feedback:FeedbackExample};
+const sources={overview:overviewCode,forms:formsCode,navigation:navigationCode,loading:loadingCode,empty:emptyCode,feedback:feedbackCode};
+const key=entry.demo as keyof typeof examples;const Example=key?examples[key]:null;
+const toc=[{id:'intent',label:'Intent'},...(Example?[{id:'example',label:'Composed example'}]:[]),{id:'guidelines',label:entry.slug==='changelog'?'Milestones':'Usage guidance'},{id:'accessibility',label:'Accessibility'},{id:'implementation',label:'Implementation'},{id:'related',label:'Related references'}];
+const resourceCode=entry.slug==='developer-handoff'?`---\n// Example file: website/src/pages/example.astro\nimport Button from '../components/actions/Button.astro';\n---\n<Button variant="primary" size="medium">Check details</Button>\n<!-- Connect the action to your actual operation; no service is implied. -->`:entry.slug==='usage-guidelines'?`.composition {\n  color: var(--samvad-semantic-color-text-primary);\n  gap: var(--samvad-semantic-space-scale-24);\n}\n/* Use an existing Stack for layout where possible. */`:null;
+---
+<DocsLayout page={entry.id} toc={toc}>
+ <article class="component-docs reference-docs">
+  <section id="intent" class="doc-section"><h2>{entry.group==='Patterns'?'Compose with intent.':'A shared working reference.'}</h2><p>{entry.why}</p><p class="component-preview-notice"><strong>Approved reference.</strong> Built on the approved foundations, 49 component families and 629-token system. This page adds no production token or component decision.</p></section>
+  {Example&&<section id="example" class="doc-section"><h2>See the parts work together.</h2><div class="pattern-example" data-pattern-example><Example/></div><p class="source-note">An isolated documentation specimen. No network request, persistent storage or product screen.</p></section>}
+  <section id="guidelines" class="doc-section"><h2>{entry.slug==='changelog'?'Milestones and status':'Usage guidance'}</h2><ul class="checklist">{entry.rules.map(rule=><li>{rule}</li>)}</ul></section>
+  <section id="accessibility" class="doc-section"><h2>Accessibility across the interaction</h2><ul class="checklist">{entry.access.map(rule=><li>{rule}</li>)}</ul></section>
+  <section id="implementation" class="doc-section"><h2>Implementation guidance</h2>{entry.implementation.map(text=><p>{text}</p>)}{key&&<><p class="source-note">Copyable source is the exact preview composition. Imports resolve relative to <code>website/src/components/patterns/</code>. The existing shared <code>runtime.ts</code> in that folder coordinates the examples; use the underlying components in your own integration.</p><CodeBlock code={sources[key]}/></>}{resourceCode&&<CodeBlock code={resourceCode} language={entry.slug==='usage-guidelines'?'CSS':'Astro'}/>}</section>
+  <section id="related" class="doc-section"><h2>Related references</h2><ul>{entry.related.map(([label,path])=><li><a href={href(path)}>{label}</a></li>)}</ul>{entry.tokens.length>0&&<><h3>Token references used by this composition</h3><ul>{entry.tokens.map(token=><li><code>{token}</code></li>)}</ul><p>Inspect their alias chains, mode values and approval status in the <a href={href('design-tokens/')}>token source tables</a>. Referencing a candidate alias here does not ratify it.</p></>}</section>
+ </article>
+</DocsLayout>

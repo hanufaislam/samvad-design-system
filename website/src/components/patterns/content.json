@@ -1,0 +1,460 @@
+[
+  {
+    "slug": "",
+    "title": "Patterns overview",
+    "description": "Combine familiar parts into clear, accessible interactions.",
+    "demo": "overview",
+    "why": "A component solves a small, repeatable task. A pattern connects components, content and behaviour around a complete interaction: asking for information, locating content, waiting or recovering. These references are deliberately small; they are not Samvad application screens.",
+    "rules": [
+      "Start with the user\u2019s immediate intent, then choose the smallest composition that makes the next step clear. Do not add every available component to a single example.",
+      "Keep one primary action per decision point. Use labels and useful copy before adding decoration, colour or motion.",
+      "Choose the state model before styling: ready, busy, complete, empty and recoverable error are different situations. Preserve user input when a request fails.",
+      "Reuse the existing component APIs and 629-token architecture. Approved component exceptions remain valid; unrelated candidate mappings and the 39 retained declarations are not silently resolved by a pattern."
+    ],
+    "access": [
+      "Evaluate the whole interaction: reading order, keyboard order, announcements and where focus goes after a state change. Individually accessible parts do not guarantee an accessible composition.",
+      "Keep status in text, associate errors with fields, and check the pattern at narrow widths and enlarged text. Do not use colour or animation as the only explanation."
+    ],
+    "implementation": [
+      "Each live specimen imports the actual local Astro components. The copyable source below is the same source used by the preview, with local paths relative to website/src/components/patterns/.",
+      "Pattern runtime is shared in that folder. These are local reference implementations, not an installable package or a new production service API. Simulations do not send or store data."
+    ],
+    "related": [
+      [
+        "Forms",
+        "patterns/forms/"
+      ],
+      [
+        "Loading",
+        "patterns/loading/"
+      ],
+      [
+        "Design principles",
+        "get-started/principles/"
+      ],
+      [
+        "Token overview",
+        "design-tokens/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/space/scale/24",
+      "Semantic/color/bg/default"
+    ],
+    "group": "Patterns",
+    "id": "pattern-overview",
+    "path": "patterns/"
+  },
+  {
+    "slug": "forms",
+    "title": "Forms",
+    "description": "Ask clearly, validate deliberately and help people recover.",
+    "demo": "forms",
+    "why": "A useful form connects labels, constraints, helper text, field errors, an error summary and an action. In this example, an empty title focuses a summary that links back to the field. A valid submission acknowledges completion locally without implying a real save.",
+    "rules": [
+      "Use a visible label for every control. Put the format or constraint in helper text before the person needs to guess. Mark required fields in text.",
+      "Validate on submit first; after an error, update that field as it is corrected. Avoid showing errors before someone has attempted the task.",
+      "Keep an error beside its field and provide a summary for a failed submission. The summary must name the problem and offer a direct path to the field.",
+      "Preserve the entered title and optional notes after validation fails. Reserve Reset for explicit user intent; do not clear input as a side effect of an error.",
+      "Use the primary action to describe the real result. This reference says \u201cCheck details\u201d because it performs local validation, not persistence."
+    ],
+    "access": [
+      "The real TextInput and Textarea components provide label and description relationships. Shared validateForm sets aria-invalid and field messages.",
+      "The error summary is programmatically focusable and receives focus only after an invalid submit. Its link targets the title control; normal reading order still follows the form.",
+      "The success message uses a polite status region. Do not announce every keystroke, and do not add both an alert and a duplicate spoken error summary."
+    ],
+    "implementation": [
+      "Import the field components and validateForm helper rather than copying field markup or creating a second validation system. The shared pattern runtime coordinates only the composition.",
+      "Keep server validation authoritative in a real integration, retain draft values, and map server errors to the same field IDs. No backend, authentication or network contract is implemented here.",
+      "Reset clears field validation and the summary. Submission remains a native form event with explicit preventDefault for this local example."
+    ],
+    "related": [
+      [
+        "Form field",
+        "components/inputs/form-field/"
+      ],
+      [
+        "Text input",
+        "components/inputs/text-input/"
+      ],
+      [
+        "Textarea",
+        "components/inputs/textarea/"
+      ],
+      [
+        "Feedback pattern",
+        "patterns/error-and-success-states/"
+      ],
+      [
+        "Typography",
+        "design-tokens/typography/"
+      ]
+    ],
+    "tokens": [
+      "Component/shared/type/label/weight",
+      "Component/field/type/helper/line-height",
+      "Component/shared/focus/offset"
+    ],
+    "group": "Patterns",
+    "id": "pattern-forms",
+    "path": "patterns/forms/"
+  },
+  {
+    "slug": "navigation",
+    "title": "Navigation",
+    "description": "Separate location, local views and movement through a collection.",
+    "demo": "navigation",
+    "why": "Breadcrumbs describe hierarchy, tabs switch related local views, and pagination moves through a bounded collection. The example combines those roles without turning them into interchangeable visual controls. Changing pages updates the sample list, not just a page number.",
+    "rules": [
+      "Use links for destinations that deserve their own URL, browser history or open-in-new-tab behaviour. Do not use a tab to disguise a route change.",
+      "Breadcrumbs describe the parent path, not a history of clicks. Keep the current item as text and use concise, recognisable labels.",
+      "Tabs belong to a single local context. Pagination belongs to an ordered collection; show the current range and do not move to an empty page.",
+      "Use the existing Sidebar and Top navigation components for larger compositions. This reference preserves the documentation shell and does not build a separate application navigation system."
+    ],
+    "access": [
+      "Give each navigation region a distinct accessible name. The example labels hierarchy and pagination separately from the site\u2019s own navigation.",
+      "Tabs use manual activation: Arrow keys move focus, Enter or Space activates the focused tab. Do not unexpectedly load content on focus alone.",
+      "Pagination announces the current page and disables unavailable directions. Its shared runtime preserves usable focus at boundaries. New content should follow the control\u2019s documented reading order."
+    ],
+    "implementation": [
+      "Use the existing samvad:pagechange event to update collection content. The supplied local runtime slices a fixed nine-item reference list and updates the visible range.",
+      "Route links use the existing href helper. Real paginated routes may put page state in the URL; this specimen intentionally uses local state and makes no routing-library contract.",
+      "Do not add custom keyboard listeners to Breadcrumbs or links. Retain native anchor behaviour and the Tabs component\u2019s existing roving focus implementation."
+    ],
+    "related": [
+      [
+        "Tabs",
+        "components/navigation/tabs/"
+      ],
+      [
+        "Breadcrumbs",
+        "components/navigation/breadcrumbs/"
+      ],
+      [
+        "Pagination",
+        "components/navigation/pagination/"
+      ],
+      [
+        "Sidebar navigation",
+        "components/navigation/sidebar-navigation/"
+      ],
+      [
+        "Top navigation",
+        "components/navigation/top-navigation/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/text/primary",
+      "Semantic/color/border/default",
+      "Component/shared/focus/offset"
+    ],
+    "group": "Patterns",
+    "id": "pattern-navigation",
+    "path": "patterns/navigation/"
+  },
+  {
+    "slug": "loading",
+    "title": "Loading",
+    "description": "Explain the wait without replacing useful context with motion.",
+    "demo": "loading",
+    "why": "Loading is a temporary state of an interaction, not decoration. The example coordinates a busy action, a busy content region, a textual status and a skeleton. Start and Finish are manual controls so the transition can be inspected without invented request timing.",
+    "rules": [
+      "Use a spinner for an unknown wait and a skeleton only when the expected content shape is known. Do not invent a completion percentage.",
+      "Keep useful existing content during background refresh where possible. Replacing the content here demonstrates an initial-load region; it is not a requirement for every request.",
+      "Prevent duplicate submission while preserving the action\u2019s position. Keep independent cancellation or navigation available where the real operation supports it.",
+      "Finish with meaningful content or a recoverable error. Never let a spinner become the only explanation for an indefinite wait."
+    ],
+    "access": [
+      "Set aria-busy on the region being updated. Keep a status message outside that busy subtree so it can explain the transition.",
+      "Do not move focus into the spinner or skeleton. If a temporary control becomes disabled after completion, return focus to a stable action.",
+      "The approved 960ms loading cadence remains a documented exception. Existing reduced-motion rules stop spinner and skeleton animation; text must still communicate the wait."
+    ],
+    "implementation": [
+      "The actual Button, LoadingState, SkeletonLoader and Card implementations are composed with Stack. Shared pattern runtime manages only busy/ready state and completion focus.",
+      "There is no timeout or fake service call. In an integration, connect state to the real request, handle cancellation where supported, and preserve context on failure.",
+      "Do not tie request duration to motion duration. Motion easing and loading cadence tokens describe presentation, not an API timeout."
+    ],
+    "related": [
+      [
+        "Loading state",
+        "components/feedback/loading-state/"
+      ],
+      [
+        "Skeleton loader",
+        "components/data-display/skeleton-loader/"
+      ],
+      [
+        "Progress indicator",
+        "components/data-display/progress-indicator/"
+      ],
+      [
+        "Error and success",
+        "patterns/error-and-success-states/"
+      ],
+      [
+        "CSS exports",
+        "design-tokens/css-variables/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/motion/duration/loading",
+      "Component/loading-state/motion/easing/default",
+      "Component/skeleton-loader/motion/easing/default"
+    ],
+    "group": "Patterns",
+    "id": "pattern-loading",
+    "path": "patterns/loading/"
+  },
+  {
+    "slug": "empty-states",
+    "title": "Empty states",
+    "description": "Distinguish \u201cnothing here yet\u201d from \u201cnothing matches\u201d.",
+    "demo": "empty",
+    "why": "A first-use empty state explains what belongs in a collection and how to start. A filtered empty state explains that existing content has not disappeared. Add a local example, then filter it with an unmatched term to compare the two recovery paths.",
+    "rules": [
+      "For first use, explain what can be added and offer one useful next action. Avoid celebratory copy for a blocked or unsuccessful task.",
+      "For no matches, preserve the query and offer a clear filter-reset action. Do not replace that action with \u201cCreate\u201d when content already exists.",
+      "Treat unavailable data or a failed request as an error, not an empty collection. Never imply that a permission problem means the user owns no content.",
+      "Use concise language and the existing EmptyState composition. Illustration is optional; this pattern adds no new illustration assets or visual tokens."
+    ],
+    "access": [
+      "Give the collection a name and announce result counts politely. A filter should keep its label even when the collection has no matches.",
+      "After clearing filters, focus returns to the input so the next query is easy. After adding the first local example, focus moves to the newly available filter.",
+      "Do not move focus on each input event or announce the same no-results content through multiple live regions."
+    ],
+    "implementation": [
+      "The reference creates one in-memory example and filters it with a native input. Nothing is persisted. Clearing the filter restores the original item.",
+      "Use the existing EmptyState, SearchInput and Button components. The runtime changes visibility and result text; it does not recreate the components.",
+      "In real collections, keep filter state in the appropriate route or local model and distinguish loading, no matches, empty and failed states explicitly."
+    ],
+    "related": [
+      [
+        "Empty state",
+        "components/feedback/empty-state/"
+      ],
+      [
+        "Search input",
+        "components/inputs/search-input/"
+      ],
+      [
+        "Text link",
+        "components/actions/text-link/"
+      ],
+      [
+        "Loading pattern",
+        "patterns/loading/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/text/muted",
+      "Semantic/space/scale/24"
+    ],
+    "group": "Patterns",
+    "id": "pattern-empty-states",
+    "path": "patterns/empty-states/"
+  },
+  {
+    "slug": "error-and-success-states",
+    "title": "Error and success states",
+    "description": "Preserve the work, explain the outcome and offer a useful next step.",
+    "demo": "feedback",
+    "why": "A recoverable error needs context and a next action. A success state confirms what happened without interrupting the person. This example starts with a retained draft message, offers a simulated retry, and distinguishes a correctable validation warning from a completed operation.",
+    "rules": [
+      "Say what failed and what remains safe. Use a specific recovery action instead of an unexplained error code or a generic \u201cSomething went wrong\u201d.",
+      "Use field errors for correctable input, a persistent Alert for a blocking or contextual failure, and a Toast for a brief non-blocking confirmation. Do not make a toast the only record of a critical failure.",
+      "Keep feedback close to the affected work. Use one primary recovery path; do not automatically retry an irreversible operation.",
+      "Confirm the actual outcome. This specimen explicitly says simulated/local because no data is saved. In production, acknowledge success only after the operation has completed."
+    ],
+    "access": [
+      "Include a title and explanation, not colour alone. The Alert markers supplement the text rather than replacing it.",
+      "Use one polite status region for these user-triggered changes. Reserve assertive alerts for urgent new failures; avoid announcing the same message twice.",
+      "Do not dismiss persistent errors on a timer. Keep focus on the initiating control when it remains useful, and provide a path to any field that needs correction."
+    ],
+    "implementation": [
+      "Compose Alert with real Buttons. Pattern runtime selects the state and updates one live region; component tone styles come from approved tokens.",
+      "Use the existing Toast notification component when the context supports a non-blocking confirmation; document its dismissal and lifetime in the consuming flow. This pattern does not invent a new toast timeout.",
+      "A real retry must respect operation safety and reconcile the server result. This example changes local presentation only; no error model or service response format is invented."
+    ],
+    "related": [
+      [
+        "Alert",
+        "components/feedback/alert/"
+      ],
+      [
+        "Toast notification",
+        "components/feedback/toast-notification/"
+      ],
+      [
+        "Feedback states",
+        "components/feedback/feedback-states/"
+      ],
+      [
+        "Forms",
+        "patterns/forms/"
+      ],
+      [
+        "Colour roles",
+        "design-tokens/colour/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/text/primary",
+      "Semantic/space/scale/24"
+    ],
+    "group": "Patterns",
+    "id": "pattern-error-and-success-states",
+    "path": "patterns/error-and-success-states/"
+  },
+  {
+    "slug": "usage-guidelines",
+    "title": "Usage guidelines",
+    "description": "Make consistent choices without flattening every interface into the same layout.",
+    "demo": null,
+    "why": "Use Samvad as a shared language, not a collection of decorative parts. Start with the approved direction\u2014\u201cA little character. A lot of clarity.\u201d\u2014then select components and a pattern that match the interaction. Product research and screen design are separate work.",
+    "rules": [
+      "Choose the content hierarchy first. Use expressive type selectively, purposeful colour, whitespace and clear action labels; avoid adding new typography, colours or radii to solve a local layout issue.",
+      "Use the component that matches the semantics: Button for an action, Text link for a destination, Tabs for local views. Do not imitate another component with styled markup.",
+      "Start with the documented sizes and variants. A missing variant is a proposal, not permission to create an undocumented token or detach a copy.",
+      "Use Semantic or Component tokens in compositions. Primitive tokens are source values, not a direct styling shortcut. Keep website-only --docs-* variables out of application components.",
+      "Document each exception with its reason, approved status, affected states and mode behaviour. The closed token phase includes explicit exceptions; it does not make every candidate role official."
+    ],
+    "access": [
+      "Review the full sequence with keyboard only: start, error, correction, busy state and completion. Confirm focus remains visible and meaningful.",
+      "Test labels, long content, zoom, text enlargement, narrow widths and both themes. The accessibility target is WCAG 2.2 AA; no component checklist alone certifies the consuming product.",
+      "Use text or icons alongside semantic colour. Preserve reduced motion, native browser behaviour and 44px minimum interactive targets."
+    ],
+    "implementation": [
+      "Designers: link the chosen component/variant, pattern and token roles in the handoff. Figma is the visual source of truth, while local documentation records implementation status; do not claim automatic bidirectional sync.",
+      "Developers: use the actual local sources, inspect typed props, follow the handoff page and run existing validation before changing shared assets. No npm package or deployment is implied.",
+      "Contributors: propose a shared change with the use case, affected modes/states, accessibility impact and compatibility considerations. Update documentation and changelog with honest approval status."
+    ],
+    "related": [
+      [
+        "Design principles",
+        "get-started/principles/"
+      ],
+      [
+        "Patterns overview",
+        "patterns/"
+      ],
+      [
+        "Developer handoff",
+        "resources/developer-handoff/"
+      ],
+      [
+        "Token overview",
+        "design-tokens/"
+      ],
+      [
+        "Typography",
+        "foundations/typography/"
+      ]
+    ],
+    "tokens": [
+      "Semantic/color/text/primary",
+      "Semantic/space/scale/24"
+    ],
+    "group": "Resources",
+    "id": "resource-usage-guidelines",
+    "path": "resources/usage-guidelines/"
+  },
+  {
+    "slug": "developer-handoff",
+    "title": "Developer handoff",
+    "description": "Turn a documented composition into an implementation with traceable decisions.",
+    "demo": null,
+    "why": "This repository provides local Astro sources and generated CSS/JSON/typed token exports. It is not a published component package. Handoff should make the component choice, interaction states, token status and integration responsibilities explicit before work begins.",
+    "rules": [
+      "Name the components and typed props, including sizes, variants, accessible labels, IDs and slot content. Link to a pattern when several components must coordinate.",
+      "List required states and transitions: ready, hover/focus, disabled/busy, invalid, empty and complete only where relevant. Describe where focus and announcements go.",
+      "Reference token IDs and modes, not screenshots alone. Prefer Component aliases for existing component roles and Semantic aliases for a composition. Confirm whether an alias is approved or still candidate.",
+      "Declare integration boundaries: validation messages, request state, persistence, permissions, routing, localization and cancellation. These reference examples implement none of those services.",
+      "Record what remains undecided, who reviews it and how it will be verified. Do not convert a retained literal into a new production token just to remove a warning."
+    ],
+    "access": [
+      "Carry label/error relationships and unique IDs into the consuming page. Repeated instances must not reuse IDs from the examples.",
+      "Describe keyboard activation, focus restoration and reduced-motion behaviour in the acceptance criteria. Confirm native-control behaviour on target platforms.",
+      "Treat contrast and static ARIA checks as evidence, not a complete accessibility audit. Check the composition with assistive technology in its real context."
+    ],
+    "implementation": [
+      "For an Astro page under website/src/pages/, import the real component source with a relative path. Load the generated token CSS before custom composition styles. Existing components already load their shared CSS and runtime.",
+      "Edit design-system/tokens/source JSON only when an approved change requires it. Run tokens:build, tokens:check, tokens:qa, tokens:verify-approved and verify:tokens; never hand-edit mirrored public exports.",
+      "Run check, build, verify, verify:actions, verify:batch, verify:library, verify:components and verify:references. Inspect both themes, keyboard states and responsive composition. Package adapters and public API distribution remain pending."
+    ],
+    "related": [
+      [
+        "Button API",
+        "components/actions/button/"
+      ],
+      [
+        "Form field API",
+        "components/inputs/form-field/"
+      ],
+      [
+        "CSS variables and downloads",
+        "design-tokens/css-variables/"
+      ],
+      [
+        "Usage guidelines",
+        "resources/usage-guidelines/"
+      ],
+      [
+        "Changelog",
+        "resources/changelog/"
+      ]
+    ],
+    "tokens": [
+      "Component/button/color/action/primary/default",
+      "Semantic/color/text/primary"
+    ],
+    "group": "Resources",
+    "id": "resource-developer-handoff",
+    "path": "resources/developer-handoff/"
+  },
+  {
+    "slug": "changelog",
+    "title": "Changelog",
+    "description": "Know what is approved, what is implemented for review and what has not shipped.",
+    "demo": null,
+    "why": "This page tracks documentation milestones, not published package releases. Dates reflect this project\u2019s review history. The repository CHANGELOG.md is the detailed contributor record. No deployment, public release or native Figma synchronization is implied.",
+    "rules": [
+      "2026-11-04 \u00b7 Get Started + Foundations: all sixteen pages approved. The full 84-route website is undergoing final audit and publishing preparation; public release is not yet authorized.",
+      "2026-11-04 \u00b7 Patterns + Resources: nine documentation pages and composed local examples approved. No deployment or public package release occurred.",
+      "2026-11-04 \u00b7 Design Tokens: formally approved and closed after final regression QA. The implementation contains 629 tokens and 435 bindings across 49 component families.",
+      "2026-11-04 \u00b7 Five token decisions: reviewed shadows, Dark quiet borders, field typography, focus/radius/large-control geometry and motion implemented. Other candidate mappings and 39 retained declarations remain explicit.",
+      "2026-11-03 \u00b7 Components: all 49 families approved, followed by consolidated component QA. Local Astro implementations and documentation remain the reference; no package was published.",
+      "2026-11-03 \u00b7 Foundations and direction: Direction 01 and foundation decisions established. Earlier native Figma work has separately documented verification limitations; this batch did not change Figma."
+    ],
+    "access": [
+      "Treat accessibility-related changes as behaviour changes: record focus, announcements, target sizes and reduced-motion impact as well as visual differences.",
+      "Do not infer that an approved documentation milestone certifies all browsers, assistive technologies or consuming product screens."
+    ],
+    "implementation": [
+      "For future entries, record the concrete change, approval state, affected assets, validation evidence and compatibility implications. Keep implementation-for-review separate from approval and publication.",
+      "Update this reader-facing timeline and repository CHANGELOG.md together when a milestone changes. Existing evidence remains historical; newer QA reports supersede their counts rather than erasing the history.",
+      "The present batch preserves the completed token architecture and component implementations. Follow-up changes require a scoped reason and validation, not a general visual redesign."
+    ],
+    "related": [
+      [
+        "Token architecture",
+        "design-tokens/"
+      ],
+      [
+        "Usage guidelines",
+        "resources/usage-guidelines/"
+      ],
+      [
+        "Developer handoff",
+        "resources/developer-handoff/"
+      ],
+      [
+        "Pattern library",
+        "patterns/"
+      ]
+    ],
+    "tokens": [],
+    "group": "Resources",
+    "id": "resource-changelog",
+    "path": "resources/changelog/"
+  }
+]

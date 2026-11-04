@@ -1,0 +1,12 @@
+---
+import ExistingPageExtras from '../../components/foundation-docs/ExistingPageExtras.astro';
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import { principles } from '../../data';
+---
+<DocsLayout page="principles" toc={[{id:'principles',label:'The six principles'},{id:'accessibility',label:'Accessibility baseline'},{id:'in-practice',label:'Applied decisions'},{id:'connections',label:'Related references'}]}>
+  <ol class="principle-list" id="principles">
+    {principles.map((p,i)=><li class="principle"><span class="principle-number">0{i+1}</span><div><h2>{p.name}</h2><p><b>This means:</b> {p.means}</p><p><b>This doesn’t mean:</b> {p.avoid}</p></div></li>)}
+  </ol>
+  <section class="doc-section" id="accessibility"><h2>Access starts with the foundations.</h2><p>Accessibility is part of the design language, from the first colour pair to the last interaction.</p><ul class="checklist"><li>Target WCAG 2.2 AA. Normal text needs at least 4.5:1 contrast; qualifying large text and required non-text indicators need 3:1.</li><li>Use comfortable hit areas: at least 44 logical units, or 48 dp for Android controls.</li><li>Make focus visible. Support keyboard navigation, scalable text and reduced-motion preferences.</li><li>Pair meaningful colour with words or icons. Keep language clear and feedback helpful.</li></ul><p class="source-note">Source: the approved Phase 1 principles and existing Samvad foundation documentation. These implementation checks do not constitute a full accessibility certification.</p></section>
+  <ExistingPageExtras page="principles"/>
+</DocsLayout>

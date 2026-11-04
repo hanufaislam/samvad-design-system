@@ -1,0 +1,22 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import './forms.css';
+interface Props extends Omit<HTMLAttributes<'input'>,'size'> {
+  id: string; label: string; helper?: string; error?: string;
+  kind?: 'input'|'textarea'|'select'; options?: {value:string;label:string}[];
+  size?: 'small'|'medium'|'large'; rows?: number;
+}
+const {id,label,helper,error,kind='input',options=[],size='medium',rows=4,type='text',...attrs}=Astro.props;
+const described=[helper&&`${id}-help`,`${id}-error`,attrs['aria-describedby']].filter(Boolean).join(' ');
+const common={...attrs,id,name:attrs.name??id,'aria-describedby':described,'aria-invalid':error?'true' as const:undefined};
+---
+<div class="sv-field" data-size={size} data-field>
+  <label for={id}>{label}{attrs.required&&<span> (required)</span>}</label>
+  {helper&&<p class="sv-field__help" id={`${id}-help`}>{helper}</p>}
+  <div class:list={['sv-field__control',{'sv-field__select':kind==='select','sv-field__password':type==='password'}]}>
+    {kind==='textarea'?<textarea {...common} rows={rows}>{attrs.value}</textarea>:kind==='select'?<select {...common}>{options.map(o=><option value={o.value} selected={o.value===attrs.value}>{o.label}</option>)}</select>:<input {...common} type={type}/>}
+    {type==='password'&&<button type="button" class="sv-field__reveal" aria-controls={id} aria-label={`Show ${label.toLowerCase()}`} aria-pressed="false" data-password-toggle disabled={attrs.disabled}>Show</button>}
+  </div>
+  <p class="sv-field__error" id={`${id}-error`} aria-live="polite" data-field-error hidden={!error}>{error}</p>
+</div>
+<script>import './runtime';</script>

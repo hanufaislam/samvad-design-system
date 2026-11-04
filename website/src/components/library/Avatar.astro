@@ -1,0 +1,10 @@
+---
+import './library.css';
+interface Props {name:string;src?:string;size?:'small'|'medium'|'large';decorative?:boolean;}
+const {name,src,size='medium',decorative=false}=Astro.props;
+const initials=name.trim().split(/\s+/).slice(0,2).map(v=>Array.from(v)[0]).join('').toUpperCase();
+---
+<span class="sv-avatar" data-size={size} role={decorative?undefined:'img'} aria-label={decorative?undefined:name} aria-hidden={decorative?'true':undefined} data-avatar>
+ <span aria-hidden="true">{initials}</span>{src&&<img src={src} alt="" loading="lazy" data-avatar-image/>}
+</span>
+<script>import './runtime';</script>

@@ -1,0 +1,8 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+import {space,type Space,type Align,type Justify} from './values';
+import './layout.css';
+interface Props extends Omit<HTMLAttributes<'div'>,'style'> {direction?:'vertical'|'horizontal';gap?:Space;align?:Align;justify?:Justify;wrap?:boolean;collapse?:boolean;}
+const {direction='vertical',gap=16,align='stretch',justify='start',wrap=true,collapse=false,class:className,...attrs}=Astro.props;
+---
+<div {...attrs} class:list={['sv-stack',className]} data-direction={direction} data-align={align} data-justify={justify} data-wrap={String(wrap)} data-collapse={String(collapse)} style={`--_svl-gap:${space(gap)}`}><slot/></div>

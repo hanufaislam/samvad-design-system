@@ -1,0 +1,21 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import '@fontsource-variable/geist';
+import Icon from '../Icon.astro';
+import { actionFoundationStyle, type ButtonVariant, type ActionSize } from './foundations';
+import './actions.css';
+interface Props extends Omit<HTMLAttributes<'button'>, 'class' | 'style'> {
+  variant?: ButtonVariant;
+  size?: ActionSize;
+  loading?: boolean;
+  icon?: string;
+  class?: string;
+}
+const { variant='primary', size='medium', loading=false, disabled=false, type='button', icon, class:className='', ...attributes }=Astro.props;
+if(!Astro.slots.has('default')&&!attributes['aria-label']&&!attributes['aria-labelledby'])throw new Error('Button requires visible content or an accessible name.');
+---
+<button {...attributes} type={type} disabled={disabled} class:list={['sv-action',className]} style={actionFoundationStyle} data-variant={variant} data-size={size} data-loading={String(loading)} aria-busy={loading ? 'true' : undefined} aria-disabled={disabled || loading ? 'true' : attributes['aria-disabled']}>
+  <span class="sv-action__content">{icon && <Icon name={icon} size={20}/>}<slot/></span>
+  <span class="sv-action__spinner" aria-hidden="true"></span>
+</button>
+<script>import './runtime';</script>

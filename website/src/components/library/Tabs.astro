@@ -1,0 +1,7 @@
+---
+import './library.css';
+interface Props {id:string;label:string;items:{label:string;content:string;disabled?:boolean}[];selected?:number;}
+const {id,label,items,selected=0}=Astro.props;
+---
+<div class="sv-tabs" data-tabs><div role="tablist" aria-label={label}>{items.map((item,i)=><button type="button" role="tab" id={`${id}-tab-${i}`} aria-controls={`${id}-panel-${i}`} aria-selected={i===selected?'true':'false'} tabindex={i===selected?0:-1} disabled={item.disabled}>{item.label}</button>)}</div>{items.map((item,i)=><div class="sv-tabpanel" role="tabpanel" id={`${id}-panel-${i}`} aria-labelledby={`${id}-tab-${i}`} tabindex="0" hidden={i!==selected}>{item.content}</div>)}</div>
+<script>import './runtime';</script>

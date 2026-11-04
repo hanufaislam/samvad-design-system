@@ -1,0 +1,3290 @@
+{
+  "button/space/scale/48": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/48}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/actions/actions.css: .sv-action:focus-visible,.sv-text-link:focus-visible",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action:focus-visible,.sv-text-link:focus-visible",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/on-solid": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/on-solid}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/type/body/s/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/body/s/size}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/font/weight/strong": {
+    "$type": "number",
+    "$value": "{Semantic/font/weight/strong}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/motion/duration/fast": {
+    "$type": "duration",
+    "$value": "{Semantic/motion/duration/fast}",
+    "$description": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: /* Private component-preview mappings, deliberately separate from shell styling.\n   Sizes, state assignments and public semantic token mappings await review. */\n.sv-action",
+        "scope": []
+      }
+    }
+  },
+  "button/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "button/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "button/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/actions/actions.css: .sv-action__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action__spinner",
+        "scope": []
+      }
+    }
+  },
+  "button/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-size=large]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-size=large]",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/primary/hover": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/hover}",
+    "$description": "website/src/components/actions/actions.css: .sv-action:hover:not(:disabled):not([aria-disabled=true])",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action:hover:not(:disabled):not([aria-disabled=true])",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/primary/pressed": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/pressed}",
+    "$description": "website/src/components/actions/actions.css: .sv-action:active:not(:disabled):not([aria-disabled=true])",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action:active:not(:disabled):not([aria-disabled=true])",
+        "scope": []
+      }
+    }
+  },
+  "button/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-variant=secondary]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-variant=secondary]",
+        "scope": []
+      }
+    }
+  },
+  "button/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/actions/actions.css: .sv-action:disabled",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action:disabled",
+        "scope": []
+      }
+    }
+  },
+  "button/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-variant=secondary]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-variant=secondary]",
+        "scope": []
+      }
+    }
+  },
+  "button/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/actions/actions.css: .sv-action:disabled",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action:disabled",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/destructive/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/destructive/default}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-variant=destructive]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-variant=destructive]",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/destructive/hover": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/destructive/hover}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-variant=destructive]:hover:not(:disabled):not([aria-disabled=true])",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-variant=destructive]:hover:not(:disabled):not([aria-disabled=true])",
+        "scope": []
+      }
+    }
+  },
+  "button/color/action/destructive/pressed": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/destructive/pressed}",
+    "$description": "website/src/components/actions/actions.css: .sv-action[data-variant=destructive]:active:not(:disabled):not([aria-disabled=true])",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action[data-variant=destructive]:active:not(:disabled):not([aria-disabled=true])",
+        "scope": []
+      }
+    }
+  },
+  "button/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/actions/actions.css: .sv-action__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action__spinner",
+        "scope": []
+      }
+    }
+  },
+  "button/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/actions/actions.css: .sv-action:disabled",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action:disabled",
+        "scope": []
+      }
+    }
+  },
+  "button/motion/duration/spinner": {
+    "$type": "duration",
+    "$value": "{Semantic/motion/duration/spinner}",
+    "$description": "website/src/components/actions/actions.css: .sv-action__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-action__spinner",
+        "scope": []
+      }
+    }
+  },
+  "icon-button/space/scale/48": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/48}",
+    "$description": "website/src/components/actions/actions.css: .sv-icon-action",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-icon-action",
+        "scope": []
+      }
+    }
+  },
+  "icon-button/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/actions/actions.css: .sv-icon-action[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-icon-action[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "icon-button/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/actions/actions.css: .sv-icon-action[aria-pressed=true]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-icon-action[aria-pressed=true]",
+        "scope": []
+      }
+    }
+  },
+  "icon-button/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/actions/actions.css: .sv-icon-action[aria-pressed=true]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-icon-action[aria-pressed=true]",
+        "scope": []
+      }
+    }
+  },
+  "button-group/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/actions/actions.css: .sv-button-group",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-button-group",
+        "scope": []
+      }
+    }
+  },
+  "button-group/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/actions/actions.css: .sv-button-group[data-group-variant=joined]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-button-group[data-group-variant=joined]",
+        "scope": []
+      }
+    }
+  },
+  "text-link/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link",
+        "scope": []
+      }
+    }
+  },
+  "text-link/type/body/m/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/body/m/size}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link",
+        "scope": []
+      }
+    }
+  },
+  "text-link/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link",
+        "scope": []
+      }
+    }
+  },
+  "text-link/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link",
+        "scope": []
+      }
+    }
+  },
+  "text-link/radius/xs": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/xs}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link",
+        "scope": []
+      }
+    }
+  },
+  "text-link/type/body/s/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/body/s/size}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "text-link/type/body/l/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/body/l/size}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link[data-size=large]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link[data-size=large]",
+        "scope": []
+      }
+    }
+  },
+  "text-link/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link[data-link-variant=subtle]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link[data-link-variant=subtle]",
+        "scope": []
+      }
+    }
+  },
+  "text-link/color/action/primary/hover": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/hover}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link:hover",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link:hover",
+        "scope": []
+      }
+    }
+  },
+  "text-link/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link:hover",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link:hover",
+        "scope": []
+      }
+    }
+  },
+  "text-link/color/action/primary/pressed": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/pressed}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link:active",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link:active",
+        "scope": []
+      }
+    }
+  },
+  "text-link/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/actions/actions.css: .sv-text-link[aria-disabled=true]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: .sv-text-link[aria-disabled=true]",
+        "scope": []
+      }
+    }
+  },
+  "field/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/forms/forms.css: .sv-field :is(input,textarea,select):disabled,.sv-field :is(input,textarea)[readonly]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field :is(input,textarea,select):disabled,.sv-field :is(input,textarea)[readonly]",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/48": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/48}",
+    "$description": "website/src/components/forms/forms.css: .sv-field__select select",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field__select select",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/forms/forms.css: .sv-field__select::after",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field__select::after",
+        "scope": []
+      }
+    }
+  },
+  "field/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/forms/forms.css: .sv-field :is(input,textarea,select)",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field :is(input,textarea,select)",
+        "scope": []
+      }
+    }
+  },
+  "field/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-field :is(input,textarea,select)",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field :is(input,textarea,select)",
+        "scope": []
+      }
+    }
+  },
+  "field/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/forms/forms.css: .sv-field__reveal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field__reveal",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/forms/forms.css: .sv-field[data-size=\"large\"] :is(input,textarea,select)",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field[data-size=\"large\"] :is(input,textarea,select)",
+        "scope": []
+      }
+    }
+  },
+  "field/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-field__reveal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field__reveal",
+        "scope": []
+      }
+    }
+  },
+  "field/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/80": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/80}",
+    "$description": "website/src/components/forms/forms.css: .sv-field .sv-field__password input",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field .sv-field__password input",
+        "scope": []
+      }
+    }
+  },
+  "field/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/forms/forms.css: .sv-field__reveal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field__reveal",
+        "scope": []
+      }
+    }
+  },
+  "field/radius/sm": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/sm}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input::file-selector-button",
+        "scope": []
+      }
+    }
+  },
+  "field/font/family/mono": {
+    "$type": "fontFamily",
+    "$value": "{Semantic/font/family/mono}",
+    "$description": "website/src/components/forms/forms.css: .sv-field input[data-otp-length]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field input[data-otp-length]",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/forms/forms.css: .sv-choice input",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choice input",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice:hover span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice:hover span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+        "scope": []
+      }
+    }
+  },
+  "switch/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch input",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch input",
+        "scope": []
+      }
+    }
+  },
+  "switch/space/scale/40": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/40}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track::after",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track::after",
+        "scope": []
+      }
+    }
+  },
+  "switch/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track::after",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track::after",
+        "scope": []
+      }
+    }
+  },
+  "switch/motion/duration/fast": {
+    "$type": "duration",
+    "$value": "{Semantic/motion/duration/fast}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch__track::after",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch__track::after",
+        "scope": []
+      }
+    }
+  },
+  "switch/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch input:checked+.sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch input:checked+.sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch input:checked+.sv-switch__track::after",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch input:checked+.sv-switch__track::after",
+        "scope": []
+      }
+    }
+  },
+  "switch/color/focus/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/focus/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch input:focus-visible+.sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch input:focus-visible+.sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "switch/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/forms/forms.css: .sv-switch input:focus-visible+.sv-switch__track",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-switch input:focus-visible+.sv-switch__track",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:checked+span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:checked+span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/color/focus/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/focus/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:focus-visible+span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:focus-visible+span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices input:checked+span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices input:checked+span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices[data-variant=segmented] .sv-choices__options",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices[data-variant=segmented] .sv-choices__options",
+        "scope": []
+      }
+    }
+  },
+  "chips/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/forms/forms.css: .sv-removable-chip",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-removable-chip",
+        "scope": []
+      }
+    }
+  },
+  "chips/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/forms/forms.css: .sv-removable-chip button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-removable-chip button",
+        "scope": []
+      }
+    }
+  },
+  "chips/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/forms/forms.css: .sv-removable-chip",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-removable-chip",
+        "scope": []
+      }
+    }
+  },
+  "chips/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/forms/forms.css: .sv-removable-chip",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-removable-chip",
+        "scope": []
+      }
+    }
+  },
+  "chips/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/forms/forms.css: .sv-removable-chip",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-removable-chip",
+        "scope": []
+      }
+    }
+  },
+  "chips/type/heading/4/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/heading/4/size}",
+    "$description": "website/src/components/forms/forms.css: .sv-removable-chip button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-removable-chip button",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+        "scope": []
+      }
+    }
+  },
+  "choice-group/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/neutral/bg": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/neutral/bg}",
+    "$description": "website/src/components/library/library.css: /* Private foundation adapters: no official semantic/component token API. */\n.sv-tone",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: /* Private foundation adapters: no official semantic/component token API. */\n.sv-tone",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/neutral/text": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/neutral/text}",
+    "$description": "website/src/components/library/library.css: /* Private foundation adapters: no official semantic/component token API. */\n.sv-tone",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: /* Private foundation adapters: no official semantic/component token API. */\n.sv-tone",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/neutral/border": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/neutral/border}",
+    "$description": "website/src/components/library/library.css: /* Private foundation adapters: no official semantic/component token API. */\n.sv-tone",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: /* Private foundation adapters: no official semantic/component token API. */\n.sv-tone",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/info/bg": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/info/bg}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=info]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=info]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/info/text": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/info/text}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=info]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=info]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/info/border": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/info/border}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=info]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=info]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/success/bg": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/success/bg}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=success]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=success]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/success/text": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/success/text}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=success]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=success]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/success/border": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/success/border}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=success]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=success]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/warning/bg": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/warning/bg}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=warning]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=warning]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/warning/text": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/warning/text}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=warning]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=warning]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/warning/border": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/warning/border}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=warning]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=warning]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/error/bg": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/error/bg}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=error]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=error]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/error/text": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/error/text}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=error]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=error]",
+        "scope": []
+      }
+    }
+  },
+  "notice/color/feedback/error/border": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/error/border}",
+    "$description": "website/src/components/library/library.css: .sv-tone[data-tone=error]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tone[data-tone=error]",
+        "scope": []
+      }
+    }
+  },
+  "badge/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/library/library.css: .sv-badge",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-badge",
+        "scope": []
+      }
+    }
+  },
+  "badge/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-badge[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-badge[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "badge/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-badge",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-badge",
+        "scope": []
+      }
+    }
+  },
+  "badge/radius/sm": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/sm}",
+    "$description": "website/src/components/library/library.css: .sv-badge",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-badge",
+        "scope": []
+      }
+    }
+  },
+  "badge/space/scale/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/2}",
+    "$description": "website/src/components/library/library.css: .sv-badge[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-badge[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "badge/type/caption/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/caption/size}",
+    "$description": "website/src/components/library/library.css: .sv-badge[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-badge[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "status-indicator/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-status__dot",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-status__dot",
+        "scope": []
+      }
+    }
+  },
+  "avatar/space/scale/40": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/40}",
+    "$description": "website/src/components/library/library.css: .sv-avatar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar",
+        "scope": []
+      }
+    }
+  },
+  "avatar/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-avatar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar",
+        "scope": []
+      }
+    }
+  },
+  "avatar/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-avatar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar",
+        "scope": []
+      }
+    }
+  },
+  "avatar/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-avatar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar",
+        "scope": []
+      }
+    }
+  },
+  "avatar/font/weight/strong": {
+    "$type": "number",
+    "$value": "{Semantic/font/weight/strong}",
+    "$description": "website/src/components/library/library.css: .sv-avatar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar",
+        "scope": []
+      }
+    }
+  },
+  "avatar/space/scale/32": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/32}",
+    "$description": "website/src/components/library/library.css: .sv-avatar[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "avatar/type/caption/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/caption/size}",
+    "$description": "website/src/components/library/library.css: .sv-avatar[data-size=small]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar[data-size=small]",
+        "scope": []
+      }
+    }
+  },
+  "avatar/space/scale/64": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/64}",
+    "$description": "website/src/components/library/library.css: .sv-avatar[data-size=large]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar[data-size=large]",
+        "scope": []
+      }
+    }
+  },
+  "avatar/type/heading/4/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/heading/4/size}",
+    "$description": "website/src/components/library/library.css: .sv-avatar[data-size=large]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-avatar[data-size=large]",
+        "scope": []
+      }
+    }
+  },
+  "card/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-card",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card",
+        "scope": []
+      }
+    }
+  },
+  "card/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-card",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card",
+        "scope": []
+      }
+    }
+  },
+  "card/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-card",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card",
+        "scope": []
+      }
+    }
+  },
+  "card/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-card",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card",
+        "scope": []
+      }
+    }
+  },
+  "card/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/library/library.css: .sv-card",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card",
+        "scope": []
+      }
+    }
+  },
+  "card/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-card[data-variant=subtle]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card[data-variant=subtle]",
+        "scope": []
+      }
+    }
+  },
+  "list/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-list",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-list",
+        "scope": []
+      }
+    }
+  },
+  "list/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-list li",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-list li",
+        "scope": []
+      }
+    }
+  },
+  "list/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-list li",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-list li",
+        "scope": []
+      }
+    }
+  },
+  "list/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/library/library.css: .sv-list p",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-list p",
+        "scope": []
+      }
+    }
+  },
+  "list/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-list p",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-list p",
+        "scope": []
+      }
+    }
+  },
+  "list/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-list a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-list a",
+        "scope": []
+      }
+    }
+  },
+  "table-scroll/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-table-scroll",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table-scroll",
+        "scope": []
+      }
+    }
+  },
+  "table-scroll/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-table-scroll",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table-scroll",
+        "scope": []
+      }
+    }
+  },
+  "table-scroll/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-table-scroll",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table-scroll",
+        "scope": []
+      }
+    }
+  },
+  "table/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-table td,.sv-table th",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table td,.sv-table th",
+        "scope": []
+      }
+    }
+  },
+  "table/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-table[data-density=compact] td",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table[data-density=compact] td",
+        "scope": []
+      }
+    }
+  },
+  "table/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-table td,.sv-table th",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table td,.sv-table th",
+        "scope": []
+      }
+    }
+  },
+  "table/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-table td,.sv-table th",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table td,.sv-table th",
+        "scope": []
+      }
+    }
+  },
+  "table/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-table th",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table th",
+        "scope": []
+      }
+    }
+  },
+  "table/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/library/library.css: .sv-table th button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table th button",
+        "scope": []
+      }
+    }
+  },
+  "table/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-table[data-density=compact] td",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-table[data-density=compact] td",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/library/library.css: .sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button,.sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/type/heading/4/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/heading/4/size}",
+    "$description": "website/src/components/library/library.css: .sv-lib-icon-button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-icon-button",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button:hover:not(:disabled),.sv-lib-icon-button:hover:not(:disabled)",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button:hover:not(:disabled),.sv-lib-icon-button:hover:not(:disabled)",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-lib-button:disabled",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-lib-button:disabled",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/focus/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/focus/default}",
+    "$description": "website/src/components/library/library.css: :is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: :is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+        "scope": []
+      }
+    }
+  },
+  "shared/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/library/library.css: :is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: :is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip__bubble",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip__bubble",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip::before",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip::before",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip__bubble",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip__bubble",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip__bubble",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip__bubble",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip__bubble",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip__bubble",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip__bubble",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip__bubble",
+        "scope": []
+      }
+    }
+  },
+  "tooltip/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/library/library.css: .sv-tooltip__bubble",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tooltip__bubble",
+        "scope": []
+      }
+    }
+  },
+  "progress-indicator/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-progress",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-progress",
+        "scope": []
+      }
+    }
+  },
+  "progress-indicator/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-progress progress",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-progress progress",
+        "scope": []
+      }
+    }
+  },
+  "progress-indicator/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-progress progress::-moz-progress-bar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-progress progress::-moz-progress-bar",
+        "scope": []
+      }
+    }
+  },
+  "progress-indicator/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-progress progress::-webkit-progress-bar",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-progress progress::-webkit-progress-bar",
+        "scope": []
+      }
+    }
+  },
+  "skeleton-loader/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-skeleton__line",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-skeleton__line",
+        "scope": []
+      }
+    }
+  },
+  "skeleton-loader/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-skeleton__line",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-skeleton__line",
+        "scope": []
+      }
+    }
+  },
+  "skeleton-loader/radius/sm": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/sm}",
+    "$description": "website/src/components/library/library.css: .sv-skeleton__line",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-skeleton__line",
+        "scope": []
+      }
+    }
+  },
+  "skeleton-loader/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-skeleton__line",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-skeleton__line",
+        "scope": []
+      }
+    }
+  },
+  "skeleton-loader/space/scale/64": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/64}",
+    "$description": "website/src/components/library/library.css: .sv-skeleton[data-variant=avatar] .sv-skeleton__line",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-skeleton[data-variant=avatar] .sv-skeleton__line",
+        "scope": []
+      }
+    }
+  },
+  "notice/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-notice",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice",
+        "scope": []
+      }
+    }
+  },
+  "notice/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/library/library.css: .sv-notice",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice",
+        "scope": []
+      }
+    }
+  },
+  "notice/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-notice__marker",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice__marker",
+        "scope": []
+      }
+    }
+  },
+  "notice/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-notice",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice",
+        "scope": []
+      }
+    }
+  },
+  "notice/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/library/library.css: .sv-notice p",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice p",
+        "scope": []
+      }
+    }
+  },
+  "notice/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-notice__marker",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice__marker",
+        "scope": []
+      }
+    }
+  },
+  "notice/font/weight/strong": {
+    "$type": "number",
+    "$value": "{Semantic/font/weight/strong}",
+    "$description": "website/src/components/library/library.css: .sv-notice__marker",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-notice__marker",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "toast-notification/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/library/library.css: .sv-toast",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-toast",
+        "scope": []
+      }
+    }
+  },
+  "empty-state/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-empty",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-empty",
+        "scope": []
+      }
+    }
+  },
+  "loading-state/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-loading",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-loading",
+        "scope": []
+      }
+    }
+  },
+  "loading-state/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/library/library.css: .sv-loading__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-loading__spinner",
+        "scope": []
+      }
+    }
+  },
+  "loading-state/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-loading__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-loading__spinner",
+        "scope": []
+      }
+    }
+  },
+  "loading-state/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/library/library.css: .sv-loading__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-loading__spinner",
+        "scope": []
+      }
+    }
+  },
+  "loading-state/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-loading__spinner",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-loading__spinner",
+        "scope": []
+      }
+    }
+  },
+  "tabs/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tablist]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tablist]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/color/border/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/default}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tablist]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tablist]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/radius/sm": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/sm}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab]:disabled",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab]:disabled",
+        "scope": []
+      }
+    }
+  },
+  "tabs/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab][aria-selected=true]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab][aria-selected=true]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [role=tab][aria-selected=true]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [role=tab][aria-selected=true]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/library/library.css: .sv-tabpanel",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabpanel",
+        "scope": []
+      }
+    }
+  },
+  "breadcrumbs/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-breadcrumbs li",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-breadcrumbs li",
+        "scope": []
+      }
+    }
+  },
+  "breadcrumbs/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-breadcrumbs a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-breadcrumbs a",
+        "scope": []
+      }
+    }
+  },
+  "breadcrumbs/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/library/library.css: .sv-breadcrumbs a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-breadcrumbs a",
+        "scope": []
+      }
+    }
+  },
+  "breadcrumbs/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-breadcrumbs [aria-current]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-breadcrumbs [aria-current]",
+        "scope": []
+      }
+    }
+  },
+  "pagination/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-pagination",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-pagination",
+        "scope": []
+      }
+    }
+  },
+  "stepper/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-stepper ol",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper ol",
+        "scope": []
+      }
+    }
+  },
+  "stepper/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-stepper ol",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper ol",
+        "scope": []
+      }
+    }
+  },
+  "stepper/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-stepper li",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper li",
+        "scope": []
+      }
+    }
+  },
+  "stepper/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-stepper li",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper li",
+        "scope": []
+      }
+    }
+  },
+  "stepper/space/scale/32": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/32}",
+    "$description": "website/src/components/library/library.css: .sv-stepper__number",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper__number",
+        "scope": []
+      }
+    }
+  },
+  "stepper/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/library/library.css: .sv-stepper__number",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper__number",
+        "scope": []
+      }
+    }
+  },
+  "stepper/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-stepper__number",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper__number",
+        "scope": []
+      }
+    }
+  },
+  "stepper/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-stepper li[aria-current] .sv-stepper__number",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper li[aria-current] .sv-stepper__number",
+        "scope": []
+      }
+    }
+  },
+  "stepper/font/weight/strong": {
+    "$type": "number",
+    "$value": "{Semantic/font/weight/strong}",
+    "$description": "website/src/components/library/library.css: .sv-stepper li[aria-current]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper li[aria-current]",
+        "scope": []
+      }
+    }
+  },
+  "stepper/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/library/library.css: .sv-stepper li[aria-current] .sv-stepper__number",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper li[aria-current] .sv-stepper__number",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/space/scale/4": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/4}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks[data-orientation=vertical] ul",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks[data-orientation=vertical] ul",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a[aria-current]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a[aria-current]",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/color/action/primary/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/action/primary/default}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a[aria-current]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a[aria-current]",
+        "scope": []
+      }
+    }
+  },
+  "nav-links/font/weight/strong": {
+    "$type": "number",
+    "$value": "{Semantic/font/weight/strong}",
+    "$description": "website/src/components/library/library.css: .sv-navlinks a[aria-current]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-navlinks a[aria-current]",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/space/scale/32": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/32}",
+    "$description": "website/src/components/library/library.css: .sv-modal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/library/library.css: .sv-modal__actions",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal__actions",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/library/library.css: .sv-modal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-modal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-modal[data-kind=drawer]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal[data-kind=drawer]",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/library/library.css: .sv-modal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/library/library.css: .sv-modal",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-modal__heading h2",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal__heading h2",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/type/heading/4/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/heading/4/size}",
+    "$description": "website/src/components/library/library.css: .sv-modal__heading h2",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal__heading h2",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-modal__heading h2",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal__heading h2",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-modal>p",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal>p",
+        "scope": []
+      }
+    }
+  },
+  "modal-panel/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-modal__actions",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-modal__actions",
+        "scope": []
+      }
+    }
+  },
+  "popup/space/scale/20": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/20}",
+    "$description": "website/src/components/library/library.css: .sv-popup",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup",
+        "scope": []
+      }
+    }
+  },
+  "popup/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/library/library.css: .sv-popup",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup",
+        "scope": []
+      }
+    }
+  },
+  "popup/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/library/library.css: .sv-popup",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup",
+        "scope": []
+      }
+    }
+  },
+  "popup/radius/md": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/md}",
+    "$description": "website/src/components/library/library.css: .sv-popup",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup",
+        "scope": []
+      }
+    }
+  },
+  "popup/color/bg/default": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/default}",
+    "$description": "website/src/components/library/library.css: .sv-popup",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup",
+        "scope": []
+      }
+    }
+  },
+  "popup/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/library/library.css: .sv-popup",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup",
+        "scope": []
+      }
+    }
+  },
+  "popup/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/library/library.css: .sv-popup p",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup p",
+        "scope": []
+      }
+    }
+  },
+  "popup/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-popup p",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-popup p",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/space/scale/8": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/8}",
+    "$description": "website/src/components/library/library.css: .sv-menu button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/space/scale/32": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/32}",
+    "$description": "website/src/components/library/library.css: .sv-menu",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "website/src/components/library/library.css: .sv-menu button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/size/touch/minimum": {
+    "$type": "dimension",
+    "$value": "{Semantic/size/touch/minimum}",
+    "$description": "website/src/components/library/library.css: .sv-menu button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/radius/sm": {
+    "$type": "dimension",
+    "$value": "{Semantic/radius/sm}",
+    "$description": "website/src/components/library/library.css: .sv-menu button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "website/src/components/library/library.css: .sv-menu button",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/color/bg/subtle": {
+    "$type": "color",
+    "$value": "{Semantic/color/bg/subtle}",
+    "$description": "website/src/components/library/library.css: .sv-menu button:hover,.sv-menu button:focus",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button:hover,.sv-menu button:focus",
+        "scope": []
+      }
+    }
+  },
+  "dropdown-menu/color/text/muted": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/muted}",
+    "$description": "website/src/components/library/library.css: .sv-menu button:disabled",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-menu button:disabled",
+        "scope": []
+      }
+    }
+  },
+  "stepper/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/library/library.css: .sv-stepper li[aria-current]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-stepper li[aria-current]",
+        "scope": []
+      }
+    }
+  },
+  "tabs/border/width/2": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/2}",
+    "$description": "website/src/components/library/library.css: .sv-tabs [aria-selected=true]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-tabs [aria-selected=true]",
+        "scope": []
+      }
+    }
+  },
+  "container/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/layout/layout.css: /* Shared layout-only rules; all public role/token mappings remain pending. */\n.sv-container",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: /* Shared layout-only rules; all public role/token mappings remain pending. */\n.sv-container",
+        "scope": []
+      }
+    }
+  },
+  "stack/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/layout/layout.css: .sv-stack",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-stack",
+        "scope": []
+      }
+    }
+  },
+  "grid/space/scale/16": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/16}",
+    "$description": "website/src/components/layout/layout.css: .sv-grid",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-grid",
+        "scope": []
+      }
+    }
+  },
+  "divider/color/border/control": {
+    "$type": "color",
+    "$value": "{Semantic/color/border/control}",
+    "$description": "website/src/components/layout/layout.css: .sv-divider",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-divider",
+        "scope": []
+      }
+    }
+  },
+  "divider/border/width/1": {
+    "$type": "dimension",
+    "$value": "{Semantic/border/width/1}",
+    "$description": "website/src/components/layout/layout.css: .sv-divider[data-orientation=vertical]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-divider[data-orientation=vertical]",
+        "scope": []
+      }
+    }
+  },
+  "divider/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/layout/layout.css: .sv-divider[data-orientation=vertical]",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-divider[data-orientation=vertical]",
+        "scope": []
+      }
+    }
+  },
+  "container/space/scale/24": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/24}",
+    "$description": "website/src/components/layout/layout.css: .sv-container",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-container",
+        "scope": []
+      }
+    }
+  },
+  "container/space/scale/32": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/32}",
+    "$description": "website/src/components/layout/layout.css: .sv-container",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/layout/layout.css: .sv-container",
+        "scope": []
+      }
+    }
+  },
+  "shared/font/family/primary": {
+    "$type": "fontFamily",
+    "$value": "{Semantic/font/family/primary}",
+    "$description": "Shared component styling: @import \"../../../../design-system/tokens/dist/tokens.css\";\n.sv-action,.sv-text-link,.sv-button-group",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/actions/actions.css: @import \"../../../../design-system/tokens/dist/tokens.css\";\n.sv-action,.sv-text-link,.sv-button-group",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/feedback/error/field-text": {
+    "$type": "color",
+    "$value": "{Semantic/color/feedback/error/field-text}",
+    "$description": "Shared component styling: @import \"../../../../design-system/tokens/dist/tokens.css\";\n/* Private preview mappings of approved foundations; production aliases pending. */\n.sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: @import \"../../../../design-system/tokens/dist/tokens.css\";\n/* Private preview mappings of approved foundations; production aliases pending. */\n.sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+        "scope": []
+      }
+    }
+  },
+  "shared/color/text/primary": {
+    "$type": "color",
+    "$value": "{Semantic/color/text/primary}",
+    "$description": "Shared component styling: @import \"../../../../design-system/tokens/dist/tokens.css\";\n/* Private preview mappings of approved foundations; production aliases pending. */\n.sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: @import \"../../../../design-system/tokens/dist/tokens.css\";\n/* Private preview mappings of approved foundations; production aliases pending. */\n.sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+        "scope": []
+      }
+    }
+  },
+  "shared/type/body/s/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/body/s/size}",
+    "$description": "Shared component styling: @import \"../../../../design-system/tokens/dist/tokens.css\";\n/* Private preview mappings of approved foundations; production aliases pending. */\n.sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: @import \"../../../../design-system/tokens/dist/tokens.css\";\n/* Private preview mappings of approved foundations; production aliases pending. */\n.sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+        "scope": []
+      }
+    }
+  },
+  "shared/font/weight/regular": {
+    "$type": "number",
+    "$value": "{Semantic/font/weight/regular}",
+    "$description": "Shared component styling: .sv-field label>span,.sv-choices legend>span",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/forms/forms.css: .sv-field label>span,.sv-choices legend>span",
+        "scope": []
+      }
+    }
+  },
+  "shared/type/body/m/size": {
+    "$type": "dimension",
+    "$value": "{Semantic/type/body/m/size}",
+    "$description": "Shared component styling: .sv-card h3,.sv-empty h3,.sv-popup h3",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-card h3,.sv-empty h3,.sv-popup h3",
+        "scope": []
+      }
+    }
+  },
+  "shared/space/scale/12": {
+    "$type": "dimension",
+    "$value": "{Semantic/space/scale/12}",
+    "$description": "Shared component styling: .sv-breadcrumbs ol,.sv-stepper ol,.sv-navlinks ul",
+    "$extensions": {
+      "samvad": {
+        "status": "implementation-candidate",
+        "source": "website/src/components/library/library.css: .sv-breadcrumbs ol,.sv-stepper ol,.sv-navlinks ul",
+        "scope": []
+      }
+    }
+  }
+}

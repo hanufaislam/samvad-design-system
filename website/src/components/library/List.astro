@@ -1,0 +1,7 @@
+---
+import {internalHref} from '../../paths';
+import './library.css';
+interface Props {label:string;ordered?:boolean;items:{title:string;description?:string;href?:string}[];}
+const {label,ordered=false,items}=Astro.props;const Tag=ordered?'ol':'ul';
+---
+<Tag class="sv-list" aria-label={label}>{items.map(item=><li>{item.href?<a href={internalHref(item.href)}>{item.title}</a>:<strong>{item.title}</strong>}{item.description&&<p>{item.description}</p>}</li>)}</Tag>

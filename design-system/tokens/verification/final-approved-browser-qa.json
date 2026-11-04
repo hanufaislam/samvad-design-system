@@ -1,0 +1,581 @@
+{
+  "checks": 108,
+  "failed": [],
+  "results": [
+    {
+      "name": "light inputs/text-input field shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.12) 0px 8px 24px -8px"
+    },
+    {
+      "name": "light inputs/text-input control boundary",
+      "pass": true,
+      "actual": "rgb(153, 127, 128)"
+    },
+    {
+      "name": "light inputs/text-input focus mapping",
+      "pass": true
+    },
+    {
+      "name": "light inputs/text-input label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "light inputs/text-input helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "light inputs/text-input error",
+      "pass": true
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light inputs/form-field field shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.12) 0px 8px 24px -8px"
+    },
+    {
+      "name": "light inputs/form-field control boundary",
+      "pass": true,
+      "actual": "rgb(153, 127, 128)"
+    },
+    {
+      "name": "light inputs/form-field focus mapping",
+      "pass": true
+    },
+    {
+      "name": "light inputs/form-field label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "light inputs/form-field helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "light inputs/form-field error",
+      "pass": true
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light inputs/otp-input field shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.12) 0px 8px 24px -8px"
+    },
+    {
+      "name": "light inputs/otp-input control boundary",
+      "pass": true,
+      "actual": "rgb(153, 127, 128)"
+    },
+    {
+      "name": "light inputs/otp-input focus mapping",
+      "pass": true
+    },
+    {
+      "name": "light inputs/otp-input label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "light inputs/otp-input helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "light inputs/otp-input error",
+      "pass": true
+    },
+    {
+      "name": "light OTP retained",
+      "pass": true,
+      "actual": "1.75px"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light selection/checkbox label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "light selection/checkbox error",
+      "pass": true
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light selection/switch helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light full capsule radius",
+      "pass": true
+    },
+    {
+      "name": "light selection/switch reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "light switch reduced-motion rule activation",
+      "pass": true
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light actions/button large retained",
+      "pass": true,
+      "actual": "56px"
+    },
+    {
+      "name": "light actions/button reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "light button reduced-motion rule activation",
+      "pass": true,
+      "actual": "0s"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light actions/icon-button large retained",
+      "pass": true,
+      "actual": "56px"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light quiet border",
+      "pass": true,
+      "actual": "rgb(233, 221, 216)"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light data-display/skeleton-loader loading cadence",
+      "pass": true,
+      "actual": "0.96s"
+    },
+    {
+      "name": "light data-display/skeleton-loader loading easing",
+      "pass": true,
+      "actual": "ease-in-out"
+    },
+    {
+      "name": "light data-display/skeleton-loader reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "light data-display/skeleton-loader reduced-motion rule activation",
+      "pass": true,
+      "actual": "none"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light feedback/loading-state loading cadence",
+      "pass": true,
+      "actual": "0.96s"
+    },
+    {
+      "name": "light feedback/loading-state loading easing",
+      "pass": true,
+      "actual": "linear"
+    },
+    {
+      "name": "light feedback/loading-state reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "light feedback/loading-state reduced-motion rule activation",
+      "pass": true,
+      "actual": "none"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light feedback/toast-notification opens",
+      "pass": true
+    },
+    {
+      "name": "light feedback/toast-notification shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.12) 0px 16px 40px -8px"
+    },
+    {
+      "name": "light button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "light overlays/popover opens",
+      "pass": true
+    },
+    {
+      "name": "light overlays/popover shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.08) 0px 4px 12px -2px"
+    },
+    {
+      "name": "dark inputs/text-input field shadow",
+      "pass": true,
+      "actual": "rgba(0, 0, 0, 0.24) 0px 8px 24px -8px"
+    },
+    {
+      "name": "dark inputs/text-input control boundary",
+      "pass": true,
+      "actual": "rgb(153, 127, 128)"
+    },
+    {
+      "name": "dark inputs/text-input focus mapping",
+      "pass": true
+    },
+    {
+      "name": "dark inputs/text-input label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "dark inputs/text-input helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "dark inputs/text-input error",
+      "pass": true
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark inputs/form-field field shadow",
+      "pass": true,
+      "actual": "rgba(0, 0, 0, 0.24) 0px 8px 24px -8px"
+    },
+    {
+      "name": "dark inputs/form-field control boundary",
+      "pass": true,
+      "actual": "rgb(153, 127, 128)"
+    },
+    {
+      "name": "dark inputs/form-field focus mapping",
+      "pass": true
+    },
+    {
+      "name": "dark inputs/form-field label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "dark inputs/form-field helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "dark inputs/form-field error",
+      "pass": true
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark inputs/otp-input field shadow",
+      "pass": true,
+      "actual": "rgba(0, 0, 0, 0.24) 0px 8px 24px -8px"
+    },
+    {
+      "name": "dark inputs/otp-input control boundary",
+      "pass": true,
+      "actual": "rgb(153, 127, 128)"
+    },
+    {
+      "name": "dark inputs/otp-input focus mapping",
+      "pass": true
+    },
+    {
+      "name": "dark inputs/otp-input label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "dark inputs/otp-input helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "dark inputs/otp-input error",
+      "pass": true
+    },
+    {
+      "name": "dark OTP retained",
+      "pass": true,
+      "actual": "1.75px"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark selection/checkbox label",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "20px",
+        "weight": "600"
+      }
+    },
+    {
+      "name": "dark selection/checkbox error",
+      "pass": true
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark selection/switch helper",
+      "pass": true,
+      "actual": {
+        "size": "14px",
+        "line": "22px",
+        "weight": "400"
+      }
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark full capsule radius",
+      "pass": true
+    },
+    {
+      "name": "dark selection/switch reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "dark switch reduced-motion rule activation",
+      "pass": true
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark actions/button large retained",
+      "pass": true,
+      "actual": "56px"
+    },
+    {
+      "name": "dark actions/button reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "dark button reduced-motion rule activation",
+      "pass": true,
+      "actual": "0s"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark actions/icon-button large retained",
+      "pass": true,
+      "actual": "56px"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark quiet border",
+      "pass": true,
+      "actual": "rgb(77, 59, 70)"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark data-display/skeleton-loader loading cadence",
+      "pass": true,
+      "actual": "0.96s"
+    },
+    {
+      "name": "dark data-display/skeleton-loader loading easing",
+      "pass": true,
+      "actual": "ease-in-out"
+    },
+    {
+      "name": "dark data-display/skeleton-loader reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "dark data-display/skeleton-loader reduced-motion rule activation",
+      "pass": true,
+      "actual": "none"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark feedback/loading-state loading cadence",
+      "pass": true,
+      "actual": "0.96s"
+    },
+    {
+      "name": "dark feedback/loading-state loading easing",
+      "pass": true,
+      "actual": "linear"
+    },
+    {
+      "name": "dark feedback/loading-state reduced-motion media rule exists",
+      "pass": true
+    },
+    {
+      "name": "dark feedback/loading-state reduced-motion rule activation",
+      "pass": true,
+      "actual": "none"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark feedback/toast-notification opens",
+      "pass": true
+    },
+    {
+      "name": "dark feedback/toast-notification shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.24) 0px 16px 40px -8px"
+    },
+    {
+      "name": "dark button standard easing",
+      "pass": true,
+      "actual": "cubic-bezier(0.2, 0, 0, 1), cubic-bezier(0.2, 0, 0, 1)"
+    },
+    {
+      "name": "dark overlays/popover opens",
+      "pass": true
+    },
+    {
+      "name": "dark overlays/popover shadow",
+      "pass": true,
+      "actual": "rgba(41, 27, 37, 0.2) 0px 4px 12px -2px"
+    }
+  ],
+  "limitations": "Reduced-motion declarations extracted from actual CSS media rules and activated in isolated document; this is not OS preference emulation."
+}

@@ -1,0 +1,7 @@
+---
+import {space,type Space} from './values';
+import './layout.css';
+interface Props {orientation?:'horizontal'|'vertical';decorative?:boolean;inset?:Space;hidden?:boolean;}
+const {orientation='horizontal',decorative=false,inset=0,hidden=false}=Astro.props;
+---
+{orientation==='horizontal'?<hr hidden={hidden} class="sv-divider" data-orientation={orientation} role={decorative?'presentation':undefined} style={`--_svl-inset:${space(inset)}`}/>:<div hidden={hidden} class="sv-divider" data-orientation={orientation} role={decorative?undefined:'separator'} aria-orientation={decorative?undefined:'vertical'} aria-hidden={decorative?'true':undefined} style={`--_svl-inset:${space(inset)}`}></div>}

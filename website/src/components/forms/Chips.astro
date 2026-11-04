@@ -1,0 +1,8 @@
+---
+import ChoiceGroup from './ChoiceGroup.astro';
+import './forms.css';
+interface Props {id:string;label:string;options:{value:string;label:string}[];selected?:string[];removable?:boolean;disabled?:boolean;}
+const {id,label,options,selected=[],removable=false,disabled=false}=Astro.props;
+---
+{removable?<div class="sv-chips" role="group" aria-label={label} data-removable-chips><div class="sv-choices__options">{options.map(o=><span class="sv-removable-chip">{o.label}<button type="button" aria-label={`Remove ${o.label}`} disabled={disabled} data-remove-chip>×</button></span>)}</div><p class="sv-field__help" role="status" data-chip-status></p></div>:<ChoiceGroup id={id} label={label} options={options} selected={selected} variant="chips" disabled={disabled}/>}
+<script>import './runtime';</script>

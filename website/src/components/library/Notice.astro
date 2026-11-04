@@ -1,0 +1,8 @@
+---
+import './library.css';
+interface Props {title:string;message:string;tone?:'neutral'|'info'|'success'|'warning'|'error';dismissible?:boolean;announce?:boolean;}
+const {title,message,tone='info',dismissible=false,announce=false}=Astro.props;
+const markers={neutral:'•',info:'i',success:'✓',warning:'!',error:'!'};
+---
+<div class="sv-notice sv-tone" data-tone={tone} role={announce?(tone==='error'?'alert':'status'):undefined} data-notice><span class="sv-notice__marker" aria-hidden="true">{markers[tone]}</span><div><strong>{title}</strong><p>{message}</p><slot/></div>{dismissible&&<button type="button" class="sv-lib-icon-button" aria-label={`Dismiss ${title}`} data-dismiss-notice>×</button>}</div>
+<script>import './runtime';</script>

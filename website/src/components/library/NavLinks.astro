@@ -1,0 +1,7 @@
+---
+import {internalHref} from '../../paths';
+import './library.css';
+interface Props {label:string;items:{label:string;href:string;current?:boolean}[];orientation?:'vertical'|'horizontal';}
+const {label,items,orientation='vertical'}=Astro.props;
+---
+<nav class="sv-navlinks" data-orientation={orientation} aria-label={label}><ul>{items.map(item=><li><a href={internalHref(item.href)} aria-current={item.current?'page':undefined}>{item.label}</a></li>)}</ul></nav>

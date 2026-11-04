@@ -1,0 +1,7 @@
+---
+import './library.css';
+interface Props {label?:string;page?:number;total?:number;}
+const {label='Pagination',page=1,total=5}=Astro.props;
+---
+<nav class="sv-pagination" aria-label={label} data-pagination data-page={page} data-total={total}><button type="button" class="sv-lib-button" data-page-direction="-1" disabled={page<=1}>Previous</button><span role="status" aria-live="polite" data-page-status>Page {page} of {total}</span><button type="button" class="sv-lib-button" data-page-direction="1" disabled={page>=total}>Next</button></nav>
+<script>import './runtime';</script>

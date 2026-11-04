@@ -1,0 +1,5 @@
+---
+import Notice from './Notice.astro';
+type Props=Parameters<typeof Notice>[0];
+---
+<Notice {...Astro.props}/>

@@ -1,0 +1,16 @@
+---
+import Button from '../actions/Button.astro';
+import LoadingState from '../library/LoadingState.astro';
+import SkeletonLoader from '../library/SkeletonLoader.astro';
+import Card from '../library/Card.astro';
+import Stack from '../layout/Stack.astro';
+---
+<Stack gap={24} data-pattern-loading>
+ <Stack direction="horizontal" gap={12}><Button data-load-start>Start loading example</Button><Button variant="secondary" data-load-finish disabled>Finish example</Button></Stack>
+ <div data-load-region aria-busy="false" aria-label="Example reference content">
+  <div data-load-pending hidden><Stack gap={16}><LoadingState label="Loading example references"/><SkeletonLoader label="Reference preview is loading" lines={2}/></Stack></div>
+  <div data-load-content><Card title="Reference content" description="The existing content stays visible until a new request starts."/></div>
+ </div>
+ <p role="status" aria-live="polite" data-load-status>Ready. Start and finish are manual so the states can be inspected.</p>
+</Stack>
+<script>import './runtime';</script>

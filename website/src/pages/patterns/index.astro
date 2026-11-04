@@ -1,0 +1,6 @@
+---
+import content from '../../components/patterns/content.json';
+import ReferencePage from '../../components/patterns/ReferencePage.astro';
+const entry=content.find(e=>e.id==='pattern-overview')!;
+---
+<ReferencePage entry={entry}/>

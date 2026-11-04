@@ -1,0 +1,46 @@
+# Inactive template: review before copying to .github/workflows/pages.yml.
+name: Publish approved Samvad documentation
+on:
+  workflow_dispatch:
+    inputs:
+      release_confirmation:
+        description: 'Type publish only after public release approval'
+        type: string
+        required: true
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: ${{ inputs.release_confirmation == 'publish' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Build static site and upload Pages artifact
+        uses: withastro/action@v6
+        with:
+          path: website
+          node-version: '24.22.1'
+        env:
+          SAMVAD_SITE_URL: ${{ steps.pages.outputs.origin }}
+          SAMVAD_BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish reviewed Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v5

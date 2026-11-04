@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "name": "Popover Enter opens",
+      "pass": true
+    },
+    {
+      "name": "Popover Escape closes and returns focus",
+      "pass": true
+    },
+    {
+      "name": "Switch Space toggles",
+      "pass": true
+    },
+    {
+      "name": "Dialog Enter opens with focus inside",
+      "pass": true
+    },
+    {
+      "name": "Dialog Escape closes and restores trigger",
+      "pass": true
+    },
+    {
+      "name": "Tabs ArrowRight moves focus without automatic activation",
+      "pass": true
+    },
+    {
+      "name": "Tabs Enter activates focused tab",
+      "pass": true
+    },
+    {
+      "actual": {
+        "focused": "example",
+        "offset": "2px"
+      },
+      "name": "Field actual keyboard focus uses visible 2px offset",
+      "pass": true
+    },
+    {
+      "name": "Field accepts text",
+      "pass": true
+    }
+  ],
+  "passed": 9,
+  "harnessCorrections": [
+    "Initial field test moved focus away before sampling; actual keyboard-visible input focus was subsequently verified.",
+    "Initial tabs test assumed automatic activation; implementation uses manual Arrow navigation then Enter activation."
+  ],
+  "unresolvedFailures": [],
+  "correctedAssertions": [
+    {
+      "name": "Field keyboard focus offset mapping",
+      "pass": false
+    },
+    {
+      "name": "Tabs ArrowRight selects next panel",
+      "pass": false
+    }
+  ]
+}

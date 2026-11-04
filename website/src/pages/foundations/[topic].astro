@@ -1,0 +1,7 @@
+---
+import entries from '../../components/foundation-docs/content.json';
+import Page from '../../components/foundation-docs/Page.astro';
+export function getStaticPaths(){return entries.filter(e=>e.group==='Foundations').map(entry=>({params:{topic:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+---
+<Page entry={entry}/>

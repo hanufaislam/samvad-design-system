@@ -1,0 +1,33 @@
+{
+  "breakpoints": [
+    {
+      "name": "Compact",
+      "min": 0,
+      "max": 599,
+      "columns": 4,
+      "gutter": 16,
+      "margin": 16
+    },
+    {
+      "name": "Medium",
+      "min": 600,
+      "max": 1023,
+      "columns": 8,
+      "gutter": 24,
+      "margin": 24
+    },
+    {
+      "name": "Wide",
+      "min": 1024,
+      "max": null,
+      "columns": 12,
+      "gutter": 24,
+      "margin": 32
+    }
+  ],
+  "containerMaxima": [
+    640,
+    960,
+    1200
+  ]
+}

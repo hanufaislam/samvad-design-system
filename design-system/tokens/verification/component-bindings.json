@@ -1,0 +1,2612 @@
+[
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action,.sv-text-link,.sv-button-group",
+    "componentToken": "shared/font/family/primary",
+    "semanticToken": "font/family/primary"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/space/scale/48",
+    "semanticToken": "space/scale/48"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/color/action/on-solid",
+    "semanticToken": "color/action/on-solid"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/type/body/s/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/font/weight/strong",
+    "semanticToken": "font/weight/strong"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/motion/duration/fast",
+    "semanticToken": "motion/duration/fast"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/motion/easing/standard",
+    "semanticToken": "motion/easing/standard"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/motion/duration/fast",
+    "semanticToken": "motion/duration/fast"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action",
+    "componentToken": "button/motion/easing/standard",
+    "semanticToken": "motion/easing/standard"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action__content",
+    "componentToken": "button/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-size=small]",
+    "componentToken": "button/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-size=small]",
+    "componentToken": "button/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-size=small]",
+    "componentToken": "button/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-size=large]",
+    "componentToken": "button/size/large",
+    "semanticToken": "size/control/large"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-size=large]",
+    "componentToken": "button/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-size=large]",
+    "componentToken": "button/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:hover:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/action/primary/hover",
+    "semanticToken": "color/action/primary/hover"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:active:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/action/primary/pressed",
+    "semanticToken": "color/action/primary/pressed"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=secondary]",
+    "componentToken": "button/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=secondary]",
+    "componentToken": "button/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=secondary]",
+    "componentToken": "button/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=secondary]:hover:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=secondary]:active:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=secondary]:active:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=ghost]",
+    "componentToken": "button/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=ghost]:is(:hover,:active):not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=destructive]",
+    "componentToken": "button/color/action/destructive/default",
+    "semanticToken": "color/action/destructive/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=destructive]:hover:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/action/destructive/hover",
+    "semanticToken": "color/action/destructive/hover"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action[data-variant=destructive]:active:not(:disabled):not([aria-disabled=true])",
+    "componentToken": "button/color/action/destructive/pressed",
+    "semanticToken": "color/action/destructive/pressed"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:focus-visible,.sv-text-link:focus-visible",
+    "componentToken": "shared/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:focus-visible,.sv-text-link:focus-visible",
+    "componentToken": "shared/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:focus-visible,.sv-text-link:focus-visible",
+    "componentToken": "shared/focus/offset",
+    "semanticToken": "focus/offset"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:disabled",
+    "componentToken": "button/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:disabled",
+    "componentToken": "button/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action:disabled",
+    "componentToken": "button/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action__spinner",
+    "componentToken": "button/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action__spinner",
+    "componentToken": "button/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action__spinner",
+    "componentToken": "button/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-action__spinner",
+    "componentToken": "button/motion/duration/spinner",
+    "semanticToken": "motion/duration/spinner"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action",
+    "componentToken": "icon-button/space/scale/48",
+    "semanticToken": "space/scale/48"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action",
+    "componentToken": "icon-button/space/scale/48",
+    "semanticToken": "space/scale/48"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[data-size=small]",
+    "componentToken": "icon-button/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[data-size=small]",
+    "componentToken": "icon-button/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[data-size=large]",
+    "componentToken": "icon-button/size/large",
+    "semanticToken": "size/control/large"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[data-size=large]",
+    "componentToken": "icon-button/size/large",
+    "semanticToken": "size/control/large"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[aria-pressed=true]",
+    "componentToken": "icon-button/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[aria-pressed=true]",
+    "componentToken": "icon-button/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-icon-action[aria-pressed=true]",
+    "componentToken": "icon-button/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group",
+    "componentToken": "button-group/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined]",
+    "componentToken": "button-group/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined]",
+    "componentToken": "button-group/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=horizontal]>.sv-action:first-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=horizontal]>.sv-action:first-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=horizontal]>.sv-action:last-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=horizontal]>.sv-action:last-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=vertical]>.sv-action:first-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=vertical]>.sv-action:first-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=vertical]>.sv-action:last-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-button-group[data-group-variant=joined][data-layout=vertical]>.sv-action:last-child",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link",
+    "componentToken": "text-link/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link",
+    "componentToken": "text-link/type/body/m/size",
+    "semanticToken": "type/body/m/size"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link",
+    "componentToken": "text-link/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link",
+    "componentToken": "text-link/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link",
+    "componentToken": "text-link/radius/xs",
+    "semanticToken": "radius/xs"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link[data-size=small]",
+    "componentToken": "text-link/type/body/s/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link[data-size=large]",
+    "componentToken": "text-link/type/body/l/size",
+    "semanticToken": "type/body/l/size"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link[data-link-variant=subtle]",
+    "componentToken": "text-link/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link:hover",
+    "componentToken": "text-link/color/action/primary/hover",
+    "semanticToken": "color/action/primary/hover"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link:hover",
+    "componentToken": "text-link/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link:active",
+    "componentToken": "text-link/color/action/primary/pressed",
+    "semanticToken": "color/action/primary/pressed"
+  },
+  {
+    "file": "website/src/components/actions/actions.css",
+    "selector": ".sv-text-link[aria-disabled=true]",
+    "componentToken": "text-link/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "componentToken": "shared/color/feedback/error/field-text",
+    "semanticToken": "color/feedback/error/field-text"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "componentToken": "shared/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "componentToken": "shared/font/family/primary",
+    "semanticToken": "font/family/primary"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+    "componentToken": "shared/type/body/s/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field",
+    "componentToken": "field/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field>label,.sv-choices legend",
+    "componentToken": "shared/type/label/size",
+    "semanticToken": "type/label/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field>label,.sv-choices legend",
+    "componentToken": "shared/type/label/line-height",
+    "semanticToken": "type/label/line-height"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field>label,.sv-choices legend",
+    "componentToken": "shared/type/label/weight",
+    "semanticToken": "type/label/weight"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field label>span,.sv-choices legend>span",
+    "componentToken": "shared/font/weight/regular",
+    "semanticToken": "font/weight/regular"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field label>span,.sv-choices legend>span",
+    "componentToken": "shared/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__help",
+    "componentToken": "field/type/helper/weight",
+    "semanticToken": "type/body/s/weight"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__help",
+    "componentToken": "field/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__help",
+    "componentToken": "field/type/helper/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__help",
+    "componentToken": "field/type/helper/line-height",
+    "semanticToken": "type/body/s/line-height"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__error",
+    "componentToken": "field/type/helper/line-height",
+    "semanticToken": "type/body/s/line-height"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__error",
+    "componentToken": "field/type/helper/weight",
+    "semanticToken": "type/body/s/weight"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__error",
+    "componentToken": "field/type/helper/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/space/scale/48",
+    "semanticToken": "space/scale/48"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select)",
+    "componentToken": "field/shadow/default",
+    "semanticToken": "shadow/field"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field[data-size=\"small\"] :is(input,textarea,select)",
+    "componentToken": "field/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field[data-size=\"small\"] :is(input,textarea,select)",
+    "componentToken": "field/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field[data-size=\"small\"] :is(input,textarea,select)",
+    "componentToken": "field/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field[data-size=\"large\"] :is(input,textarea,select)",
+    "componentToken": "field/size/large",
+    "semanticToken": "size/control/large"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field[data-size=\"large\"] :is(input,textarea,select)",
+    "componentToken": "field/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field[data-size=\"large\"] :is(input,textarea,select)",
+    "componentToken": "field/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::placeholder,.sv-field textarea::placeholder",
+    "componentToken": "field/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select):hover:not(:disabled)",
+    "componentToken": "field/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select):focus-visible,.sv-choice input:focus-visible,.sv-field__reveal:focus-visible,.sv-removable-chip button:focus-visible",
+    "componentToken": "shared/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select):focus-visible,.sv-choice input:focus-visible,.sv-field__reveal:focus-visible,.sv-removable-chip button:focus-visible",
+    "componentToken": "shared/color/focus/default",
+    "semanticToken": "color/focus/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select):focus-visible,.sv-choice input:focus-visible,.sv-field__reveal:focus-visible,.sv-removable-chip button:focus-visible",
+    "componentToken": "shared/focus/offset",
+    "semanticToken": "focus/offset"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select):disabled,.sv-field :is(input,textarea)[readonly]",
+    "componentToken": "field/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field :is(input,textarea,select):disabled,.sv-field :is(input,textarea)[readonly]",
+    "componentToken": "field/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__select select",
+    "componentToken": "field/space/scale/48",
+    "semanticToken": "space/scale/48"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__select::after",
+    "componentToken": "field/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__select::after",
+    "componentToken": "field/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__select::after",
+    "componentToken": "field/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__select::after",
+    "componentToken": "field/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field .sv-field__password input",
+    "componentToken": "field/space/scale/80",
+    "semanticToken": "space/scale/80"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__reveal",
+    "componentToken": "field/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__reveal",
+    "componentToken": "field/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__reveal",
+    "componentToken": "field/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__reveal",
+    "componentToken": "field/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__reveal",
+    "componentToken": "field/radius/sm",
+    "semanticToken": "radius/sm"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field__reveal",
+    "componentToken": "field/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/radius/sm",
+    "semanticToken": "radius/sm"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input::file-selector-button",
+    "componentToken": "field/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-field input[data-otp-length]",
+    "componentToken": "field/font/family/mono",
+    "semanticToken": "font/family/mono"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices legend",
+    "componentToken": "choice-group/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices__options",
+    "componentToken": "choice-group/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices__options",
+    "componentToken": "choice-group/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices__options",
+    "componentToken": "choice-group/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice",
+    "componentToken": "choice-group/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice",
+    "componentToken": "choice-group/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice input",
+    "componentToken": "choice-group/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice input",
+    "componentToken": "choice-group/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice input",
+    "componentToken": "choice-group/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice input",
+    "componentToken": "choice-group/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice:has(input:disabled)",
+    "componentToken": "choice-group/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input",
+    "componentToken": "switch/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input",
+    "componentToken": "switch/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track",
+    "componentToken": "switch/space/scale/40",
+    "semanticToken": "space/scale/40"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track",
+    "componentToken": "switch/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track",
+    "componentToken": "switch/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track",
+    "componentToken": "switch/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track",
+    "componentToken": "switch/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track::after",
+    "componentToken": "switch/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track::after",
+    "componentToken": "switch/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track::after",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track::after",
+    "componentToken": "switch/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch__track::after",
+    "componentToken": "switch/motion/duration/fast",
+    "semanticToken": "motion/duration/fast"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input:checked+.sv-switch__track",
+    "componentToken": "switch/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input:checked+.sv-switch__track",
+    "componentToken": "switch/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input:checked+.sv-switch__track::after",
+    "componentToken": "switch/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input:focus-visible+.sv-switch__track",
+    "componentToken": "switch/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input:focus-visible+.sv-switch__track",
+    "componentToken": "switch/color/focus/default",
+    "semanticToken": "color/focus/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-switch input:focus-visible+.sv-switch__track",
+    "componentToken": "shared/focus/offset",
+    "semanticToken": "focus/offset"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice span",
+    "componentToken": "shared/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:checked+span",
+    "componentToken": "choice-group/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:checked+span",
+    "componentToken": "choice-group/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:checked+span",
+    "componentToken": "choice-group/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:focus-visible+span",
+    "componentToken": "choice-group/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:focus-visible+span",
+    "componentToken": "choice-group/color/focus/default",
+    "semanticToken": "color/focus/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:focus-visible+span",
+    "componentToken": "shared/focus/offset",
+    "semanticToken": "focus/offset"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices[data-variant=segmented] .sv-choices__options",
+    "componentToken": "choice-group/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices[data-variant=chips] .sv-choice span",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip",
+    "componentToken": "chips/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip",
+    "componentToken": "chips/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip",
+    "componentToken": "chips/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip",
+    "componentToken": "chips/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip",
+    "componentToken": "chips/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip button",
+    "componentToken": "chips/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip button",
+    "componentToken": "chips/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip button",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-removable-chip button",
+    "componentToken": "chips/type/heading/4/size",
+    "semanticToken": "type/heading/4/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".batch-toolbar label",
+    "componentToken": "field/type/helper/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".batch-status",
+    "componentToken": "field/type/helper/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices input:checked+span",
+    "componentToken": "choice-group/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choice:hover:not(:has(input:disabled)) span",
+    "componentToken": "choice-group/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) .sv-choice:hover span",
+    "componentToken": "shared/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:checked+span",
+    "componentToken": "choice-group/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+    "componentToken": "choice-group/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+    "componentToken": "choice-group/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/forms/forms.css",
+    "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:disabled+span",
+    "componentToken": "choice-group/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone",
+    "componentToken": "notice/color/feedback/neutral/bg",
+    "semanticToken": "color/feedback/neutral/bg"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone",
+    "componentToken": "notice/color/feedback/neutral/text",
+    "semanticToken": "color/feedback/neutral/text"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone",
+    "componentToken": "notice/color/feedback/neutral/border",
+    "semanticToken": "color/feedback/neutral/border"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=info]",
+    "componentToken": "notice/color/feedback/info/bg",
+    "semanticToken": "color/feedback/info/bg"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=info]",
+    "componentToken": "notice/color/feedback/info/text",
+    "semanticToken": "color/feedback/info/text"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=info]",
+    "componentToken": "notice/color/feedback/info/border",
+    "semanticToken": "color/feedback/info/border"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=success]",
+    "componentToken": "notice/color/feedback/success/bg",
+    "semanticToken": "color/feedback/success/bg"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=success]",
+    "componentToken": "notice/color/feedback/success/text",
+    "semanticToken": "color/feedback/success/text"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=success]",
+    "componentToken": "notice/color/feedback/success/border",
+    "semanticToken": "color/feedback/success/border"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=warning]",
+    "componentToken": "notice/color/feedback/warning/bg",
+    "semanticToken": "color/feedback/warning/bg"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=warning]",
+    "componentToken": "notice/color/feedback/warning/text",
+    "semanticToken": "color/feedback/warning/text"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=warning]",
+    "componentToken": "notice/color/feedback/warning/border",
+    "semanticToken": "color/feedback/warning/border"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=error]",
+    "componentToken": "notice/color/feedback/error/bg",
+    "semanticToken": "color/feedback/error/bg"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=error]",
+    "componentToken": "notice/color/feedback/error/text",
+    "semanticToken": "color/feedback/error/text"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tone[data-tone=error]",
+    "componentToken": "notice/color/feedback/error/border",
+    "semanticToken": "color/feedback/error/border"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge,.sv-status,.sv-avatar,.sv-card,.sv-list,.sv-table,.sv-tooltip,.sv-progress,.sv-skeleton,.sv-notice,.sv-toast-host,.sv-empty,.sv-loading,.sv-tabs,.sv-breadcrumbs,.sv-pagination,.sv-stepper,.sv-navlinks,.sv-modal,.sv-popup",
+    "componentToken": "shared/font/family/primary",
+    "semanticToken": "font/family/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge,.sv-status,.sv-avatar,.sv-card,.sv-list,.sv-table,.sv-tooltip,.sv-progress,.sv-skeleton,.sv-notice,.sv-toast-host,.sv-empty,.sv-loading,.sv-tabs,.sv-breadcrumbs,.sv-pagination,.sv-stepper,.sv-navlinks,.sv-modal,.sv-popup",
+    "componentToken": "shared/type/body/s/size",
+    "semanticToken": "type/body/s/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge,.sv-status,.sv-avatar,.sv-card,.sv-list,.sv-table,.sv-tooltip,.sv-progress,.sv-skeleton,.sv-notice,.sv-toast-host,.sv-empty,.sv-loading,.sv-tabs,.sv-breadcrumbs,.sv-pagination,.sv-stepper,.sv-navlinks,.sv-modal,.sv-popup",
+    "componentToken": "shared/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge",
+    "componentToken": "badge/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge",
+    "componentToken": "badge/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge",
+    "componentToken": "badge/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge",
+    "componentToken": "badge/radius/sm",
+    "semanticToken": "radius/sm"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge[data-size=small]",
+    "componentToken": "badge/space/scale/2",
+    "semanticToken": "space/scale/2"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge[data-size=small]",
+    "componentToken": "badge/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-badge[data-size=small]",
+    "componentToken": "badge/type/caption/size",
+    "semanticToken": "type/caption/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-status",
+    "componentToken": "status-indicator/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-status__dot",
+    "componentToken": "status-indicator/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-status__dot",
+    "componentToken": "status-indicator/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-status__dot",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "avatar/space/scale/40",
+    "semanticToken": "space/scale/40"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "avatar/space/scale/40",
+    "semanticToken": "space/scale/40"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "avatar/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "avatar/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "avatar/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar",
+    "componentToken": "avatar/font/weight/strong",
+    "semanticToken": "font/weight/strong"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar[data-size=small]",
+    "componentToken": "avatar/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar[data-size=small]",
+    "componentToken": "avatar/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar[data-size=small]",
+    "componentToken": "avatar/type/caption/size",
+    "semanticToken": "type/caption/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar[data-size=large]",
+    "componentToken": "avatar/space/scale/64",
+    "semanticToken": "space/scale/64"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar[data-size=large]",
+    "componentToken": "avatar/space/scale/64",
+    "semanticToken": "space/scale/64"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-avatar[data-size=large]",
+    "componentToken": "avatar/type/heading/4/size",
+    "semanticToken": "type/heading/4/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card",
+    "componentToken": "card/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card",
+    "componentToken": "card/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card",
+    "componentToken": "card/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card",
+    "componentToken": "card/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card",
+    "componentToken": "card/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card[data-variant=subtle]",
+    "componentToken": "card/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card h3,.sv-empty h3,.sv-popup h3",
+    "componentToken": "shared/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card h3,.sv-empty h3,.sv-popup h3",
+    "componentToken": "shared/type/body/m/size",
+    "semanticToken": "type/body/m/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card p,.sv-empty p",
+    "componentToken": "shared/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-card p,.sv-empty p",
+    "componentToken": "shared/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-list",
+    "componentToken": "list/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-list li",
+    "componentToken": "list/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-list li",
+    "componentToken": "list/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-list p",
+    "componentToken": "list/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-list p",
+    "componentToken": "list/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-list a",
+    "componentToken": "list/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table-scroll",
+    "componentToken": "table-scroll/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table-scroll",
+    "componentToken": "table-scroll/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table-scroll",
+    "componentToken": "table-scroll/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table caption",
+    "componentToken": "table/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table td,.sv-table th",
+    "componentToken": "table/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table td,.sv-table th",
+    "componentToken": "table/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table td,.sv-table th",
+    "componentToken": "table/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table td,.sv-table th",
+    "componentToken": "table/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table th",
+    "componentToken": "table/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table th button",
+    "componentToken": "table/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table th button",
+    "componentToken": "table/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table[data-density=compact] td",
+    "componentToken": "table/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-table[data-density=compact] td",
+    "componentToken": "table/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button,.sv-lib-icon-button",
+    "componentToken": "shared/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-icon-button",
+    "componentToken": "shared/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-icon-button",
+    "componentToken": "shared/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-icon-button",
+    "componentToken": "shared/type/heading/4/size",
+    "semanticToken": "type/heading/4/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button:hover:not(:disabled),.sv-lib-icon-button:hover:not(:disabled)",
+    "componentToken": "shared/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-lib-button:disabled",
+    "componentToken": "shared/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ":is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+    "componentToken": "shared/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ":is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+    "componentToken": "shared/color/focus/default",
+    "semanticToken": "color/focus/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ":is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+    "componentToken": "shared/focus/offset",
+    "semanticToken": "focus/offset"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip__bubble",
+    "componentToken": "tooltip/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tooltip::before",
+    "componentToken": "tooltip/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress",
+    "componentToken": "progress-indicator/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress",
+    "componentToken": "progress-indicator/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress",
+    "componentToken": "progress-indicator/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress",
+    "componentToken": "progress-indicator/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress::-webkit-progress-bar",
+    "componentToken": "progress-indicator/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress::-webkit-progress-bar",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress::-webkit-progress-value",
+    "componentToken": "progress-indicator/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress::-webkit-progress-value",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-progress progress::-moz-progress-bar",
+    "componentToken": "progress-indicator/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton__line",
+    "componentToken": "skeleton-loader/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton__line",
+    "componentToken": "skeleton-loader/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton__line",
+    "componentToken": "skeleton-loader/radius/sm",
+    "semanticToken": "radius/sm"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton__line",
+    "componentToken": "skeleton-loader/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton__line",
+    "componentToken": "skeleton-loader/motion/duration/loading",
+    "semanticToken": "motion/duration/loading"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton__line",
+    "componentToken": "skeleton-loader/motion/easing/default",
+    "semanticToken": "motion/easing/skeleton"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton[data-variant=avatar] .sv-skeleton__line",
+    "componentToken": "skeleton-loader/space/scale/64",
+    "semanticToken": "space/scale/64"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton[data-variant=avatar] .sv-skeleton__line",
+    "componentToken": "skeleton-loader/space/scale/64",
+    "semanticToken": "space/scale/64"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-skeleton[data-variant=avatar] .sv-skeleton__line",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice",
+    "componentToken": "notice/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice",
+    "componentToken": "notice/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice",
+    "componentToken": "notice/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice",
+    "componentToken": "notice/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice p",
+    "componentToken": "notice/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice__marker",
+    "componentToken": "notice/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice__marker",
+    "componentToken": "notice/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice__marker",
+    "componentToken": "notice/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice__marker",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-notice__marker",
+    "componentToken": "notice/font/weight/strong",
+    "semanticToken": "font/weight/strong"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-toast",
+    "componentToken": "toast-notification/shadow/default",
+    "semanticToken": "shadow/toast"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-empty",
+    "componentToken": "empty-state/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading",
+    "componentToken": "loading-state/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/motion/duration/loading",
+    "semanticToken": "motion/duration/loading"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-loading__spinner",
+    "componentToken": "loading-state/motion/easing/default",
+    "semanticToken": "motion/easing/spinner"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tablist]",
+    "componentToken": "tabs/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tablist]",
+    "componentToken": "tabs/color/border/default",
+    "semanticToken": "color/border/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tablist]",
+    "componentToken": "tabs/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab]",
+    "componentToken": "tabs/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab]",
+    "componentToken": "tabs/radius/sm",
+    "semanticToken": "radius/sm"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab]",
+    "componentToken": "tabs/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab]",
+    "componentToken": "tabs/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab]",
+    "componentToken": "tabs/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab][aria-selected=true]",
+    "componentToken": "tabs/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab][aria-selected=true]",
+    "componentToken": "tabs/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab][aria-selected=true]",
+    "componentToken": "tabs/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [role=tab]:disabled",
+    "componentToken": "tabs/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabpanel",
+    "componentToken": "tabs/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-breadcrumbs ol,.sv-stepper ol,.sv-navlinks ul",
+    "componentToken": "shared/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-breadcrumbs li",
+    "componentToken": "breadcrumbs/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-breadcrumbs a",
+    "componentToken": "breadcrumbs/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-breadcrumbs a",
+    "componentToken": "breadcrumbs/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-breadcrumbs [aria-current]",
+    "componentToken": "breadcrumbs/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-pagination",
+    "componentToken": "pagination/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper ol",
+    "componentToken": "stepper/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper ol",
+    "componentToken": "stepper/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li",
+    "componentToken": "stepper/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li",
+    "componentToken": "stepper/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper__number",
+    "componentToken": "stepper/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper__number",
+    "componentToken": "stepper/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper__number",
+    "componentToken": "stepper/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper__number",
+    "componentToken": "stepper/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper__number",
+    "componentToken": "shared/radius/full",
+    "semanticToken": "radius/full"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li[aria-current]",
+    "componentToken": "stepper/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li[aria-current]",
+    "componentToken": "stepper/font/weight/strong",
+    "semanticToken": "font/weight/strong"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li[aria-current] .sv-stepper__number",
+    "componentToken": "stepper/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li[aria-current] .sv-stepper__number",
+    "componentToken": "stepper/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li[aria-current] .sv-stepper__number",
+    "componentToken": "stepper/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks[data-orientation=vertical] ul",
+    "componentToken": "nav-links/space/scale/4",
+    "semanticToken": "space/scale/4"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a",
+    "componentToken": "nav-links/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a",
+    "componentToken": "nav-links/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a",
+    "componentToken": "nav-links/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a",
+    "componentToken": "nav-links/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a",
+    "componentToken": "nav-links/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a:hover",
+    "componentToken": "nav-links/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a[aria-current]",
+    "componentToken": "nav-links/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a[aria-current]",
+    "componentToken": "nav-links/color/action/primary/default",
+    "semanticToken": "color/action/primary/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-navlinks a[aria-current]",
+    "componentToken": "nav-links/font/weight/strong",
+    "semanticToken": "font/weight/strong"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal",
+    "componentToken": "modal-panel/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal__heading",
+    "componentToken": "modal-panel/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal__heading h2",
+    "componentToken": "modal-panel/type/heading/4/size",
+    "semanticToken": "type/heading/4/size"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal__heading h2",
+    "componentToken": "modal-panel/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal__heading h2",
+    "componentToken": "modal-panel/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal>p",
+    "componentToken": "modal-panel/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal>p",
+    "componentToken": "modal-panel/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal__actions",
+    "componentToken": "modal-panel/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal__actions",
+    "componentToken": "modal-panel/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal[data-kind=drawer]",
+    "componentToken": "modal-panel/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-modal[data-kind=drawer]",
+    "componentToken": "modal-panel/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/space/scale/20",
+    "semanticToken": "space/scale/20"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/radius/md",
+    "semanticToken": "radius/md"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/color/bg/default",
+    "semanticToken": "color/bg/default"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup",
+    "componentToken": "popup/shadow/default",
+    "semanticToken": "elevation/2"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup p",
+    "componentToken": "popup/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-popup p",
+    "componentToken": "popup/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu",
+    "componentToken": "dropdown-menu/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu",
+    "componentToken": "dropdown-menu/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button",
+    "componentToken": "dropdown-menu/space/scale/8",
+    "semanticToken": "space/scale/8"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button",
+    "componentToken": "dropdown-menu/space/scale/12",
+    "semanticToken": "space/scale/12"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button",
+    "componentToken": "dropdown-menu/size/touch/minimum",
+    "semanticToken": "size/touch/minimum"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button",
+    "componentToken": "dropdown-menu/radius/sm",
+    "semanticToken": "radius/sm"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button",
+    "componentToken": "dropdown-menu/color/text/primary",
+    "semanticToken": "color/text/primary"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button:hover,.sv-menu button:focus",
+    "componentToken": "dropdown-menu/color/bg/subtle",
+    "semanticToken": "color/bg/subtle"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-menu button:disabled",
+    "componentToken": "dropdown-menu/color/text/muted",
+    "semanticToken": "color/text/muted"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-stepper li[aria-current]",
+    "componentToken": "stepper/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/library/library.css",
+    "selector": ".sv-tabs [aria-selected=true]",
+    "componentToken": "tabs/border/width/2",
+    "semanticToken": "border/width/2"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-container",
+    "componentToken": "container/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-stack",
+    "componentToken": "stack/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-grid",
+    "componentToken": "grid/space/scale/16",
+    "semanticToken": "space/scale/16"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-divider",
+    "componentToken": "divider/color/border/control",
+    "semanticToken": "color/border/control"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-divider[data-orientation=horizontal]",
+    "componentToken": "divider/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-divider[data-orientation=vertical]",
+    "componentToken": "divider/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-divider[data-orientation=vertical]",
+    "componentToken": "divider/border/width/1",
+    "semanticToken": "border/width/1"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-container",
+    "componentToken": "container/space/scale/24",
+    "semanticToken": "space/scale/24"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".sv-container",
+    "componentToken": "container/space/scale/32",
+    "semanticToken": "space/scale/32"
+  },
+  {
+    "file": "website/src/components/layout/layout.css",
+    "selector": ".layout-canvas:focus-visible",
+    "componentToken": "shared/focus/offset",
+    "semanticToken": "focus/offset"
+  }
+]

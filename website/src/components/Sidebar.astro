@@ -1,0 +1,27 @@
+---
+import { navigation, pages, href } from '../data';
+import Icon from './Icon.astro';
+const { current } = Astro.props;
+---
+<nav aria-label="Documentation" class="sidebar-nav">
+  <p class="nav-eyebrow">THE DOCUMENTATION</p>
+  {navigation.map(group => (
+    <details class="nav-group" data-nav-group={group.name} open={['Get started', 'Foundations'].includes(group.name) || group.items.some(i => i.page === current)}>
+      <summary><Icon name={group.icon}/><span>{group.name}</span><Icon name="caret-down" size={14} class="chevron"/></summary>
+      <ul>
+        {group.items.map(item => {
+          const page = pages.find(p => p.id === item.page);
+          return <li>{page ? (
+            <a class="nav-link" data-component-link={(page.id.startsWith('action-')||page.id.startsWith('batch-')||page.id.startsWith('library-'))?'true':undefined} href={href(page.path)} aria-current={page.id === current ? 'page' : undefined}>
+              <span>{item.label}</span>{page.id === 'planned' && <span class="nav-planned">Planned</span>}
+            </a>
+          ) : (
+            <span class:list={['nav-unavailable', { 'nav-category': item.category }]} aria-disabled={item.available?undefined:"true"} title={item.available?"Available for component review":"Not implemented yet"}>
+              {item.label}<span class="nav-later">{item.available?"Preview":"Later"}</span>
+            </span>
+          )}</li>;
+        })}
+      </ul>
+    </details>
+  ))}
+</nav>

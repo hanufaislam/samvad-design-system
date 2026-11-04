@@ -1,0 +1,14 @@
+---
+import SearchInput from '../forms/SearchInput.astro';
+import Pagination from '../library/Pagination.astro';
+import {registry} from '../../tokens/registry';
+interface Props {id:string;rows:typeof registry;}
+const {id,rows}=Astro.props;
+---
+<div data-token-table data-page-size="25">
+ <SearchInput id={`${id}-filter`} label="Find tokens" helper="Search by name, CSS variable, source or status. Results show 25 tokens per page."/>
+ <p class="source-note" role="status" data-token-count>{rows.length} tokens</p>
+ <div class="table-wrap" role="region" tabindex="0" aria-label="Token values and provenance"><table class="data-table token-table"><caption>Implemented token source table · values resolve through aliases</caption><thead><tr><th scope="col">Token / CSS variable</th><th scope="col">Tier</th><th scope="col">Light</th><th scope="col">Dark</th><th scope="col">Status / source</th></tr></thead><tbody>{rows.map((t,i)=><tr hidden={i>=25} data-token-row data-search={`${t.id} ${t.css} ${t.status} ${t.source}`.toLowerCase()}><th scope="row"><code>{t.id}</code><br/><code>{t.css}</code></th><td>{t.tier}</td><td>{t.type==='color'&&<span class="token-dot" style={`background:${t.resolved.Light}`} aria-hidden="true"></span>}<code>{t.resolved.Light}</code></td><td>{t.type==='color'&&<span class="token-dot" style={`background:${t.resolved.Dark}`} aria-hidden="true"></span>}<code>{t.resolved.Dark}</code></td><td><span>{t.status}</span><br/><small>{t.source}</small></td></tr>)}</tbody></table></div>
+ <Pagination label="Token table pagination" total={Math.max(1,Math.ceil(rows.length/25))}/>
+</div>
+<script>import '../../scripts/token-docs';</script>

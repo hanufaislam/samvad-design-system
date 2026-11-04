@@ -1,0 +1,9 @@
+---
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+interface Props { name: string; size?: number; class?: string; }
+const { name, size = 20, class: className = '' } = Astro.props;
+const svg = readFileSync(resolve('public/icons', `${name}-regular.svg`), 'utf8')
+  .replace('<svg ', `<svg aria-hidden="true" focusable="false" width="${size}" height="${size}" `);
+---
+<span class:list={['icon', className]} set:html={svg} />

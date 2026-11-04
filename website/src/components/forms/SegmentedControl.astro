@@ -1,0 +1,5 @@
+---
+import ChoiceGroup from './ChoiceGroup.astro';
+type Props = Parameters<typeof ChoiceGroup>[0];
+---
+<ChoiceGroup {...Astro.props} type="radio" variant="segmented"/>

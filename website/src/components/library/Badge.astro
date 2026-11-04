@@ -1,0 +1,6 @@
+---
+import './library.css';
+interface Props {label:string;tone?:'neutral'|'info'|'success'|'warning'|'error';size?:'small'|'medium';}
+const {label,tone='neutral',size='medium'}=Astro.props;
+---
+<span class="sv-badge sv-tone" data-tone={tone} data-size={size}>{label}</span>

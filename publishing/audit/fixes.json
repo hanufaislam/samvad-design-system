@@ -1,0 +1,188 @@
+[
+  {
+    "path": "DESIGN_SYSTEM.md",
+    "before": "dc57304e8117695716ac899868f618e048e6cd2d3f4d7b6abbf6adfd733e4d81",
+    "after": "d608639722e59945147424cdbb16fec692a51732ecccefa0baeb0b2eef3a791b",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "before": "f640ccf693a66a65fe6c17431912c3169b0d2a3548b68de895f824556a00cccf",
+    "after": "f3f7932754c64590679f0350b8db11f6e47b84be7d2aa92d07fc0840bf4ffede",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "AGENTS.md",
+    "before": "5f327a7ddf67af575c8a6081d001067e63460ed2eb6557fc71d3c4c67268109e",
+    "after": "36709098bd341b6aff5d003749b337d572e7e6dd00803a006174e6a193d2ce03",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/astro.config.mjs",
+    "before": "6a60148d692f6d127e67099cd0425d09fcf9fbf2939367d2af7985dedeccb5ed",
+    "after": "2c8fa618d4fb51e20faabe0ca3e6158397d22d12b66ad38ccd9a9261d003917d",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/README.md",
+    "before": "8a59dee39aff9b7a7b0c16a59f16e6c651b5cb608d2a9c0de633868a09fbbf6c",
+    "after": "dc2066bbc668bc2f67045a1da894a1cf99e852dd242c9799d461224a6944c609",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/package-lock.json",
+    "before": "b2a79c155c5e3928d15fd544e07bb9950cfde266f82b307f508b9d5e056585d5",
+    "after": "73aa9af0e1d2917be4f49f50dbee42f418ed1b88ef57ff47d961d37f138a53de",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/package.json",
+    "before": "0fa76ff8f44549e3fd986c87468118fa8605b96df14cae54d9d373b7451cee60",
+    "after": "bd8fb97f9a711cb47ab47e644dea5cb8c5039657e847e02a2482f9cd66329145",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify-references.mjs",
+    "before": "bf605e6a937bf42d2b0ab3c29e3df729ff62e51f87a4f9dc77371e952b3510c7",
+    "after": "c3a5a8ea4c4a51283b774e044d991f8d8f0f90652698a0743d133a09fdfa6b94",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify-foundations.mjs",
+    "before": "5c3ae2e1e367d34d1380fd9c93b689373ed5efcfe5bc9bdb6fa29badc33c85f6",
+    "after": "6628287fc66900b610b1f7462b57eec464ae0bf7c1df98d30919497af837321c",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify-components.mjs",
+    "before": "84c424e7ef4b1fede9f9b44a39659348b26fff55f6ec201ee6d730217d1b8269",
+    "after": "10ad517cd2cc3948503ca8003d6105107aa6931cc731ec54096f28b7191c0f17",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify-batch.mjs",
+    "before": "8aaae328c0faed5e15b8b90a4bb83d406304bc0de6df963a8655a511d876f3b7",
+    "after": "b9b68ded3fb5e15c15cc57a4293a2f7ca97e3a127000f818503cd0199285a978",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify.mjs",
+    "before": "b7e5504fd10fde63775d9414733c4542ce42ed96959d726610d98924e90c8284",
+    "after": "1deab07550b4003290450483e9a016056f314fee9fb6b5a112543268cc068f7e",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify-actions.mjs",
+    "before": "047f4f18621da891ab6dd0694d323fc12e41d96793438d38e2ef60f3db1572ef",
+    "after": "13dcc8f9a4eff2298fc361e5b92c082b063e9a2f0ee50e0a9b62467944484293",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/scripts/verify-library.mjs",
+    "before": "3e6c14faf4aeba415679bbe8bb68c47617bc8f506718fc8c0e2509d37895651a",
+    "after": "419c153485a344d049e91ccdecd7cdf4fc586f0f62b2cd970ef530777bcf5534",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/data.ts",
+    "before": "92a78af68d670c60c0495059c6f55722a9c5fcae381b7c9e3d24d071ae8f299a",
+    "after": "aa4b4df13eaedd3a4eb9a84fa4efa34fd9703ecd92bc9c8275886118deb04974",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/patterns/content.json",
+    "before": "510d67fe5ad79e1276109517a1d6e442e62585e154b9618b2f3b533974d82e03",
+    "after": "e6ee83c0e690629b851722b58dd25538f6a8c3e81a65ef27e5a47a15b7a8422d",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/patterns/ReferencePage.astro",
+    "before": "b6076c007734a0b10c01f9fa308ebcdf6c75bf9705ae7f280c50f0b59a92c994",
+    "after": "f239c7b43b0d219366dc9d64ae660d3157192613aee3e37b96ee58c1e4d788e5",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/library/Breadcrumbs.astro",
+    "before": "e16f31163c603f268e61fc5dfca310a6e8af7266411c0a8f0be60db569e381e1",
+    "after": "a968e5f4d3b6826463683749340959a66f13c51f31745d9375e85ac44ebc8758",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/library/List.astro",
+    "before": "4ab9fe8b4f0644e310def330c4fb1c860357ad5e95c4240f45f8e41092b7f555",
+    "after": "5a593c7fa8ea70607e6ad66839959d631e3cfdd2f5737061d9c02501d2585ba2",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/library/catalog.ts",
+    "before": "7a53488fea6bc968d176200e49cc1c90f5addabf93ecef649df909807201f8ab",
+    "after": "61e48b455c91a166c9103d0e0b52d6c4ddb4c90c5ce85bf4061511408221c81c",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/library/NavLinks.astro",
+    "before": "71aeb690d8121f6f9c0cc3bd157e1de7c28a32095acf06028e74f086174537db",
+    "after": "c61fdce3df46198c6b727a88ee6612d771e67bd4a607460fa92218a48410664f",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/component-docs/LibraryPage.astro",
+    "before": "d3ec2084388e815017817273a2d5293d30ae91c10c30d0a3268ff4ed901d4690",
+    "after": "ebe73e7f5ccc5615b94963f63d462369afc8bfdde56f357fe6d0c2cf16008184",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/component-docs/BatchPage.astro",
+    "before": "d2bb700b38ac3ceea19c8420fcdbdfb8b0e1b74cc67b48973c6a8b2a8dc4e519",
+    "after": "69546caba9eb44b47490f0746d5d6eb7c64c07c3365946e7330fd8a39d6b9b5a",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/components/actions/TextLink.astro",
+    "before": "f120ec73b236a09887abb73f85d917300d56e1727722c499bb96e6ea3dddc5da",
+    "after": "e67b857f635c271cc6f851138c8e351228af49f003450755855888d94f019497",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/layouts/DocsLayout.astro",
+    "before": "ddb57167ba03fcba4055ed1ec918bf23ec91098663f3fe0f307aad230b415f38",
+    "after": "fb499def1f48ed9d8b6d3a91960cfc0e8be831efae64fa8263db76d24e190898",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/pages/index.astro",
+    "before": "1a292f98894cdd1dbadb0946c61a8524ed6b8fb157381474523d687e992ddbf8",
+    "after": "3194d3e02fc79868d04646e575b0ec91810c6295ddbfc5f05c06dca6b5c0a5f8",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "website/src/pages/components/actions/[component].astro",
+    "before": "3f8bac5bde6e8b149d2ac842c206e23582cde25ff23685b242533a5d82e2a8a8",
+    "after": "d36008d3ff5ff23c2054cbc152e8d1a005848bc96a1d8b31ea6ade55a9836949",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "design-system/patterns/README.md",
+    "before": "d351914fd85f5e05352e5502cd2b21f699f6e68d4e4801831938ebcddf06671b",
+    "after": "16fd6c57ff6cf3c00a6f36e5592d2519f89157ebfd65bb62afba5ef606bbe1de",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "design-system/resources/README.md",
+    "before": "7b4ebd62e2c65916da30fa395cd2545e084139548b4d6fd85db477be3e296b70",
+    "after": "073c3a463cf47d7f8ba9609fb59b3d498a170c61d17e8b1f93bc30f66b3a0642",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "design-system/foundations/README.md",
+    "before": "214e9caec1c9c568b2356324bd735faeedd41907012c03b5c6a75e53e443057e",
+    "after": "2f4cd71aa8876baec1360f8087d2881bdbad3fddce47798929c044a1978741ab",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  },
+  {
+    "path": "design-system/components/README.md",
+    "before": "def6f08376c9e35d50ca080c06ad6fca4d944bda3810ca6fc2c6f196f963c67c",
+    "after": "49f4869607e0e7a6596aef4f1820c7cf408bca1ca463ca41b8263c342a63249f",
+    "reason": "Final audit: verified project-base links, stale approval/timing documentation, generic privacy checks or publishing preparation. No visual token changes."
+  }
+]

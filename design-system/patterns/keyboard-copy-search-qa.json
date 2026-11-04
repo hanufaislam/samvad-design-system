@@ -1,0 +1,88 @@
+{
+  "keyboardAndSearch": [
+    {
+      "name": "Keyboard invalid submission focuses summary",
+      "pass": true
+    },
+    {
+      "name": "Summary recovery link focuses field",
+      "pass": true
+    },
+    {
+      "name": "Keyboard valid submission confirms local result",
+      "pass": true
+    },
+    {
+      "name": "Search catalog includes the new Developer handoff route",
+      "pass": true,
+      "status": "Explore the 72 available preview pages."
+    },
+    {
+      "name": "Search Escape closes dialog",
+      "pass": true
+    },
+    {
+      "name": "Pattern tabs arrow navigation",
+      "pass": true
+    },
+    {
+      "name": "Pattern tabs activate with Enter",
+      "pass": true
+    },
+    {
+      "name": "Pattern pagination updates results with keyboard",
+      "pass": true
+    },
+    {
+      "name": "Full-text search indexes new pattern body content (reconcile)",
+      "pass": true
+    },
+    {
+      "name": "Keyboard loading completion restores stable action focus",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation exposes current pattern route",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation Escape restores trigger focus",
+      "pass": true
+    }
+  ],
+  "copy": [
+    {
+      "route": "/patterns/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/patterns/forms/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/patterns/navigation/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/patterns/loading/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/patterns/empty-states/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/patterns/error-and-success-states/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/resources/usage-guidelines/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/resources/developer-handoff/",
+      "status": "Copied code example"
+    }
+  ],
+  "failed": []
+}

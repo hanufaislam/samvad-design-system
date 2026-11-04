@@ -1,0 +1,8 @@
+---
+import Button from '../actions/Button.astro';
+import './library.css';
+interface Props {id:string;title:string;description:string;triggerLabel?:string;kind?:'dialog'|'drawer'|'confirmation';confirmLabel?:string;}
+const {id,title,description,triggerLabel='Open dialog',kind='dialog',confirmLabel='Confirm'}=Astro.props;
+---
+<div class="sv-overlay-example"><Button data-modal-open={id} variant="secondary" aria-haspopup="dialog" aria-controls={id}>{triggerLabel}</Button><dialog class="sv-modal" data-kind={kind} id={id} aria-labelledby={`${id}-title`} aria-describedby={`${id}-description`}><div class="sv-modal__heading"><h2 id={`${id}-title`}>{title}</h2><button type="button" class="sv-lib-icon-button" aria-label="Close dialog" data-modal-close>×</button></div><p id={`${id}-description`}>{description}</p><slot/><div class="sv-modal__actions"><Button variant="secondary" data-modal-close autofocus>{kind==='confirmation'?'Cancel':'Close'}</Button>{kind==='confirmation'&&<Button variant="destructive" data-modal-confirm>{confirmLabel}</Button>}</div></dialog></div>
+<script>import './runtime';</script>

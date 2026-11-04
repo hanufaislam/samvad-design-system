@@ -1,0 +1,43 @@
+{
+  "name": "samvad-documentation",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 127.0.0.1",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 node scripts/build.mjs",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 127.0.0.1",
+    "verify": "node scripts/verify.mjs",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "verify:actions": "node scripts/verify-actions.mjs",
+    "verify:batch": "node scripts/verify-batch.mjs",
+    "verify:library": "node scripts/verify-library.mjs",
+    "verify:components": "node scripts/verify-components.mjs",
+    "tokens:build": "node ../design-system/tokens/scripts/build.mjs",
+    "tokens:check": "node ../design-system/tokens/scripts/build.mjs --check",
+    "prebuild": "npm run tokens:build",
+    "verify:tokens": "node scripts/verify-tokens.mjs",
+    "tokens:audit": "node ../design-system/tokens/scripts/audit-components.mjs",
+    "tokens:qa": "node ../design-system/tokens/scripts/qa.mjs",
+    "tokens:verify-approved": "node ../design-system/tokens/scripts/verify-approved-decisions.mjs",
+    "verify:references": "node scripts/verify-references.mjs",
+    "verify:foundations": "node scripts/verify-foundations.mjs",
+    "verify:output": "node ../publishing/scripts/audit-output.mjs",
+    "audit:release": "npm run check && npm run build && npm run verify && npm run verify:output && npm run verify:actions && npm run verify:batch && npm run verify:library && npm run verify:components && npm run verify:references && npm run verify:foundations && npm run tokens:check && npm run tokens:verify-approved && npm run verify:tokens"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.3.0",
+    "@fontsource-variable/geist-mono": "5.3.0",
+    "astro": "7.4.5",
+    "pagefind": "1.6.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@types/node": "26.6.6",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22.23.4",
+    "npm": ">=9.6.5"
+  }
+}

@@ -1,0 +1,6 @@
+---
+import './forms.css';
+interface Props {id:string;label:string;helper?:string;error?:string;required?:boolean;size?:'small'|'medium'|'large';}
+const {id,label,helper,error,required=false,size='medium'}=Astro.props;
+---
+<div class="sv-field" data-size={size} data-field><label for={id}>{label}{required&&' (required)'}</label>{helper&&<p id={`${id}-help`} class="sv-field__help">{helper}</p>}<slot/><p id={`${id}-error`} class="sv-field__error" data-field-error aria-live="polite" hidden={!error}>{error}</p></div>

@@ -1,0 +1,7 @@
+---
+import {libraryCatalog} from '../../../components/library/catalog';
+import LibraryPage from '../../../components/component-docs/LibraryPage.astro';
+export function getStaticPaths(){return libraryCatalog.filter(e=>e.group==='navigation').map(entry=>({params:{component:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+---
+<LibraryPage entry={entry}/>

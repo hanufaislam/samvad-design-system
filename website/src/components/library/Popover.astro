@@ -1,0 +1,8 @@
+---
+import Button from '../actions/Button.astro';
+import './library.css';
+interface Props {id:string;title:string;description:string;triggerLabel?:string;}
+const {id,title,description,triggerLabel='Open popover'}=Astro.props;
+---
+<div class="sv-popup-host"><Button variant="secondary" popovertarget={id} aria-controls={id} aria-expanded="false" data-popup-trigger={id}>{triggerLabel}</Button><div popover="auto" id={id} class="sv-popup" role="region" aria-labelledby={`${id}-title`} data-position-popup><h3 id={`${id}-title`}>{title}</h3><p>{description}</p><slot/><button type="button" class="sv-lib-button" popovertarget={id} popovertargetaction="hide">Close</button></div></div>
+<script>import './runtime';</script>

@@ -1,0 +1,1303 @@
+{
+  "checks": 290,
+  "failed": [],
+  "results": [
+    {
+      "name": "/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/principles/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/principles/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-designers/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-designers/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/get-started/for-developers/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/get-started/for-developers/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/colour/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/colour/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/typography/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/typography/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/spacing-and-layout/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/grid/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 320 light",
+      "pass": true,
+      "detail": "43.5px 43.5px 43.5px 43.5px"
+    },
+    {
+      "name": "/foundations/grid/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 320 dark",
+      "pass": true,
+      "detail": "43.5px 43.5px 43.5px 43.5px"
+    },
+    {
+      "name": "/foundations/grid/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 768 light",
+      "pass": true,
+      "detail": "25.75px 25.75px 25.75px 25.75px 25.75px 25.75px 25.75px 25.75px"
+    },
+    {
+      "name": "/foundations/grid/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 768 dark",
+      "pass": true,
+      "detail": "25.75px 25.75px 25.75px 25.75px 25.75px 25.75px 25.75px 25.75px"
+    },
+    {
+      "name": "/foundations/grid/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 1024 light",
+      "pass": true,
+      "detail": "25.1641px 25.1641px 25.1641px 25.1719px 25.1641px 25.1641px 25.1719px 25.1641px 25.1641px 25.1719px 25.1641px 25.1641px"
+    },
+    {
+      "name": "/foundations/grid/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 1024 dark",
+      "pass": true,
+      "detail": "25.1641px 25.1641px 25.1641px 25.1719px 25.1641px 25.1641px 25.1719px 25.1641px 25.1641px 25.1719px 25.1641px 25.1641px"
+    },
+    {
+      "name": "/foundations/grid/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 1440 light",
+      "pass": true,
+      "detail": "41.8281px 41.8359px 41.8281px 41.8359px 41.8359px 41.8281px 41.8359px 41.8359px 41.8281px 41.8359px 41.8359px 41.8281px"
+    },
+    {
+      "name": "/foundations/grid/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/grid/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "page grid 1440 dark",
+      "pass": true,
+      "detail": "41.8281px 41.8359px 41.8281px 41.8359px 41.8359px 41.8281px 41.8359px 41.8359px 41.8281px 41.8359px 41.8359px 41.8281px"
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/shape-and-radius/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/borders-and-focus/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/elevation-and-shadows/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/iconography/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/iconography/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/illustration/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/illustration/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/accessibility/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/accessibility/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/interaction-principles/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 320 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 320 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 320 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 320 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 768 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 768 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 768 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 768 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 1024 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 1024 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 1024 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 1024 dark active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 1440 light layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 1440 light active route",
+      "pass": true
+    },
+    {
+      "name": "/foundations/motion/ 1440 dark layout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "/foundations/motion/ 1440 dark active route",
+      "pass": true
+    },
+    {
+      "name": "light Stack gap updates",
+      "pass": true
+    },
+    {
+      "name": "light zero spacing is zero",
+      "pass": true
+    },
+    {
+      "name": "light mono matches14/20",
+      "pass": true
+    },
+    {
+      "name": "light final label and helper roles",
+      "pass": true
+    },
+    {
+      "name": "light live type specimen updates",
+      "pass": true
+    },
+    {
+      "name": "light field exception",
+      "pass": true
+    },
+    {
+      "name": "light actual popover elevation2",
+      "pass": true
+    },
+    {
+      "name": "light toast approved pigment",
+      "pass": true
+    },
+    {
+      "name": "light quiet boundary",
+      "pass": true
+    },
+    {
+      "name": "light required boundary",
+      "pass": true
+    },
+    {
+      "name": "light explicit motion toggles",
+      "pass": true
+    },
+    {
+      "name": "light reduced-motion media exists",
+      "pass": true
+    },
+    {
+      "name": "light reduced-motion rules disable movement transition",
+      "pass": true
+    },
+    {
+      "name": "dark Stack gap updates",
+      "pass": true
+    },
+    {
+      "name": "dark zero spacing is zero",
+      "pass": true
+    },
+    {
+      "name": "dark mono matches14/20",
+      "pass": true
+    },
+    {
+      "name": "dark final label and helper roles",
+      "pass": true
+    },
+    {
+      "name": "dark live type specimen updates",
+      "pass": true
+    },
+    {
+      "name": "dark field exception",
+      "pass": true
+    },
+    {
+      "name": "dark actual popover elevation2",
+      "pass": true
+    },
+    {
+      "name": "dark toast approved pigment",
+      "pass": true
+    },
+    {
+      "name": "dark quiet boundary",
+      "pass": true
+    },
+    {
+      "name": "dark required boundary",
+      "pass": true
+    },
+    {
+      "name": "dark explicit motion toggles",
+      "pass": true
+    },
+    {
+      "name": "dark reduced-motion media exists",
+      "pass": true
+    },
+    {
+      "name": "dark reduced-motion rules disable movement transition",
+      "pass": true
+    }
+  ],
+  "limits": "Reduced-motion declarations activated in isolated fixture, not OS preference emulation."
+}

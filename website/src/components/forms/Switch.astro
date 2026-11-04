@@ -1,0 +1,6 @@
+---
+import './forms.css';
+interface Props {id:string;label:string;checked?:boolean;disabled?:boolean;helper?:string;}
+const {id,label,checked=false,disabled=false,helper}=Astro.props;
+---
+<div class="sv-switch-field"><label class="sv-choice sv-switch"><input id={id} name={id} type="checkbox" role="switch" checked={checked} disabled={disabled} aria-describedby={helper?`${id}-help`:undefined}/><span class="sv-switch__track" aria-hidden="true"></span><span>{label}</span></label>{helper&&<p class="sv-field__help" id={`${id}-help`}>{helper}</p>}</div>

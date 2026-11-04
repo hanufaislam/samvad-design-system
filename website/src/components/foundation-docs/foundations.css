@@ -1,0 +1,25 @@
+@import '../../../../design-system/tokens/dist/tokens.css';
+/* Foundation specimens and documentation framing, not production component rules. */
+.foundation-docs [data-foundation-specimen]{padding:var(--samvad-semantic-space-scale-24);border:var(--samvad-semantic-border-width-1) solid var(--samvad-semantic-color-border-default);border-radius:var(--samvad-semantic-radius-md);margin-block:var(--samvad-semantic-space-scale-24);min-width:0;overflow-wrap:anywhere}
+.foundation-docs :not(pre)>code{overflow-wrap:anywhere;white-space:normal}
+.foundation-docs .doc-section>p+p{margin-top:var(--samvad-semantic-space-scale-16)}
+.foundation-docs .foundation-samples{display:flex;gap:var(--samvad-semantic-space-scale-24);flex-wrap:wrap;align-items:center}
+.foundation-docs figure{margin:0;max-width:100%;display:grid;gap:var(--samvad-semantic-space-scale-12)}
+.foundation-docs figcaption{font-size:var(--samvad-semantic-type-caption-size);color:var(--samvad-semantic-color-text-muted);overflow-wrap:anywhere}
+.foundation-docs .radius-sample,.foundation-docs .elevation-sample{inline-size:var(--samvad-semantic-space-scale-96);block-size:var(--samvad-semantic-space-scale-48);background:var(--samvad-semantic-color-bg-subtle);border:var(--samvad-semantic-border-width-1) solid var(--samvad-semantic-color-border-default);display:grid;place-items:center}
+.foundation-docs .elevation-sample{border-radius:var(--samvad-semantic-radius-md)}
+.foundation-docs .scale-row{display:grid;grid-template-columns:var(--samvad-semantic-space-scale-48) var(--samvad-semantic-space-scale-96) minmax(0,1fr);gap:var(--samvad-semantic-space-scale-12);align-items:center;margin-block:var(--samvad-semantic-space-scale-12);font-size:var(--samvad-semantic-type-caption-size)}
+.foundation-docs .scale-track{inline-size:var(--samvad-semantic-space-scale-96);min-width:0}.foundation-docs .scale-bar{display:block;block-size:var(--samvad-semantic-space-scale-8);background:var(--samvad-semantic-color-action-primary-default)}
+.foundation-docs .foundation-column-grid{display:grid;grid-template-columns:repeat(var(--samvad-semantic-layout-columns-responsive),minmax(0,1fr));gap:var(--samvad-semantic-layout-gutter-responsive);padding-inline:var(--samvad-semantic-layout-margin-responsive);min-width:0}
+.foundation-docs .foundation-column-grid span{height:var(--samvad-semantic-space-scale-64);background:var(--samvad-semantic-color-action-primary-default);border-radius:var(--samvad-semantic-radius-xs)}
+@media(max-width:599px){.foundation-docs .foundation-column-grid span:nth-child(n+5){display:none}.foundation-docs [data-foundation-specimen]{padding:var(--samvad-semantic-space-scale-16)}.foundation-docs .scale-row{grid-template-columns:var(--samvad-semantic-space-scale-40) var(--samvad-semantic-space-scale-96) minmax(0,1fr);gap:var(--samvad-semantic-space-scale-8)}}
+@media(min-width:600px) and (max-width:1023px){.foundation-docs .foundation-column-grid span:nth-child(n+9){display:none}}
+.foundation-docs .foundation-fill-icon{background:var(--samvad-semantic-color-text-primary);mask:url('/icons/chat-circle-fill.svg') center/contain no-repeat;display:block;inline-size:var(--samvad-semantic-space-scale-24);block-size:var(--samvad-semantic-space-scale-24)}
+.foundation-docs .illustration-reference{display:flex;gap:var(--samvad-semantic-space-scale-16);padding:var(--samvad-semantic-space-scale-24);background:var(--samvad-semantic-color-bg-subtle);color:var(--samvad-semantic-color-action-primary-default)}
+.foundation-docs .semantic-role-sample{padding:var(--samvad-semantic-space-scale-24);background:var(--samvad-semantic-color-bg-default);color:var(--samvad-semantic-color-text-primary);border:var(--samvad-semantic-border-width-1) solid var(--samvad-semantic-color-border-default);border-radius:var(--samvad-semantic-radius-md)}
+/* motion specimen */
+.foundation-docs .motion-track{padding-block:var(--samvad-semantic-space-scale-24)}
+.foundation-docs .motion-mark{display:block;width:var(--samvad-semantic-space-scale-24);height:var(--samvad-semantic-space-scale-24);border-radius:var(--samvad-semantic-radius-md);background:var(--samvad-semantic-color-action-primary-default);transition:transform var(--samvad-semantic-motion-duration-fast) var(--samvad-semantic-motion-easing-standard)}
+.foundation-docs [data-playing=true] .motion-mark{transform:translateX(var(--samvad-semantic-space-scale-48))}
+@media(prefers-reduced-motion:reduce){.foundation-docs .motion-mark{transition:none}}
+/* end motion specimen */

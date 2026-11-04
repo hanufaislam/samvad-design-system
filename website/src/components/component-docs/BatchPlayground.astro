@@ -1,0 +1,40 @@
+---
+import Checkbox from '../forms/Checkbox.astro';
+import Chips from '../forms/Chips.astro';
+import DatePicker from '../forms/DatePicker.astro';
+import FileUpload from '../forms/FileUpload.astro';
+import FormField from '../forms/FormField.astro';
+import MultiSelect from '../forms/MultiSelect.astro';
+import NumberInput from '../forms/NumberInput.astro';
+import OTPInput from '../forms/OTPInput.astro';
+import PasswordInput from '../forms/PasswordInput.astro';
+import RadioGroup from '../forms/RadioGroup.astro';
+import SearchInput from '../forms/SearchInput.astro';
+import SegmentedControl from '../forms/SegmentedControl.astro';
+import Select from '../forms/Select.astro';
+import Switch from '../forms/Switch.astro';
+import TextInput from '../forms/TextInput.astro';
+import Textarea from '../forms/Textarea.astro';
+import Button from '../actions/Button.astro';
+import type { BatchEntry } from '../forms/catalog';
+const {entry:e}=Astro.props as {entry:BatchEntry};
+const components={Checkbox,Chips,DatePicker,FileUpload,FormField,MultiSelect,NumberInput,OTPInput,PasswordInput,RadioGroup,SearchInput,SegmentedControl,Select,Switch,TextInput,Textarea};
+const Component=components[e.component];
+const sizes=e.group==='inputs'&&!['multi-select','otp-input'].includes(e.slug);
+const readonly=['text-input','textarea','search-input','password-input','number-input','otp-input','form-field'].includes(e.slug);
+const errorState=e.group==='inputs'||['radio-group','segmented-control'].includes(e.slug);
+---
+<div class="batch-stage" data-batch-preview>
+ <div class="batch-toolbar"><label>Preview state<span class="component-select"><select data-batch-state><option value="default">Default</option><option value="disabled">Disabled</option>{readonly&&<option value="readonly">Read-only</option>}{errorState&&<option value="error">Error</option>}</select></span></label>{sizes&&<label>Size<span class="component-select"><select data-batch-size><option value="small">Small</option><option value="medium" selected>Medium</option><option value="large">Large</option></select></span></label>}</div>
+ <div class="component-stage">
+ <form class="batch-preview-form" novalidate data-batch-form>
+  <fieldset data-batch-controls aria-label={`${e.title} demonstration`}>
+   {e.slug==='form-field'?<FormField {...e.props}><input id="example" name="email" type="email" required aria-describedby="example-help example-error"/></FormField>:<Component {...e.props as any}/>}
+  </fieldset>
+  {e.slug==='chips'&&<Chips id="removable" label="Removable topics" options={e.props.options as any} removable/>}
+  <div class="batch-buttons"><Button type="submit" variant="secondary">Check locally</Button><Button type="reset" variant="ghost">Reset</Button></div>
+  <p role="status" class="batch-status" data-batch-status>Ready. Try this component.</p>
+ </form>
+ </div>
+</div>
+<script>import '../../scripts/batch-previews';</script>

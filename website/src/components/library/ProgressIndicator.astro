@@ -1,0 +1,6 @@
+---
+import './library.css';
+interface Props {id:string;label:string;value?:number;max?:number;}
+const {id,label,value,max=100}=Astro.props;
+---
+<div class="sv-progress"><label for={id}>{label}</label><progress id={id} value={value} max={max}>{value===undefined?'In progress':`${value} of ${max}`}</progress><span data-progress-text>{value===undefined?'In progress':`${Math.round(value/max*100)}%`}</span></div>

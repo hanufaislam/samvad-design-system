@@ -1,0 +1,52 @@
+---
+import {href} from '../../data';
+import DocsLayout from '../../layouts/DocsLayout.astro';
+import BatchPlayground from './BatchPlayground.astro';
+import CodeBlock from './CodeBlock.astro';
+import type { BatchEntry } from '../forms/catalog';
+import '../../styles/component-docs.css';
+const {entry:e}=Astro.props as {entry:BatchEntry};
+const isField=e.group==='inputs'&&e.slug!=='multi-select';
+const controlExample=`---
+import ${e.component} from '../components/forms/${e.component}.astro';
+---
+<${e.component} ${Object.entries(e.props).map(([k,v])=>typeof v==='string'?`${k}=${JSON.stringify(v)}`:`${k}={${JSON.stringify(v)}}`).join(' ')}${e.slug==='form-field'?`>
+  <input id="example" name="email" type="email" required aria-describedby="example-help example-error"/>
+</FormField>`:' />'}`;
+const example=controlExample.replace(";\n---\n", ";\nimport Button from '../components/actions/Button.astro';\n---\n<form id=\"component-example\" novalidate>\n")+`\n  <Button type="submit">Check locally</Button>\n  <p id="component-result" role="status"></p>\n</form>`;
+const toc=[{id:'preview',label:'Live preview'},{id:'configuration',label:'Properties and variants'},{id:'usage',label:'Usage'},{id:'accessibility',label:'Accessibility'},{id:'implementation',label:'Implementation'},{id:'foundations',label:'Related foundations'}];
+---
+<DocsLayout page={`batch-${e.slug}`} toc={toc}>
+ <article class="component-docs">
+  <p class="component-preview-notice"><strong>Reusable component · production token mapping pending.</strong> This native HTML/Astro implementation uses approved foundation values through private preview styling. It is not a published package or a new Figma asset.</p>
+  <section id="preview" class="doc-section"><h2>Try it out.</h2><p>Interact with the actual reusable component. Validation and selection are local; no data is sent or saved.</p><BatchPlayground entry={e}/></section>
+  <section id="configuration" class="doc-section"><h2>Properties, variants and states</h2>
+   <p>{isField?'Standard field treatment; small (44px minimum), medium (48px) and large (56px). Textarea grows with rows and vertical resizing.':'Standard 44px minimum choice targets. No arbitrary size variants; labels wrap and groups reflow.'} {e.slug==='chips'?'Selectable and removable variants are both demonstrated below.':''}</p>
+   <div class="table-wrap"><table class="data-table"><thead><tr><th>Property</th><th>Example / default</th><th>Purpose</th></tr></thead><tbody>
+    {Object.entries(e.props).map(([key,value])=><tr><td>{key}</td><td><code>{JSON.stringify(value)}</code></td><td>{key==='id'?'Required stable identifier; use unique IDs per instance.':key==='label'?'Required visible accessible name.':key==='options'?'Array of stable values and visible labels.':key==='required'?'Requires a value or choice; otherwise defaults false.':key==='helper'?'Visible supporting instructions.':key==='selected'?'Initially checked values; defaults empty.':`Native attribute or documented initial configuration for ${e.title}.`}</td></tr>)}
+    <tr><td>disabled</td><td>false</td><td>{e.slug==='form-field'?'Set disabled on the slotted control; the wrapper does not disable it.':'Native disabled controls are omitted from the Tab sequence and form data.'}</td></tr>
+    {isField&&<><tr><td>size</td><td>medium</td><td>small | medium | large (OTP uses its fixed medium treatment).</td></tr><tr><td>error</td><td>undefined</td><td>Inline message with aria-invalid; shared validation updates the message.</td></tr></>}
+    {e.slug==='chips'&&<tr><td>removable</td><td>false</td><td>Render named remove buttons instead of checkboxes.</td></tr>}
+   </tbody></table></div>
+   <p>Default, hover, keyboard focus and disabled are relevant to every control. {isField?'Required and error states use validity plus an associated message. Read-only is available only for native text-like inputs and textarea.':'Checked/unchecked applies to choices; radios and segments permit one checked item. Required/error applies only to groups explicitly configured as required.'} Pressed is the browser’s transient pointer/key feedback, not a stored state. Loading is not a control variant; announce an operation’s progress in its surrounding workflow. Success is an explicit validation result, not a decorative green border.</p>
+  </section>
+  <section id="usage" class="doc-section"><h2>Use with intent.</h2><h3>When to use</h3><p>{e.use}</p><h3>When not to use</h3><p>{e.avoid}</p></section>
+  <section id="accessibility" class="doc-section"><h2>Accessibility</h2><p>{e.a11y}</p><p>Persistent labels, visible focus rings and 44px minimum hit targets are provided. Error text supplements colour. Test real labels, locale, assistive technology and platform behaviour in the consuming application.</p></section>
+  <section id="implementation" class="doc-section"><h2>Developer implementation</h2><p>{e.notes}</p><p>Import from the local source. Fields share Field; grouped choices share ChoiceGroup. FormField is the slot-based composition primitive. Client helpers are bundled by Astro; ordinary native form behaviour remains available without JavaScript.</p><p>This reference example uses the initial configuration shown on page load. Preview state and size controls do not change this reference snippet.</p><CodeBlock code={example}/>
+   <CodeBlock code={`<script>
+  import { validateForm } from '../components/forms/runtime';
+  const form = document.querySelector<HTMLFormElement>('#component-example')!;
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    const result = document.querySelector('#component-result')!;\n    if (!validateForm(form)) {\n      result.textContent = 'Review the indicated field.';
+      form.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus();
+      return;
+    }
+    result.textContent = 'Local check passed.';\n    // Read new FormData(form) to connect your operation.
+  });
+</script>`}/>
+   <p>Copy both snippets into the same Astro page. Use the validation helper inside a named form with <code>novalidate</code> if you choose inline errors instead of browser validation bubbles. Server validation remains required for real submissions. No storage, authentication, upload service, or search backend is provided.</p>
+  </section>
+  <section id="foundations" class="doc-section"><h2>Related foundations and token status.</h2><p>Supported styles now consume the local token exports. See <a href={href('design-tokens/')}>Design Tokens</a> for actual alias mappings, candidate status and retained declarations.</p><p>Geist input text retains its documented 14px/1.5 line-height mapping; labels 14/20/600 and helper/error text 14/22/400; neutral/50, /100, /500, /600, /900, /950; mulberry/600 in Light and /200 in Dark; error/600 and /200; spacing 4, 8, 12, 16, 20, 24; radius 4, 8 and full; focus 2px with 2px offset; motion fast 120ms. These are foundation references, not public token names.</p><p>The reviewed field-shadow treatment is reused (0 / 8 / 24 / −8; 12% ink in Light, 24% black in Dark). The reviewed field/selection label and helper roles, 56px large controls, 2px focus offsets and capsule rounding are approved. Other candidate component role aliases, custom-calendar behaviour and complex searchable selection remain pending. This batch implements the explicitly described native variants only.</p></section>
+ </article>
+</DocsLayout>

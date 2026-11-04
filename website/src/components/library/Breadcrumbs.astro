@@ -1,0 +1,7 @@
+---
+import {internalHref} from '../../paths';
+import './library.css';
+interface Props {label?:string;items:{label:string;href?:string}[];}
+const {label='Breadcrumb',items}=Astro.props;
+---
+<nav aria-label={label} class="sv-breadcrumbs"><ol>{items.map((item,i)=><li>{i>0&&<span aria-hidden="true">/</span>}{item.href&&i!==items.length-1?<a href={internalHref(item.href)}>{item.label}</a>:<span aria-current={i===items.length-1?'page':undefined}>{item.label}</span>}</li>)}</ol></nav>

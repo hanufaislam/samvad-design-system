@@ -1,0 +1,666 @@
+{
+  "policy": "No inferred production ratification. Legacy literals remain explicit. Role aliases tagged implementation-candidate preserve approved component appearance only.",
+  "items": [
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-icon-action[aria-pressed=true]",
+      "property": "box-shadow",
+      "value": "inset 0 0 0 2px var(--samvad-component-icon-button-color-action-primary-default)",
+      "reason": "Existing selected-state inset indicator combines geometry and a token colour; no approved composite effect mapping.",
+      "category": "shadow-decision"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-text-link",
+      "property": "text-underline-offset",
+      "value": "3px",
+      "reason": "Existing link underline offset has no approved semantic decoration mapping, even where its number matches a spacing value.",
+      "category": "decoration-decision"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-text-link .sr-only",
+      "property": "width",
+      "value": "1px",
+      "reason": "Functional visually-hidden geometry preserves assistive-technology access; not a visual foundation role.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-text-link .sr-only",
+      "property": "height",
+      "value": "1px",
+      "reason": "Functional visually-hidden geometry preserves assistive-technology access; not a visual foundation role.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field input[data-otp-length]",
+      "property": "letter-spacing",
+      "value": ".125em",
+      "reason": "Approved OTP-specific .125em tracking is retained as a functional component declaration; no general typography role or new tracking scale is inferred.",
+      "category": "approved-functional-exception"
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-switch__track::after",
+      "property": "top",
+      "value": "3px",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-switch__track::after",
+      "property": "left",
+      "value": "3px",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-switch input:checked+.sv-switch__track::after",
+      "property": "transform",
+      "value": "translateX(16px)",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-sr-only",
+      "property": "width",
+      "value": "1px",
+      "reason": "Functional visually-hidden geometry preserves assistive-technology access; not a visual foundation role.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-sr-only",
+      "property": "height",
+      "value": "1px",
+      "reason": "Functional visually-hidden geometry preserves assistive-technology access; not a visual foundation role.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-sr-only",
+      "property": "margin",
+      "value": "-1px",
+      "reason": "Functional visually-hidden geometry preserves assistive-technology access; not a visual foundation role.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-badge",
+      "property": "font-weight",
+      "value": "500",
+      "reason": "Existing weight 500 has no approved matching typography weight mapping; do not substitute another weight.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-list li",
+      "property": "border-bottom",
+      "value": "1px solid var(--samvad-component-list-color-border-default)",
+      "reason": "Composite border includes a literal width/style with token colour; complete border-role mapping remains pending.",
+      "category": "border-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-list a",
+      "property": "text-underline-offset",
+      "value": "4px",
+      "reason": "Existing link underline offset has no approved semantic decoration mapping, even where its number matches a spacing value.",
+      "category": "decoration-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-table caption",
+      "property": "font-weight",
+      "value": "500",
+      "reason": "Existing weight 500 has no approved matching typography weight mapping; do not substitute another weight.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-table th",
+      "property": "font-weight",
+      "value": "500",
+      "reason": "Existing weight 500 has no approved matching typography weight mapping; do not substitute another weight.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-tooltip__bubble",
+      "property": "max-width",
+      "value": "min(240px,calc(100vw - 96px))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-toast",
+      "property": "max-width",
+      "value": "min(480px,calc(100vw - 48px))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-tabs [role=tablist]",
+      "property": "border-bottom",
+      "value": "1px solid var(--samvad-component-tabs-color-border-default)",
+      "reason": "Composite border includes a literal width/style with token colour; complete border-role mapping remains pending.",
+      "category": "border-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-tabs [role=tab][aria-selected=true]",
+      "property": "box-shadow",
+      "value": "inset 0 -2px var(--samvad-component-tabs-color-action-primary-default)",
+      "reason": "Existing selected-state inset indicator combines geometry and a token colour; no approved composite effect mapping.",
+      "category": "shadow-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-breadcrumbs a",
+      "property": "text-underline-offset",
+      "value": "4px",
+      "reason": "Existing link underline offset has no approved semantic decoration mapping, even where its number matches a spacing value.",
+      "category": "decoration-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-modal",
+      "property": "width",
+      "value": "min(480px,calc(100vw - var(--samvad-component-modal-panel-space-scale-32)))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-modal",
+      "property": "max-height",
+      "value": "calc(100dvh - 32px)",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-modal[data-kind=drawer]",
+      "property": "width",
+      "value": "min(480px,100vw)",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-popup",
+      "property": "max-width",
+      "value": "calc(100vw - 32px)",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-popup",
+      "property": "max-height",
+      "value": "calc(100dvh - 32px)",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-menu",
+      "property": "min-width",
+      "value": "min(192px,calc(100vw - var(--samvad-component-dropdown-menu-space-scale-32)))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/layout/layout.css",
+      "selector": ".sv-container",
+      "property": "max-width",
+      "value": "calc(var(--_svl-max) + 2 * var(--_svl-pad,16px))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/layout/layout.css",
+      "selector": ".sv-container",
+      "property": "max-width",
+      "value": "calc(var(--_svl-max) + 2 * var(--_svl-pad,24px))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/layout/layout.css",
+      "selector": ".sv-container",
+      "property": "max-width",
+      "value": "calc(var(--_svl-max) + 2 * var(--_svl-pad,32px))",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-action",
+      "property": "line-height",
+      "value": "1.4286",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-text-link",
+      "property": "line-height",
+      "value": "1.5",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-text-link[data-size=small]",
+      "property": "line-height",
+      "value": "1.5714",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-text-link[data-size=large]",
+      "property": "line-height",
+      "value": "1.5556",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field,.sv-choices,.sv-switch-field,.sv-chips",
+      "property": "line-height",
+      "value": "1.5",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field :is(input,textarea,select)",
+      "property": "line-height",
+      "value": "1.5",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-badge,.sv-status,.sv-avatar,.sv-card,.sv-list,.sv-table,.sv-tooltip,.sv-progress,.sv-skeleton,.sv-notice,.sv-toast-host,.sv-empty,.sv-loading,.sv-tabs,.sv-breadcrumbs,.sv-pagination,.sv-stepper,.sv-navlinks,.sv-modal,.sv-popup",
+      "property": "line-height",
+      "value": "1.5",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-card h3,.sv-empty h3,.sv-popup h3",
+      "property": "line-height",
+      "value": "1.5",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-modal__heading h2",
+      "property": "line-height",
+      "value": "1.4",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "type-size-role",
+      "detail": "Several approved typography roles share sizes. Mechanical size bindings preserve values, but final label/body/heading role assignment remains candidate."
+    }
+  ],
+  "resolvedAuditEntries": [
+    {
+      "file": "website/src/components/layout/layout.css",
+      "selector": ".layout-preview-frame .sv-container",
+      "property": "border-inline",
+      "value": "1px dashed var(--samvad-component-container-color-action-primary-default)",
+      "reason": "Composite border includes a literal width/style with token colour; complete border-role mapping remains pending.",
+      "category": "border-decision",
+      "resolution": "Removed from active retained-component register: actual rule uses --docs-accent and is documentation-only preview framing, not a reusable component token consumer."
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-action[data-size=large]",
+      "property": "min-block-size",
+      "value": "56px",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-action:focus-visible,.sv-text-link:focus-visible",
+      "property": "outline-offset",
+      "value": "2px",
+      "reason": "Existing 2px focus offset matches a foundation value, but its semantic focus-offset assignment has not been approved.",
+      "category": "focus-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-icon-action[data-size=large]",
+      "property": "inline-size",
+      "value": "56px",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-icon-action[data-size=large]",
+      "property": "block-size",
+      "value": "56px",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field>label,.sv-choices legend",
+      "property": "font-weight",
+      "value": "500",
+      "reason": "Existing weight 500 has no approved matching typography weight mapping; do not substitute another weight.",
+      "category": "typography-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field__help",
+      "property": "font-size",
+      "value": ".8125rem",
+      "reason": "Existing 13px equivalent size is outside the approved type scale; role and size require a design decision.",
+      "category": "typography-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field__error",
+      "property": "font-size",
+      "value": ".8125rem",
+      "reason": "Existing 13px equivalent size is outside the approved type scale; role and size require a design decision.",
+      "category": "typography-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field :is(input,textarea,select)",
+      "property": "box-shadow",
+      "value": "0 8px 24px -8px rgb(41 27 37 / .12)",
+      "reason": "Existing shadow geometry/colour differs from the approved elevation definition; preserve appearance pending explicit shadow mapping approval.",
+      "category": "shadow-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": "[data-theme=\"dark\"] .sv-field :is(input,textarea,select)",
+      "property": "box-shadow",
+      "value": "0 8px 24px -8px rgb(0 0 0 / .24)",
+      "reason": "Existing shadow geometry/colour differs from the approved elevation definition; preserve appearance pending explicit shadow mapping approval.",
+      "category": "shadow-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field[data-size=\"large\"] :is(input,textarea,select)",
+      "property": "min-height",
+      "value": "56px",
+      "reason": "Existing sizing, offset, translation or viewport/container calculation is functional component geometry; no approved role assignment for the complete expression. Matching raw numbers alone do not authorize a mapping.",
+      "category": "functional-geometry",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field :is(input,textarea,select):focus-visible,.sv-choice input:focus-visible,.sv-field__reveal:focus-visible,.sv-removable-chip button:focus-visible",
+      "property": "outline-offset",
+      "value": "3px",
+      "reason": "Existing 3px focus offset differs from foundation 2px guidance; preserve pending focus mapping approval.",
+      "category": "focus-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-switch__track",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-switch__track::after",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-switch input:focus-visible+.sv-switch__track",
+      "property": "outline-offset",
+      "value": "3px",
+      "reason": "Existing 3px focus offset differs from foundation 2px guidance; preserve pending focus mapping approval.",
+      "category": "focus-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-choices:is([data-variant=chips],[data-variant=segmented]) input:focus-visible+span",
+      "property": "outline-offset",
+      "value": "3px",
+      "reason": "Existing 3px focus offset differs from foundation 2px guidance; preserve pending focus mapping approval.",
+      "category": "focus-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-choices[data-variant=chips] .sv-choice span",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-removable-chip",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-removable-chip button",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-status__dot",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-avatar",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ":is(.sv-lib-button,.sv-lib-icon-button,.sv-table button,.sv-tabs button,.sv-menu button):focus-visible,.sv-navlinks a:focus-visible,.sv-breadcrumbs a:focus-visible,.sv-table-scroll:focus-visible,.sv-tabpanel:focus-visible",
+      "property": "outline-offset",
+      "value": "3px",
+      "reason": "Existing 3px focus offset differs from foundation 2px guidance; preserve pending focus mapping approval.",
+      "category": "focus-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-progress progress",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-progress progress::-webkit-progress-bar",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-progress progress::-webkit-progress-value",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-skeleton__line",
+      "property": "animation",
+      "value": "sv-pulse 960ms ease-in-out infinite alternate",
+      "reason": "Existing composite animation/transition includes timing or easing without an approved complete role mapping; retain rather than infer a production motion contract.",
+      "category": "motion-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-skeleton[data-variant=avatar] .sv-skeleton__line",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-notice__marker",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-toast",
+      "property": "box-shadow",
+      "value": "0 16px 40px -8px rgb(41 27 37 / .12)",
+      "reason": "Existing shadow geometry/colour differs from the approved elevation definition; preserve appearance pending explicit shadow mapping approval.",
+      "category": "shadow-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-loading__spinner",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-loading__spinner",
+      "property": "animation",
+      "value": "sv-spin 960ms linear infinite",
+      "reason": "Existing composite animation/transition includes timing or easing without an approved complete role mapping; retain rather than infer a production motion contract.",
+      "category": "motion-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-stepper__number",
+      "property": "border-radius",
+      "value": "999px",
+      "reason": "Existing 999px pill/circle rounding is not the approved full-radius value of 9999px; retain pending explicit mapping approval.",
+      "category": "geometry-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": ".sv-popup",
+      "property": "box-shadow",
+      "value": "0 8px 24px -4px rgb(41 27 37 / .1)",
+      "reason": "Existing shadow geometry/colour differs from the approved elevation definition; preserve appearance pending explicit shadow mapping approval.",
+      "category": "shadow-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": "[data-theme=dark] .sv-toast",
+      "property": "box-shadow",
+      "value": "0 16px 40px -8px rgb(0 0 0 / .24)",
+      "reason": "Existing shadow geometry/colour differs from the approved elevation definition; preserve appearance pending explicit shadow mapping approval.",
+      "category": "shadow-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/library/library.css",
+      "selector": "[data-theme=dark] .sv-popup",
+      "property": "box-shadow",
+      "value": "0 8px 24px -4px rgb(0 0 0 / .24)",
+      "reason": "Existing shadow geometry/colour differs from the approved elevation definition; preserve appearance pending explicit shadow mapping approval.",
+      "category": "shadow-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/actions/actions.css",
+      "selector": ".sv-action",
+      "property": "transition",
+      "value": "background-color var(--samvad-component-button-motion-duration-fast) ease,border-color var(--samvad-component-button-motion-duration-fast) ease",
+      "reason": "Existing composite animation/transition includes timing or easing without an approved complete role mapping; retain rather than infer a production motion contract.",
+      "category": "motion-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    },
+    {
+      "file": "website/src/components/forms/forms.css",
+      "selector": ".sv-field__help",
+      "property": "line-height",
+      "value": "1.6",
+      "reason": "Existing unitless line height preserves inherited-size behaviour; assigning a fixed approved type-role line height may change rendering.",
+      "category": "typography-decision",
+      "resolution": "Implemented approved five-area visual decision, 2026-11-04; exact previous declaration retained here as history."
+    }
+  ],
+  "approvedDecisions": [
+    {
+      "id": "five-area-visual-review",
+      "date": "2026-11-04",
+      "status": "approved-and-implemented",
+      "detail": "Field/toast exceptions, Popover elevation/2, quiet border neutral/800 Dark, label/helper roles, OTP retained, 56px controls, 2px focus offsets, full radius, button standard easing, retained loading cadence."
+    }
+  ]
+}

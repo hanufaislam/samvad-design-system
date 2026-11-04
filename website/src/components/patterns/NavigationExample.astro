@@ -1,0 +1,14 @@
+---
+import Breadcrumbs from '../library/Breadcrumbs.astro';
+import Tabs from '../library/Tabs.astro';
+import Pagination from '../library/Pagination.astro';
+import Stack from '../layout/Stack.astro';
+import {href} from '../../data';
+---
+<Stack gap={24} data-pattern-navigation>
+ <Breadcrumbs label="Example hierarchy" items={[{label:'Patterns',href:href('patterns/')},{label:'Navigation'}]}/>
+ <Tabs id="pattern-navigation" label="Example reading modes" items={[{label:'Read',content:'Read the selected item. Tabs change this local panel; they do not change the URL.'},{label:'Discuss',content:'Add supporting discussion here. Use a real link when the destination should have its own URL.'}]}/>
+ <section aria-label="Paginated documentation sample"><p data-pattern-page>Items 1–3 of 9</p><ul data-pattern-results><li>Labels and grouping</li><li>Current location</li><li>Return paths</li></ul></section>
+ <Pagination label="Example document pagination" total={3}/>
+</Stack>
+<script>import './runtime';</script>

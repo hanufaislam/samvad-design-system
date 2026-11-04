@@ -1,0 +1,6 @@
+---
+import Field from './Field.astro';
+interface Props {id:string;label:string;helper?:string;disabled?:boolean;required?:boolean;error?:string;length?:number;}
+const {length=6,...props}=Astro.props;
+---
+<Field {...props} type="text" inputmode="numeric" autocomplete="one-time-code" pattern={`[0-9]{${length}}`} maxlength={length} minlength={length} data-otp-length={length}/>

@@ -1,0 +1,87 @@
+---
+import '@fontsource-variable/geist';
+import '@fontsource-variable/geist-mono';
+import '../styles/site.css';
+import { foundation, pages, href, figma } from '../data';
+import Sidebar from '../components/Sidebar.astro';
+import Icon from '../components/Icon.astro';
+interface Props { page: string; toc?: {id: string; label: string}[]; }
+const { page: id, toc = [] } = Astro.props;
+const page = pages.find(p => p.id === id)!;
+const index = pages.indexOf(page), previous = pages[index - 1], next = pages[index + 1];
+// Website-only styling adapters from approved values; not a production token release.
+const c = foundation.colors;
+const vars = Object.entries(c).flatMap(([family, ramp]) => Object.entries(ramp).map(([step, value]) => `--docs-${family}-${step}:${value};`)).join('');
+---
+<!doctype html>
+<html lang="en" style={vars}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={page.description} />
+    <meta name="theme-color" content={c.neutral['50']} />
+    <title>{page.title} · Samvad Design System</title>
+    <link rel="icon" href={href('favicon.svg')} type="image/svg+xml" />
+    <script is:inline>
+      try { const saved = localStorage.getItem('samvad-docs-theme'); document.documentElement.dataset.theme = saved === 'dark' || saved === 'light' ? saved : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+      catch { document.documentElement.dataset.theme = 'light'; }
+    </script>
+  </head>
+  <body data-base={import.meta.env.BASE_URL}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-pagefind-ignore>
+      <div class="header-brand">
+        <button class="icon-button mobile-menu" id="open-navigation" aria-label="Open navigation" aria-controls="mobile-navigation" aria-expanded="false"><Icon name="list" size={22}/></button>
+        <a class="wordmark" href={href()} aria-label="Samvad Design System home"><Icon name="chat-circle" size={29}/><span>samvad<span class="brand-dot">.</span></span></a>
+        <span class="brand-label">Design System</span>
+      </div>
+      <div class="header-tools">
+        <span class="version">v{foundation.version}<span class="version-label"> / Preview</span></span>
+        <button class="search-trigger" data-open-search aria-label="Search documentation" aria-haspopup="dialog"><Icon name="magnifying-glass"/><span>Search documentation…</span><kbd>⌘ K</kbd></button>
+        <a class="figma-link" href={figma} target="_blank" rel="noreferrer">Figma <Icon name="arrow-up-right" size={16}/><span class="sr-only">workspace (opens in a new tab)</span></a>
+        <span class="header-divider"></span>
+        <button class="icon-button theme-toggle" id="theme-toggle" aria-label="Switch to dark theme" title="Switch to dark theme"><Icon name="sun" class="sun-icon"/><Icon name="moon" class="moon-icon"/></button>
+      </div>
+    </header>
+    <aside class="desktop-sidebar" data-pagefind-ignore>
+      <Sidebar current={id}/>
+      <div class="sidebar-footer"><span class="status-dot"></span><span>Samvad · Documentation</span></div>
+    </aside>
+    <dialog id="mobile-navigation" class="mobile-navigation" aria-label="Documentation navigation" data-pagefind-ignore>
+      <div class="drawer-heading"><strong>Explore Samvad</strong><button class="icon-button" data-close-navigation aria-label="Close navigation"><Icon name="x"/></button></div>
+      <Sidebar current={id}/>
+      <p class="drawer-footnote">All components · Review preview</p>
+    </dialog>
+    <div class="page-shell">
+      <div class="content-grid">
+        <main id="main" tabindex="-1" data-pagefind-body>
+          <nav class="breadcrumbs" aria-label="Breadcrumb" data-pagefind-ignore><a href={href()}>Docs</a><span aria-hidden="true">/</span><span>{page.group}</span>{id !== 'overview' && <><span aria-hidden="true">/</span><span aria-current="page">{page.title}</span></>}</nav>
+          <div class="page-heading">
+            <div class="page-kicker">{id === 'overview' ? 'THE SAMVAD DESIGN SYSTEM' : page.group.toUpperCase()} <span class:list={['status-tag', { planned: id === 'planned' }]}>{(id.startsWith('pattern-') || id.startsWith('resource-')) ? 'Approved reference' : (page.group==='Foundations'||page.group==='Get started') ? 'Approved reference' : id.startsWith('token-') ? 'Token implementation' : (id.startsWith('action-') || id.startsWith('batch-') || id.startsWith('library-')) ? 'Component preview' : 'Shell preview'}</span></div>
+            <h1 data-pagefind-meta="title">{id === 'overview' ? <>A little character.<br/><span>A lot of clarity.</span></> : page.title}</h1>
+            <p class="page-description">{page.description}</p>
+          </div>
+          <slot />
+          <nav class="page-pagination" aria-label="Previous and next pages" data-pagefind-ignore>
+            {previous ? <a href={href(previous.path)}><span class="pagination-label"><Icon name="arrow-left" size={16}/>Previous</span><strong>{previous.title}</strong></a> : <span/>}
+            {next ? <a class="pagination-next" href={href(next.path)}><span class="pagination-label">Next<Icon name="arrow-right" size={16}/></span><strong>{next.title}</strong></a> : <a class="pagination-next" href={href()}><span class="pagination-label">Back to<Icon name="arrow-right" size={16}/></span><strong>Overview</strong></a>}
+          </nav>
+          <footer class="page-footer" data-pagefind-ignore><span>Samvad Design System · v{foundation.version}</span><span>Thoughtfully, one foundation at a time.</span></footer>
+        </main>
+        <aside class="on-this-page" aria-label="On this page" data-pagefind-ignore>
+          <p>ON THIS PAGE</p><nav>{toc.map(item => <a href={'#'+item.id}>{item.label}</a>)}</nav>
+          <div class="toc-note"><span class="status-dot"></span><strong>Approved documentation</strong><p>All six documentation sections are approved. Remaining candidate mappings and platform limitations are explicit; public release requires approval.</p></div>
+        </aside>
+      </div>
+    </div>
+    <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title" data-pagefind-ignore>
+      <div class="search-dialog-header"><Icon name="magnifying-glass" size={24}/><label id="search-title" class="sr-only" for="docs-search">Search Samvad documentation</label><input id="docs-search" type="search" placeholder="Find a foundation, principle or page…" autocomplete="off"/><button class="icon-button" data-close-search aria-label="Close search"><Icon name="x"/></button></div>
+      <p id="search-status" class="search-status" role="status" aria-live="polite">Search the documentation pages.</p>
+      <ul id="search-results" class="search-results"></ul>
+      <div class="search-dialog-footer"><span>Search this documentation preview</span><span><kbd>esc</kbd> to close</span></div>
+    </dialog>
+    <div id="copy-status" class="copy-status" role="status" aria-live="polite"></div>
+    <script id="search-pages" type="application/json" set:html={JSON.stringify(pages).replaceAll('<', '\\u003c')} />
+    <script>import '../scripts/shell';</script>
+  </body>
+</html>

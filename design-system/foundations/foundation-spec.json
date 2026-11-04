@@ -1,0 +1,578 @@
+{
+  "status": "Phase 2 foundation specification; not a three-tier token release",
+  "version": "0.2.0",
+  "colors": {
+    "neutral": {
+      "50": "#FCF9F6",
+      "100": "#F5EEEA",
+      "200": "#E9DDD8",
+      "300": "#D7C6C1",
+      "400": "#BAA4A1",
+      "500": "#997F80",
+      "600": "#776368",
+      "700": "#635058",
+      "800": "#4D3B46",
+      "900": "#3B2935",
+      "950": "#291B25"
+    },
+    "mulberry": {
+      "50": "#FCF3F8",
+      "100": "#F8E4EF",
+      "200": "#EFBFD9",
+      "300": "#E8A0C6",
+      "400": "#D271A9",
+      "500": "#AB477F",
+      "600": "#742653",
+      "700": "#601E45",
+      "800": "#4C1939",
+      "900": "#3D162F",
+      "950": "#290D20"
+    },
+    "success": {
+      "50": "#F0FAF4",
+      "100": "#DDF3E5",
+      "200": "#BCE5CC",
+      "300": "#8ACFA7",
+      "400": "#54AF7D",
+      "500": "#328E5D",
+      "600": "#24734B",
+      "700": "#205C3E",
+      "800": "#1C4934",
+      "900": "#183C2C",
+      "950": "#0C241A"
+    },
+    "warning": {
+      "50": "#FFF9E8",
+      "100": "#FFF0C2",
+      "200": "#FFE08A",
+      "300": "#FFCA52",
+      "400": "#EDAC20",
+      "500": "#BB810D",
+      "600": "#946000",
+      "700": "#784B08",
+      "800": "#623D0D",
+      "900": "#513210",
+      "950": "#301C06"
+    },
+    "error": {
+      "50": "#FFF2F3",
+      "100": "#FFE2E6",
+      "200": "#FFC5CE",
+      "300": "#F89CAA",
+      "400": "#EC6C81",
+      "500": "#D64C64",
+      "600": "#B83446",
+      "700": "#96293B",
+      "800": "#7B2636",
+      "900": "#662431",
+      "950": "#3C101C"
+    },
+    "info": {
+      "50": "#F0F7FF",
+      "100": "#E0EDFC",
+      "200": "#BED9F5",
+      "300": "#91BEEB",
+      "400": "#609AD8",
+      "500": "#3E7DBD",
+      "600": "#2D659E",
+      "700": "#27517F",
+      "800": "#244369",
+      "900": "#223957",
+      "950": "#132239"
+    },
+    "apricot": {
+      "50": "#FFF7EF",
+      "100": "#FFEADB",
+      "200": "#FFD8BC",
+      "300": "#FFC59E",
+      "400": "#F4A475",
+      "500": "#DF8050",
+      "600": "#B75D32",
+      "700": "#934728",
+      "800": "#763B25",
+      "900": "#603222",
+      "950": "#381B10"
+    },
+    "lime": {
+      "50": "#FAFCEB",
+      "100": "#F1F7CB",
+      "200": "#DEEC86",
+      "300": "#C9DC61",
+      "400": "#ABC33F",
+      "500": "#8AA128",
+      "600": "#697D1C",
+      "700": "#52621B",
+      "800": "#424F1B",
+      "900": "#38421B",
+      "950": "#1D250B"
+    }
+  },
+  "steps": [
+    50,
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    950
+  ],
+  "typography": [
+    {
+      "name": "display",
+      "size": 48,
+      "lineHeight": 56,
+      "weight": 600,
+      "trackingEm": -0.03
+    },
+    {
+      "name": "heading/1",
+      "size": 36,
+      "lineHeight": 44,
+      "weight": 600,
+      "trackingEm": -0.025
+    },
+    {
+      "name": "heading/2",
+      "size": 28,
+      "lineHeight": 36,
+      "weight": 600,
+      "trackingEm": -0.02
+    },
+    {
+      "name": "heading/3",
+      "size": 24,
+      "lineHeight": 32,
+      "weight": 600,
+      "trackingEm": -0.015
+    },
+    {
+      "name": "heading/4",
+      "size": 20,
+      "lineHeight": 28,
+      "weight": 600,
+      "trackingEm": -0.01
+    },
+    {
+      "name": "body/l",
+      "size": 18,
+      "lineHeight": 28,
+      "weight": 400,
+      "trackingEm": 0
+    },
+    {
+      "name": "body/m",
+      "size": 16,
+      "lineHeight": 24,
+      "weight": 400,
+      "trackingEm": 0
+    },
+    {
+      "name": "body/s",
+      "size": 14,
+      "lineHeight": 22,
+      "weight": 400,
+      "trackingEm": 0
+    },
+    {
+      "name": "label",
+      "size": 14,
+      "lineHeight": 20,
+      "weight": 600,
+      "trackingEm": 0
+    },
+    {
+      "name": "caption",
+      "size": 12,
+      "lineHeight": 18,
+      "weight": 400,
+      "trackingEm": 0
+    }
+  ],
+  "fonts": {
+    "primary": "Geist",
+    "mono": "Geist Mono",
+    "preferredUnavailable": [
+      "General Sans",
+      "Satoshi"
+    ],
+    "devanagari": "Noto Sans Devanagari",
+    "telugu": "Noto Sans Telugu"
+  },
+  "spacing": [
+    0,
+    2,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    80,
+    96
+  ],
+  "radius": {
+    "none": 0,
+    "xs": 2,
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 20,
+    "full": 9999
+  },
+  "shadows": [
+    {
+      "level": 0,
+      "x": 0,
+      "y": 0,
+      "blur": 0,
+      "spread": 0,
+      "lightOpacity": 0,
+      "darkOpacity": 0
+    },
+    {
+      "level": 1,
+      "x": 0,
+      "y": 1,
+      "blur": 2,
+      "spread": 0,
+      "lightOpacity": 0.06,
+      "darkOpacity": 0.16
+    },
+    {
+      "level": 2,
+      "x": 0,
+      "y": 4,
+      "blur": 12,
+      "spread": -2,
+      "lightOpacity": 0.08,
+      "darkOpacity": 0.2
+    },
+    {
+      "level": 3,
+      "x": 0,
+      "y": 8,
+      "blur": 24,
+      "spread": -4,
+      "lightOpacity": 0.1,
+      "darkOpacity": 0.24
+    },
+    {
+      "level": 4,
+      "x": 0,
+      "y": 16,
+      "blur": 40,
+      "spread": -8,
+      "lightOpacity": 0.12,
+      "darkOpacity": 0.28
+    }
+  ],
+  "layout": [
+    {
+      "name": "Compact",
+      "min": 0,
+      "max": 599,
+      "columns": 4,
+      "gutter": 16,
+      "margin": 16,
+      "specimenWidth": 360
+    },
+    {
+      "name": "Medium",
+      "min": 600,
+      "max": 1023,
+      "columns": 8,
+      "gutter": 24,
+      "margin": 24,
+      "specimenWidth": 768
+    },
+    {
+      "name": "Wide",
+      "min": 1024,
+      "max": null,
+      "columns": 12,
+      "gutter": 24,
+      "margin": 32,
+      "specimenWidth": 1200
+    }
+  ],
+  "containerMaxima": [
+    640,
+    960,
+    1200
+  ],
+  "motion": {
+    "fast": 120,
+    "base": 200,
+    "slow": 320,
+    "standard": [
+      0.2,
+      0,
+      0,
+      1
+    ],
+    "enter": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "exit": [
+      0.3,
+      0,
+      1,
+      1
+    ]
+  },
+  "contrast": [
+    {
+      "theme": "Light",
+      "role": "Primary text",
+      "foreground": "neutral/950",
+      "background": "neutral/50",
+      "foregroundHex": "#291B25",
+      "backgroundHex": "#FCF9F6",
+      "ratio": 15.668,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "Secondary text",
+      "foreground": "neutral/600",
+      "background": "neutral/50",
+      "foregroundHex": "#776368",
+      "backgroundHex": "#FCF9F6",
+      "ratio": 5.312,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "Action label",
+      "foreground": "neutral/50",
+      "background": "mulberry/600",
+      "foregroundHex": "#FCF9F6",
+      "backgroundHex": "#742653",
+      "ratio": 9.334,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "Input boundary",
+      "foreground": "neutral/500",
+      "background": "neutral/50",
+      "foregroundHex": "#997F80",
+      "backgroundHex": "#FCF9F6",
+      "ratio": 3.511,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "Focus ring",
+      "foreground": "mulberry/600",
+      "background": "neutral/50",
+      "foregroundHex": "#742653",
+      "backgroundHex": "#FCF9F6",
+      "ratio": 9.334,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "Apricot text",
+      "foreground": "neutral/950",
+      "background": "apricot/300",
+      "foregroundHex": "#291B25",
+      "backgroundHex": "#FFC59E",
+      "ratio": 10.747,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "Lime text",
+      "foreground": "neutral/950",
+      "background": "lime/200",
+      "foregroundHex": "#291B25",
+      "backgroundHex": "#DEEC86",
+      "ratio": 12.873,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Primary text",
+      "foreground": "neutral/50",
+      "background": "neutral/950",
+      "foregroundHex": "#FCF9F6",
+      "backgroundHex": "#291B25",
+      "ratio": 15.668,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Secondary text",
+      "foreground": "neutral/300",
+      "background": "neutral/950",
+      "foregroundHex": "#D7C6C1",
+      "backgroundHex": "#291B25",
+      "ratio": 9.968,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Raised surface text",
+      "foreground": "neutral/50",
+      "background": "neutral/900",
+      "foregroundHex": "#FCF9F6",
+      "backgroundHex": "#3B2935",
+      "ratio": 12.878,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Action label",
+      "foreground": "neutral/950",
+      "background": "mulberry/200",
+      "foregroundHex": "#291B25",
+      "backgroundHex": "#EFBFD9",
+      "ratio": 10.271,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Input boundary",
+      "foreground": "neutral/500",
+      "background": "neutral/950",
+      "foregroundHex": "#997F80",
+      "backgroundHex": "#291B25",
+      "ratio": 4.462,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Focus ring",
+      "foreground": "mulberry/200",
+      "background": "neutral/950",
+      "foregroundHex": "#EFBFD9",
+      "backgroundHex": "#291B25",
+      "ratio": 10.271,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "Focus on raised surface",
+      "foreground": "mulberry/200",
+      "background": "neutral/900",
+      "foregroundHex": "#EFBFD9",
+      "backgroundHex": "#3B2935",
+      "ratio": 8.443,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "success text / icon / border",
+      "foreground": "success/600",
+      "background": "success/50",
+      "foregroundHex": "#24734B",
+      "backgroundHex": "#F0FAF4",
+      "ratio": 5.425,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "success text / icon / border",
+      "foreground": "success/200",
+      "background": "success/950",
+      "foregroundHex": "#BCE5CC",
+      "backgroundHex": "#0C241A",
+      "ratio": 11.862,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "warning text / icon / border",
+      "foreground": "warning/600",
+      "background": "warning/50",
+      "foregroundHex": "#946000",
+      "backgroundHex": "#FFF9E8",
+      "ratio": 5.078,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "warning text / icon / border",
+      "foreground": "warning/200",
+      "background": "warning/950",
+      "foregroundHex": "#FFE08A",
+      "backgroundHex": "#301C06",
+      "ratio": 12.578,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "error text / icon / border",
+      "foreground": "error/600",
+      "background": "error/50",
+      "foregroundHex": "#B83446",
+      "backgroundHex": "#FFF2F3",
+      "ratio": 5.32,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "error text / icon / border",
+      "foreground": "error/200",
+      "background": "error/950",
+      "foregroundHex": "#FFC5CE",
+      "backgroundHex": "#3C101C",
+      "ratio": 11.013,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Light",
+      "role": "info text / icon / border",
+      "foreground": "info/600",
+      "background": "info/50",
+      "foregroundHex": "#2D659E",
+      "backgroundHex": "#F0F7FF",
+      "ratio": 5.611,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "theme": "Dark",
+      "role": "info text / icon / border",
+      "foreground": "info/200",
+      "background": "info/950",
+      "foregroundHex": "#BED9F5",
+      "backgroundHex": "#132239",
+      "ratio": 10.971,
+      "minimum": 4.5,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+---
+import './library.css';
+interface Props {caption:string;columns:{key:string;label:string;sortable?:boolean}[];rows:Record<string,string|number>[];density?:'comfortable'|'compact';}
+const {caption,columns,rows,density='comfortable'}=Astro.props;
+---
+<div class="sv-table-scroll" role="region" aria-label={`${caption}, scrollable table`} tabindex="0"><table class="sv-table" data-density={density} data-sort-table><caption>{caption}</caption><thead><tr>{columns.map((c,i)=><th scope="col" aria-sort={c.sortable?'none':undefined}>{c.sortable?<button type="button" data-sort-column={i}>{c.label}<span aria-hidden="true"> ↕</span></button>:c.label}</th>)}</tr></thead><tbody>{rows.map(row=><tr>{columns.map(c=><td>{row[c.key]}</td>)}</tr>)}</tbody></table><p class="sv-sr-only" role="status" data-sort-status></p></div>
+<script>import './runtime';</script>

@@ -1,0 +1,8 @@
+---
+import type {HTMLAttributes} from 'astro/types';
+import {gridStyle,type Space,type Align} from './values';
+import './layout.css';
+interface Props extends Omit<HTMLAttributes<'div'>,'style'> {columns?:number;medium?:number;wide?:number;gap?:Space;align?:Align;responsive?:boolean;}
+const {columns=1,medium=2,wide=3,gap=16,align='stretch',responsive=true,class:className,...attrs}=Astro.props;
+---
+<div {...attrs} class:list={['sv-grid',className]} data-align={align} data-responsive={String(responsive)} style={gridStyle(gap,columns,medium,wide)}><slot/></div>

@@ -1,0 +1,8 @@
+---
+import Button from '../actions/Button.astro';
+import './library.css';
+interface Props {id:string;label:string;items:{label:string;value:string;disabled?:boolean}[];}
+const {id,label,items}=Astro.props;
+---
+<div class="sv-popup-host"><Button variant="secondary" popovertarget={id} aria-haspopup="menu" aria-controls={id} aria-expanded="false" data-popup-trigger={id}>{label}</Button><div id={id} popover="auto" class="sv-popup sv-menu" role="menu" aria-label={label} data-menu data-position-popup>{items.map(item=><button type="button" role="menuitem" disabled={item.disabled} tabindex="-1" data-menu-value={item.value}>{item.label}</button>)}</div></div>
+<script>import './runtime';</script>

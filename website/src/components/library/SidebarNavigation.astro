@@ -1,0 +1,5 @@
+---
+import NavLinks from './NavLinks.astro';
+type Props=Parameters<typeof NavLinks>[0];
+---
+<NavLinks {...Astro.props} orientation="vertical"/>

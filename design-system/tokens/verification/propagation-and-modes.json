@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "test": "settled Light primary",
+      "pass": true,
+      "actual": "rgb(116, 38, 83)"
+    },
+    {
+      "test": "primitive change propagates through semantic/component aliases",
+      "pass": true,
+      "actual": "rgb(96, 30, 69)"
+    },
+    {
+      "test": "primitive restoration",
+      "pass": true
+    },
+    {
+      "test": "settled Dark primary",
+      "pass": true,
+      "actual": "rgb(239, 191, 217)"
+    },
+    {
+      "test": "nested Light scope inside Dark",
+      "pass": true,
+      "actual": "rgb(116, 38, 83)"
+    },
+    {
+      "test": "nested Dark scope inside Light",
+      "pass": true,
+      "actual": "rgb(239, 191, 217)"
+    }
+  ],
+  "failures": []
+}

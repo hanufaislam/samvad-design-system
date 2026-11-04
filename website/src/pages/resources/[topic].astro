@@ -1,0 +1,7 @@
+---
+import content from '../../components/patterns/content.json';
+import ReferencePage from '../../components/patterns/ReferencePage.astro';
+export function getStaticPaths(){return content.filter(e=>e.group==='Resources').map(entry=>({params:{topic:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+---
+<ReferencePage entry={entry}/>

@@ -1,0 +1,13 @@
+---
+import {internalHref} from '../../paths';
+import type { HTMLAttributes } from 'astro/types';
+import '@fontsource-variable/geist';
+import Icon from '../Icon.astro';
+import { actionFoundationStyle, type ActionSize } from './foundations';
+import './actions.css';
+interface Props extends Omit<HTMLAttributes<'a'>,'class'|'style'> { variant?: 'default'|'subtle'; size?: ActionSize; disabled?: boolean; class?: string; }
+const { href, target, rel, variant='default',size='medium',disabled=false,class:className='',...attributes }=Astro.props;
+if(!disabled && !href) throw new Error('TextLink requires href unless disabled.');
+const safeRel=target==='_blank'?[...new Set([...(rel||'').split(/\s+/),'noopener','noreferrer'])].filter(Boolean).join(' '):rel;
+---
+{disabled ? <span class:list={['sv-text-link',className]} role="link" aria-disabled="true" data-link-variant={variant} data-size={size} style={actionFoundationStyle}><slot/></span> : <a {...attributes} href={internalHref(href)} target={target} rel={safeRel} class:list={['sv-text-link',className]} data-link-variant={variant} data-size={size} style={actionFoundationStyle}><slot/>{target==='_blank' && <><Icon name="arrow-up-right" size={16}/><span class="sr-only"> (opens in a new tab)</span></>}</a>}

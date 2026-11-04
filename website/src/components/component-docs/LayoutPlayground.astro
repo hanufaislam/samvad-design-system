@@ -1,0 +1,23 @@
+---
+import Container from '../layout/Container.astro';
+import Divider from '../layout/Divider.astro';
+import Stack from '../layout/Stack.astro';
+import Grid from '../layout/Grid.astro';
+import CodeBlock from './CodeBlock.astro';
+import {foundation} from '../../data';
+import type {layoutCatalog} from '../layout/catalog';
+const {entry:e}=Astro.props as {entry:typeof layoutCatalog[number]};
+const initialCode=`---\nimport ${e.component} from '../components/layout/${e.component}.astro';\n---\n<${e.component} ${Object.entries(e.props).map(([k,v])=>typeof v==='string'?`${k}=${JSON.stringify(v)}`:`${k}={${JSON.stringify(v)}}`).join(' ')}${e.slug==='divider'?' />':`>\n  <div>First item</div>\n  <div>Second item</div>\n</${e.component}>`}`;
+const fields=e.slug==='container'?[['max','Maximum',['640','960','1200','reading','full'],'960'],['padding','Padding',['responsive',...foundation.spacing.map(String)],'responsive']]:e.slug==='divider'?[['orientation','Orientation',['horizontal','vertical'],'horizontal'],['inset','Inset',['0','8','16','24'],'0'],['decorative','Meaning',['semantic','decorative'],'semantic']]:e.slug==='stack'?[['direction','Direction',['vertical','horizontal'],'horizontal'],['gap','Gap',foundation.spacing.map(String),'16'],['align','Alignment',['start','center','end','stretch'],'center'],['justify','Justify',['start','center','end','between'],'start'],['wrap','Wrap',['true','false'],'true'],['collapse','Collapse below 600px',['false','true'],'false']]:[['columns','Base columns',['1','2','3','4'],'1'],['medium','Medium columns',['1','2','3','4','6','8'],'2'],['wide','Wide columns',['1','2','3','4','6','8','12'],'3'],['gap','Gap',foundation.spacing.map(String),'16'],['align','Alignment',['start','center','end','stretch'],'stretch'],['responsive','Responsive',['true','false'],'true']];
+---
+<div class="library-playground" data-layout-playground={e.slug}>
+ <div class="library-preview-controls layout-preview-controls">
+ {fields.map(([name,label,values,current])=><label>{label}<span class="component-select"><select data-layout-control={name as string}>{(values as string[]).map(value=><option value={value} selected={value===current}>{value}</option>)}</select></span></label>)}
+ </div>
+ <div class="component-stage"><div class="library-example layout-canvas" role="region" aria-label="Scrollable layout preview" tabindex="0" data-library-example={e.slug}>
+ {e.slug==='container'?<div class="layout-preview-frame"><Container {...e.props} data-layout-target><div class="layout-sample">Content stays within the maximum width. Dashed edges show the container; inline padding remains inside those edges.</div></Container></div>:e.slug==='divider'?<div class="layout-divider-example" data-orientation="horizontal"><div class="layout-sample">First group</div><Divider {...e.props}/><Divider orientation="vertical" hidden/><div class="layout-sample">Second group</div></div>:e.slug==='stack'?<Stack {...e.props} class="layout-example-stack" data-layout-target>{['First','Second, with a longer label','Third'].map(label=><div class="layout-sample">{label}</div>)}</Stack>:<Grid {...e.props} data-layout-target>{['One','Two, with a longer description','Three','Four','Five','Six'].map(label=><div class="layout-sample">{label}</div>)}</Grid>}
+ </div></div>
+ <p class="library-demo-status" role="status" data-layout-status>Change a control to inspect the real layout. Breakpoints follow the browser viewport.</p>
+ <CodeBlock code={initialCode} live/>
+</div>
+<script>import '../../scripts/layout-previews';</script>

@@ -1,0 +1,6 @@
+---
+import './library.css';
+interface Props {title:string;description?:string;variant?:'outlined'|'subtle';}
+const {title,description,variant='outlined'}=Astro.props;
+---
+<article class="sv-card" data-variant={variant}><h3>{title}</h3>{description&&<p>{description}</p>}<slot/></article>

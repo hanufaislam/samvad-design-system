@@ -1,0 +1,14 @@
+---
+import './forms.css';
+interface Props { id:string; label:string; helper?:string; options:{value:string;label:string;disabled?:boolean}[]; type?:'checkbox'|'radio'; selected?:string[]; required?:boolean; disabled?:boolean; variant?:'default'|'chips'|'segmented'; }
+const {id,label,helper,options,type='checkbox',selected=[],required=false,disabled=false,variant='default'}=Astro.props;
+---
+<fieldset class="sv-choices" data-variant={variant} data-choice-group data-required={String(required)} disabled={disabled}>
+  <legend>{label}{required&&<span> (required)</span>}</legend>
+  {helper&&<p id={`${id}-help`} class="sv-field__help">{helper}</p>}
+  <div class="sv-choices__options">
+    {options.map((o,i)=><label class="sv-choice"><input id={`${id}-${i}`} name={id} value={o.value} type={type} checked={selected.includes(o.value)} required={required&&type==='radio'} disabled={o.disabled} aria-describedby={`${helper?id+'-help ':''}${id}-error`}/><span>{o.label}</span></label>)}
+  </div>
+  <p id={`${id}-error`} class="sv-field__error" data-choice-error aria-live="polite" hidden></p>
+</fieldset>
+<script>import './runtime';</script>

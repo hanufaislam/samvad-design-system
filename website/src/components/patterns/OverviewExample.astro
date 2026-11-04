@@ -1,0 +1,9 @@
+---
+import Card from '../library/Card.astro';
+import Grid from '../layout/Grid.astro';
+import {href} from '../../data';
+---
+<Grid columns={1} medium={2} wide={2} gap={24}>
+ <Card title="A clear request" description="Labels, helper text, validation and an action work together."><a href={href('patterns/forms/')}>Explore the form pattern</a></Card>
+ <Card title="A useful response" description="Loading, empty results and feedback explain what happens next."><a href={href('patterns/loading/')}>Explore the loading pattern</a></Card>
+</Grid>

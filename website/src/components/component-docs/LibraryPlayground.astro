@@ -1,0 +1,52 @@
+---
+import LayoutPlayground from './LayoutPlayground.astro';
+import Badge from '../library/Badge.astro';
+import StatusIndicator from '../library/StatusIndicator.astro';
+import Avatar from '../library/Avatar.astro';
+import Card from '../library/Card.astro';
+import List from '../library/List.astro';
+import Table from '../library/Table.astro';
+import Tooltip from '../library/Tooltip.astro';
+import ProgressIndicator from '../library/ProgressIndicator.astro';
+import SkeletonLoader from '../library/SkeletonLoader.astro';
+import Alert from '../library/Alert.astro';
+import ToastNotification from '../library/ToastNotification.astro';
+import FeedbackStates from '../library/FeedbackStates.astro';
+import EmptyState from '../library/EmptyState.astro';
+import LoadingState from '../library/LoadingState.astro';
+import Tabs from '../library/Tabs.astro';
+import Breadcrumbs from '../library/Breadcrumbs.astro';
+import Pagination from '../library/Pagination.astro';
+import Stepper from '../library/Stepper.astro';
+import SidebarNavigation from '../library/SidebarNavigation.astro';
+import TopNavigation from '../library/TopNavigation.astro';
+import Dialog from '../library/Dialog.astro';
+import Drawer from '../library/Drawer.astro';
+import Popover from '../library/Popover.astro';
+import DropdownMenu from '../library/DropdownMenu.astro';
+import ConfirmationDialog from '../library/ConfirmationDialog.astro';
+import Button from '../actions/Button.astro';
+import TextLink from '../actions/TextLink.astro';
+import type { LibraryEntry } from '../library/catalog';
+const {entry:e}=Astro.props as {entry:LibraryEntry};
+const components={Badge,StatusIndicator,Avatar,Card,List,Table,Tooltip,ProgressIndicator,SkeletonLoader,Alert,ToastNotification,FeedbackStates,EmptyState,LoadingState,Tabs,Breadcrumbs,Pagination,Stepper,SidebarNavigation,TopNavigation,Dialog,Drawer,Popover,DropdownMenu,ConfirmationDialog};
+const Component=components[e.component as keyof typeof components];
+const tones=['badge','status-indicator','alert','feedback-states'].includes(e.slug);
+const toneOptions=e.slug==='feedback-states'?['success','error','warning']:e.slug==='alert'?['info','success','warning','error']:['neutral','info','success','warning','error'];
+const variants=e.slug==='avatar'?['small','medium','large']:e.slug==='card'?['outlined','subtle']:e.slug==='table'?['comfortable','compact']:e.slug==='skeleton-loader'?['text','avatar']:e.slug==='badge'?['small','medium']:[];
+const initialVariant='size' in e.props?e.props.size:'variant' in e.props?e.props.variant:'density' in e.props?e.props.density:'';
+---
+{e.group==='layout'?<LayoutPlayground entry={e}/>:<div class="library-playground" data-library-playground={e.slug}>
+ <div class="library-preview-controls">
+  {tones&&<label>Tone<span class="component-select"><select data-library-tone>{toneOptions.map(t=><option value={t} selected={'tone' in e.props&&t===e.props.tone}>{t}</option>)}</select></span></label>}
+  {variants.length>0&&<label>{['avatar','badge'].includes(e.slug)?'Size':'Variant'}<span class="component-select"><select data-library-variant>{variants.map(v=><option value={v} selected={v===initialVariant}>{v}</option>)}</select></span></label>}
+  {e.slug==='progress-indicator'&&<><label>Example progress<input type="range" min="0" max="100" value="40" data-demo-progress/></label><label><input type="checkbox" data-demo-indeterminate/> Indeterminate</label></>}
+  {e.slug==='stepper'&&<label>Example step<input type="range" min="0" max="2" value="1" data-demo-step/></label>}
+  {e.slug==='alert'&&<Button variant="ghost" data-restore-notice>Restore alert</Button>}
+ </div>
+ <div class="component-stage"><div class="library-example" data-library-example={e.slug}>
+  {e.slug==='card'?<Card {...e.props}><TextLink href="/foundations/colour/">Explore colour</TextLink></Card>:e.slug==='empty-state'?<EmptyState {...e.props}><TextLink href="/foundations/typography/">Explore typography</TextLink></EmptyState>:<Component {...e.props as any}/>}
+ </div></div>
+ <p class="library-demo-status" role="status" data-library-status>Local component preview. No data is sent or saved.</p>
+</div>}
+<script>import '../../scripts/library-previews';</script>

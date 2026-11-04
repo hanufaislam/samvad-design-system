@@ -1,0 +1,19 @@
+---
+import TextInput from '../forms/TextInput.astro';
+import Textarea from '../forms/Textarea.astro';
+import Alert from '../library/Alert.astro';
+import Button from '../actions/Button.astro';
+import Stack from '../layout/Stack.astro';
+---
+<form data-pattern-form novalidate aria-label="Document details example">
+ <Stack gap={24}>
+  <div data-error-summary hidden tabindex="-1" role="group" aria-label="Please check the highlighted fields">
+   <Alert tone="error" title="Check the document title" message="Enter a title before continuing."/><a href="#pattern-title">Go to document title</a>
+  </div>
+  <TextInput id="pattern-title" label="Document title" helper="Give this example a short, recognisable name." required maxlength={80}/>
+  <Textarea id="pattern-notes" label="Notes" helper="Optional context for the example. Nothing is sent or stored." rows={3}/>
+  <Stack direction="horizontal" gap={12}><Button type="submit">Check details</Button><Button type="reset" variant="secondary">Reset</Button></Stack>
+  <p data-form-status role="status" aria-live="polite">Local validation example. No network request.</p>
+ </Stack>
+</form>
+<script>import './runtime';</script>

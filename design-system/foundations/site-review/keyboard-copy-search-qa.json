@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "name": "Keyboard field focus has visible2px ring and2px offset",
+      "pass": true
+    },
+    {
+      "name": "Keyboard action updates local status",
+      "pass": true
+    },
+    {
+      "name": "Feedback palette copy uses approved source value",
+      "pass": true
+    },
+    {
+      "name": "Full-text Pagefind finds new foundation body content",
+      "pass": true,
+      "status": "3 results for “clamping”."
+    },
+    {
+      "name": "Search Escape dismisses dialog",
+      "pass": true
+    },
+    {
+      "name": "Existing icon toggle keyboard activation",
+      "pass": true
+    },
+    {
+      "name": "Existing Switch toggles with Space",
+      "pass": true
+    },
+    {
+      "name": "Motion preview activates with keyboard",
+      "pass": true
+    }
+  ],
+  "copy": [
+    {
+      "route": "/get-started/for-designers/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/get-started/for-developers/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/spacing-and-layout/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/grid/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/shape-and-radius/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/borders-and-focus/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/elevation-and-shadows/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/iconography/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/illustration/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/accessibility/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/interaction-principles/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/motion/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/colour/",
+      "status": "Copied code example"
+    },
+    {
+      "route": "/foundations/typography/",
+      "status": "Copied code example"
+    }
+  ],
+  "failed": []
+}

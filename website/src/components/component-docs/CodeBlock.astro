@@ -1,0 +1,8 @@
+---
+import Button from '../actions/Button.astro';
+const {code,live=false,language='Astro'}=Astro.props;
+---
+<div class="component-code" data-pagefind-ignore>
+  <div class="component-code__bar"><span>{language} · local source</span><Button variant="ghost" size="small" data-copy={code} data-copy-label="code example" data-copy-current={live?'true':undefined}>Copy code</Button></div>
+  <pre><code data-live-code={live?'true':undefined}>{code}</code></pre>
+</div>

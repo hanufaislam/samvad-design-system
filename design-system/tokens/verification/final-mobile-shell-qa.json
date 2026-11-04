@@ -1,0 +1,27 @@
+{
+  "checks": 5,
+  "failed": [],
+  "results": [
+    {
+      "name": "Mobile nav trigger visible at320",
+      "pass": true
+    },
+    {
+      "name": "Mobile nav opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile nav contains49 component links",
+      "pass": true,
+      "actual": 49
+    },
+    {
+      "name": "Mobile nav closes",
+      "pass": true
+    },
+    {
+      "name": "Shell theme control toggles",
+      "pass": true
+    }
+  ]
+}

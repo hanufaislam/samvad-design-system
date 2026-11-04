@@ -1,0 +1,200 @@
+[
+  {
+    "path": "/components/actions/icon-button/",
+    "theme": "light",
+    "node": 0,
+    "cls": "sv-action sv-icon-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 64, 72)",
+    "after": "rgb(75, 63, 71)"
+  },
+  {
+    "path": "/components/actions/button-group/",
+    "theme": "light",
+    "node": 3,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(76, 64, 72)"
+  },
+  {
+    "path": "/components/inputs/textarea/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(76, 63, 71)"
+  },
+  {
+    "path": "/components/inputs/search-input/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 64, 71)",
+    "after": "rgb(76, 63, 71)"
+  },
+  {
+    "path": "/components/inputs/password-input/",
+    "theme": "light",
+    "node": 10,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 63, 71)",
+    "after": "rgb(77, 65, 73)"
+  },
+  {
+    "path": "/components/inputs/number-input/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(78, 66, 74)"
+  },
+  {
+    "path": "/components/inputs/otp-input/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(77, 65, 73)"
+  },
+  {
+    "path": "/components/inputs/select/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(76, 64, 71)"
+  },
+  {
+    "path": "/components/inputs/multi-select/",
+    "theme": "light",
+    "node": 17,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(79, 67, 74)"
+  },
+  {
+    "path": "/components/inputs/date-picker/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 62, 70)",
+    "after": "rgb(76, 64, 71)"
+  },
+  {
+    "path": "/components/inputs/file-upload/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(76, 63, 71)"
+  },
+  {
+    "path": "/components/inputs/form-field/",
+    "theme": "light",
+    "node": 7,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(78, 66, 73)",
+    "after": "rgb(77, 65, 73)"
+  },
+  {
+    "path": "/components/selection/checkbox/",
+    "theme": "light",
+    "node": 12,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(78, 66, 73)",
+    "after": "rgb(75, 63, 71)"
+  },
+  {
+    "path": "/components/selection/radio-group/",
+    "theme": "light",
+    "node": 16,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(79, 67, 74)",
+    "after": "rgb(75, 63, 71)"
+  },
+  {
+    "path": "/components/selection/switch/",
+    "theme": "light",
+    "node": 9,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(79, 67, 74)"
+  },
+  {
+    "path": "/components/selection/segmented-control/",
+    "theme": "light",
+    "node": 13,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(76, 63, 71)"
+  },
+  {
+    "path": "/components/feedback/toast-notification/",
+    "theme": "light",
+    "node": 2,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(79, 66, 74)",
+    "after": "rgb(76, 63, 71)"
+  },
+  {
+    "path": "/components/overlays/dialog/",
+    "theme": "light",
+    "node": 2,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 63, 71)",
+    "after": "rgb(77, 65, 73)"
+  },
+  {
+    "path": "/components/overlays/drawer/",
+    "theme": "light",
+    "node": 2,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(75, 63, 71)",
+    "after": "rgb(76, 63, 71)"
+  },
+  {
+    "path": "/components/overlays/popover/",
+    "theme": "light",
+    "node": 2,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 64, 72)",
+    "after": "rgb(75, 63, 71)"
+  },
+  {
+    "path": "/components/overlays/dropdown-menu/",
+    "theme": "light",
+    "node": 2,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 64, 72)",
+    "after": "rgb(78, 66, 74)"
+  },
+  {
+    "path": "/components/overlays/confirmation-dialog/",
+    "theme": "light",
+    "node": 2,
+    "cls": "sv-action",
+    "property": "backgroundColor",
+    "before": "rgb(76, 63, 71)",
+    "after": "rgb(75, 63, 71)"
+  }
+]
