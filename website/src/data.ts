@@ -40,4 +40,5 @@ export const navigation: { name: string; icon: string; items: Item[] }[] = [
   { name: 'Components', icon: 'squares-four', items: [{label:'Actions', category:true, available:true}, {label:'Button',page:'action-button'},{label:'Icon button',page:'action-icon-button'},{label:'Button group',page:'action-button-group'},{label:'Text link',page:'action-text-link'}, ...(['inputs','selection'] as const).flatMap(group=>[{label:group==='inputs'?'Inputs and forms':'Selection',category:true,available:true},...batchCatalog.filter(e=>e.group===group).map(e=>({label:e.title,page:`batch-${e.slug}`}))]), ...(Object.keys(libraryGroups) as (keyof typeof libraryGroups)[]).flatMap(group=>[{label:libraryGroups[group],category:true,available:true},...libraryCatalog.filter(e=>e.group===group).map(e=>({label:e.title,page:`library-${e.slug}`}))])] },
   { name: 'Patterns', icon: 'chat-circle', items: referencePages.filter(p=>p.group==='Patterns').map(p=>({label:p.title,page:p.id})) },
   { name: 'Resources', icon: 'arrow-up-right', items: referencePages.filter(p=>p.group==='Resources').map(p=>({label:p.title,page:p.id})) },
+  { name: 'Artifact', icon: 'stack', items: [] },
 ];

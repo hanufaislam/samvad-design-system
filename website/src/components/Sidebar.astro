@@ -9,6 +9,7 @@ const { current } = Astro.props;
     <details class="nav-group" data-nav-group={group.name} open={['Get started', 'Foundations'].includes(group.name) || group.items.some(i => i.page === current)}>
       <summary><Icon name={group.icon}/><span>{group.name}</span><Icon name="caret-down" size={14} class="chevron"/></summary>
       <ul>
+        {group.items.length === 0 && <li><span class="nav-unavailable">No artifacts yet</span></li>}
         {group.items.map(item => {
           const page = pages.find(p => p.id === item.page);
           return <li>{page ? (
