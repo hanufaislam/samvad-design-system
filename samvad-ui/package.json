@@ -1,0 +1,14 @@
+{
+  "name": "samvad-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Preserved published Samvad communication-learning UI",
+  "scripts": {
+    "start": "python3 -m http.server 4174 --bind 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/integration.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
